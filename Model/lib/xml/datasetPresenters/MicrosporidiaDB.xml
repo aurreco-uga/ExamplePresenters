@@ -1,0 +1,1879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+
+  <datasetPresenter name="aspWSBS2006_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Amphiamblys sp. WSBS2006</i> Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	The partial genome sequence and Amphiamblys sp., a representative of one of the three metchnikovellid genera was obtained using next-generation sequencing and a whole genome amplification. Amphiamblys sp. samples were obtained by isolating the gregarine host <i>Ancora sagittata</i>. 
+The amplified DNA samples were used to prepare two sequencing libraries for the Illumina platform. Paired-end libraries with estimated insert lengths of 333 bp (41 bp SD) and 424 bp (63 bp SD) were constructed using TruSeq library preparation protocol (Illumina) and sequenced on a HiSeq 2000 instrument. 
+A total of 38M and 44M 100-bp paired end reads were obtained for the two libraries, respectively. Paired-end reads from both libraries were assembled by SPAdes 3.0.0 in single-cell mode, designed to handle data resulting from multiple displacement amplification. The assembly was filtered to remove contaminating bacterial and eukaryotic sequences.
+Ab initio gene models were predicted using GeneMarkS 4.6b (Besemer et al. 2001).
+
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41" 
+            genomeSource="GenBank" genomeVersion="Nov 10, 2016" 
+            annotationSource="GenBank" annotationVersion="Nov 10, 2016"/>
+    <primaryContactId>kirill.mikhailov</primaryContactId>
+<contactId>timur.simdyanov</contactId>
+<contactId>vladimir.aleoshin</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA321520</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_001875675.1</url>
+    </link>
+    <pubmedId>27694476</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ecunEcunIII-L_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon cuniculi</i> EcunIII-L Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	The microsporidian spores were isolated from a naturally infected steppe lemming (Lagurus lagurus) originating from private breeding suffering from lethal microsporidiosis (Hofmannova et al., 2014). Genotyping was performed using PCR amplification of a partial sequence of the 18S rRNA operon using modified microsporidia-specific primers described by De Bosschere et al. (2007) (Katzwinkel‐Wladarsch et al., 1996). This revealed the Encephalitozoon cuniculi belonged to genotype III.
+
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41" 
+            genomeSource="GenBank" genomeVersion="Jul 15, 2015" 
+            annotationSource="GenBank" annotationVersion="Jul 15, 2015"/>
+    <primaryContactId>nicolas.corradi</primaryContactId>
+    <contactId>adrian.pelin</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA210874</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_001078035.1</url>
+    </link>
+    <pubmedId>26837273</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ncerPA08_1199_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Nosema ceranae</i> PA08_1199 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	100 bp paired‐end reads from the isolate PA08_1199 were assembled using SPAdes v3.0, resulting in a contaminant‐free assembly with a size 5.7 Mb (536 contigs, N50 = 42.5 kb).
+
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41" 
+            genomeSource="GenBank" genomeVersion="May 5, 2015" 
+            annotationSource="GenBank" annotationVersion="May 5, 2015"/>
+    <primaryContactId>nicolas.corradi</primaryContactId>
+    <contactId>adrian.pelin</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA209464</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000988165.1</url>
+    </link>
+    <pubmedId>25914091</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="heriGB1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Hepatospora eriocheir</i> strain GB1 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	A total of 222,450,433 paired‐end reads with a maximum length of 99 bp were used to assemble the genome of H. eriocheir with the Velvet package (v1.1). All reads used had a mean quality score above 32. Protein prediction for sequenced genomes was performed with the MAKER annotation package.
+
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="39" 
+            genomeSource="GenBank" genomeVersion="Apr 12, 2017" 
+            annotationSource="GenBank" annotationVersion="Apr 12, 2017"/>
+    <primaryContactId>bryony.williams</primaryContactId>
+    <contactId>grant.stentiford</contactId>
+    <contactId>dominic.wiredu.boakye</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA208659</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_002087885.1</url>
+    </link>
+    <pubmedId>28345194</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="hericanceri_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Hepatospora eriocheir</i> strain canceri Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	A total of 8,740,870 paired‐end Illumina reads with a maximum length of 251 bp were used to assemble the H. eriocheir canceri genome with the A5_miseq assembly pipeline. All reads used had a mean quality score above 32. Protein prediction for sequenced genomes was performed with the MAKER annotation package.
+
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="39" 
+            genomeSource="GenBank" genomeVersion="Apr 12, 2017" 
+            annotationSource="GenBank" annotationVersion="Apr 12, 2017"/>
+    <primaryContactId>bryony.williams</primaryContactId>
+    <contactId>grant.stentiford</contactId>
+    <contactId>dominic.wiredu.boakye</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA312885</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_002087875.1</url>
+    </link>
+    <pubmedId>28345194</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ecanGB1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Enterospora canceri</i> strain GB1 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	A total of 4,632,816 reads with a maximum length of 301 were used to assemble the <i>Enterospora canceri</i> genome with the A5_miseq assembly pipeline. All reads used had a mean quality score above 32. Protein prediction for sequenced genomes was performed with the MAKER annotation package.
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="39" 
+            genomeSource="GenBank" genomeVersion="Apr 12, 2017" 
+            annotationSource="GenBank" annotationVersion="Apr 12, 2017"/>
+    <primaryContactId>bryony.williams</primaryContactId>
+    <contactId>grant.stentiford</contactId>
+    <contactId>dominic.wiredu.boakye</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA316740</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_002087915.1</url>
+    </link>
+    <pubmedId>28345194</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ehepTH1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Enterocytozoon hepatopenaei</i> strain TH1 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	A total of 197,235,682 reads with a maximum length of 300 bp were used to assemble the E. hepatopenaei genome with the Spades assembly pipeline (v.3). All reads used had a mean quality score above 32. Protein prediction for sequenced genomes was performed with the MAKER annotation package.
+
+                  ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location,
+        gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below).
+        The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="39" 
+            genomeSource="GenBank" genomeVersion="Apr 06, 2017" 
+            annotationSource="GenBank" annotationVersion="Apr 06, 2017"/>
+    <primaryContactId>bryony.williams</primaryContactId>
+    <contactId>grant.stentiford</contactId>
+    <contactId>dominic.wiredu.boakye</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA350317</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/assembly/GCA_002081675.1</url>
+    </link>
+    <pubmedId>28345194</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ndisJUm2807_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Nematocida displodere</i> strain JUm2807 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+	<i>Nematocida displodere</i> is a species of microsporidia that naturally infects the nematode <i>Caenorhabditis elegans</i>. 
+This species is in the same genus as the previously described microsporidia that infect <i>C. elegans</i>, but has a number of phenotypic differences, including proliferation in multiple animal tissues and release of newly formed spores through nematodes bursting.<br>
+Genomic DNA was sequenced to a depth of ~2500X on a MiSeq sequencing platform (Illumina). Sequencing reads were assembled into contigs and scaffolds using Abyss 1.5.2 with a Kmer value of 96.  Gene prediction was done using Prodigal 2.60.
+
+                  ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location,
+        gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below).
+        The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="36" 
+            genomeSource="Genbank" genomeVersion="May 11, 2016" 
+            annotationSource="Genbank" annotationVersion="May 11, 2016"/>
+    <primaryContactId>emily.troemel</primaryContactId>
+    <contactId>robert.luallen</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA312555</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/assembly/GCA_001642395.1</url>
+    </link>
+    <pubmedId>27362540</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+   <datasetPresenter name="_massSpec_Reinke_Host_exposed_proteins_RSRC"
+                    projectName="MicrosporidiaDB"
+                    datasetNamePattern="%_massSpec_Reinke_Host_exposed_proteins_RSRC"
+                    >
+    <displayName><![CDATA[Nematocida host exposed proteins
+            ]]></displayName>
+    <shortDisplayName>N. host exposed prot</shortDisplayName>
+
+    <shortAttribution>Reinke et al.</shortAttribution>
+    <summary><![CDATA[
+	Nematocida host exposed proteins
+           ]]></summary>
+    <description><![CDATA[ 
+	Spatially restricted enzymatic tagging was used to identify microsporidia proteins that come into contact with the intracellular host environment in Caenorhabditis elegans. This approach uses the enzyme ascorbate peroxidase (APX) to label proteins in the compartment where the enzyme is expressed with a biotin handle for subsequent purification. APX promotes biotin labelling of neighboring proteins, which can be subsequently purified and identified with mass spectrometry (Biotinylated proteins were isolated from total worm extracts using streptavidin-conjugated resin, and these purified proteins were identified using mass spectrometry).     
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="33"></history>
+    <primaryContactId>emily.troemel</primaryContactId>
+    <contactId>aaron.reinke</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>28067236</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">Nematocida</prop>
+      <prop name="optionalOrganismAbbrev">Nematocida</prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="pneuMK1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Pseudoloma neurophilia</i> strain MK1 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+
+    Genome sequence and annotation <i>Pseudoloma neurophilia</i> strain MK1
+    <i>Pseudoloma neurophilia</i> is a microsporidian parasite of zebrafish (Danio rerio).
+
+                  ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location,
+        gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below).
+        The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="31" 
+            genomeSource="Genbank" genomeVersion="Nov 05, 2015" 
+            annotationSource="Genbank" annotationVersion="Nov 05, 2015"/>
+    <primaryContactId>nicolas.corradi</primaryContactId>
+    <contactId>michael.kent</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA206217</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/assembly/GCA_001432165.1</url>
+    </link>
+    <pubmedId>27230544</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="ocolOC4_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Ordospora colligata OC4</i> Sequence and Annotation]]></summary>
+    <description><![CDATA[
+    	Genome Sequence and Annotation for <i>Ordospora colligata</i> OC4.
+    	<p>
+    	Genome Sequencing:<br>
+        <i>Ordospora colligata</i> isolate OC4 was cultivated in <i>Daphnia magna</i> clone ELK1-1 
+                 (England-LadyKirk-pond 1). The <i>O. colligata</i> purified DNA was used to prepare 
+                 Illumina 100-bp paired-end 
+                 (PE) libraries using TruSeq SBS V5 chemistry. Sequencing was performed by Fasteris 
+                 (Geneva, Switzerland) on an Illumina HiSeq 2000 instrument.
+                 </p>
+         <p>
+         Assembly and Annotation:<br>
+         Paired-end reads were filtered and the filtered reads were iteratively assembled <i>de novo</i> 
+         with Ray 2.0-rc8.  BLAST homology searches against <i>Encephalitozoon</i> genomes were used 
+         to filter host and contaminant sequences. Final assemblies were verified by read mapping with 
+         Bowtie 1.0 and visual inspection with Tablet 1.13.07.31. Please refer to the publication for 
+         details of the assembly and annotation pipelines.<br><br>
+         ##Genome-Assembly-Data-START##<br>
+            Assembly Date          :: JUN-2013<br>
+            Assembly Method        :: Ray v. 2.0-rc8<br>
+            Genome Representation  :: Full<br>
+            Expected Final Version :: Yes<br>
+            Genome Coverage        :: 627.0x<br>
+            Sequencing Technology  :: Illumina HiSeq<br>
+            ##Genome-Assembly-Data-END##<br>
+         </p>
+         
+         
+         ]]></description>
+    <usage>  Sequence and annotation can be searched based on a variety of parameters such as genomic location,
+        gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below).
+        The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="24"
+            genomeSource="Genbank" genomeVersion="Dec 17, 2014"
+            annotationSource="Genbank" annotationVersion="Dec 17, 2014"/>
+    <primaryContactId>patrick.keeling</primaryContactId>
+    <contactId>jean.francois.pombert</contactId>
+<contactId>dieter.ebert</contactId>
+
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/210314</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000803265.1</url>
+    </link>
+    <pubmedId>25587016</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="mdapUGP3_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Mitosporidium daphniae</i> UGP3 Sequence and Annotation]]></summary>
+    <description><![CDATA[ Genome Sequence and annotation for <i>Mitosporidium daphniae</i> UGP3,  
+    a gut parasite of the crustacean <i>Daphnia</i> that despite having remarkable morphological 
+    similarity to the microsporidia, has retained genomic features of its fungal ancestors.
+    <p>
+    Genome Sequencing:<br>
+      <i>M. daphniae</i> DNA extracted from isolated parasite spores was purified, processed 
+      into 300-bp insert libraries and sequenced 
+      using the  Illumina HiSEq. 2000 instrument.  Paired-end reads were 100 bp in length and the 
+      adapters were removed by the CASAVA pipeline. Two independent sets of <i>de novo</i> assemblies 
+      were performed using Velvet 01.01.04 in the first, and Ray 2.3.0 in the second. 
+      The Velvet and Ray contigs were filtered and merged by overlap-layout-consensus algorithms 
+      using  Geneious 7.1.3 (Biomatters), and the sequencing reads were mapped back on the 
+      merged contigs using Geneious built-in tools.
+      </p>
+    Annotation:<br>
+      Mitosporidium proteins were predicted with Maker 2.31.3 using the <i>Schizosaccharomyces pombe</i> 
+      and <i>Rozella allomycis</i> hidden Markov models (HMMs) for Augustus and SNAP, respectively, 
+      with the curated SwissProt database as external evidence for protein prediction. Putative functions 
+      were assigned by BLAST homology searches against the UniProt-TrEMBL database. <br><br>
+      ##Genome-Assembly-Data-START##<br>
+            Assembly Date         :: APR-2014<br>
+            Assembly Method       :: Velvet v. June 2013; Ray v. 2.3.0;<br>
+                                     Geneious v. 7.1.3<br>
+            Assembly Name         :: UGP1.0<br>
+            Genome Coverage       :: 300.0x<br>
+            Sequencing Technology :: Illumina HiSeq<br>
+            ##Genome-Assembly-Data-END##<br>
+      </p>
+                                  ]]></description>
+    <usage>  Sequence and annotation can be searched based on a variety of parameters such as genomic location,
+        gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below).
+        The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="24"
+            genomeSource="Genbank" genomeVersion="Sep 30, 2014"
+            annotationSource="Genbank" annotationVersion="Sep 30, 2014"/>
+    <primaryContactId>dieter.ebert</primaryContactId>
+    <contactId>jean.francois.pombert</contactId>
+    <contactId>karen.haag</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/243305</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000760515.1</url>
+    </link>
+    <pubmedId>25313038</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="thomUnknown_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Trachipleistophora hominis</i> Sequence and Annotation]]></summary>
+    <description><![CDATA[
+    Spores were isolated from <i>Trachipleistophora hominis</i> (unknown strain) grown in co-culture with 
+    rabbit kidney (RK-13) cells. A complementary dual approach of 454FLX sequencing for initial assembly 
+    at 32.5 fold coverage and high density SOLiD sequencing for improving sequence quality, was used to 
+    generate a <i>T. hominis</i> assembly comprising 310 scaffolds for a total of 8,498,182 bp.
+ ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+        gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+        The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22" 
+            genomeSource="Genbank" genomeVersion="Jan 4, 2013" 
+            annotationSource="Genbank" annotationVersion="Jan 4, 2013"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 19, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 19, 2015">re-annotated</history>
+    <primaryContactId>robert.hirt</primaryContactId>
+    <contactId>martin.embley</contactId>
+    <contactId>eva.heinz</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/84343</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000316135.1</url>
+    </link>
+    <pubmedId>23133373</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="slop42_110_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Spraguea lophii</i> 42_110 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+    <i>Spraguea lophii</i> 42_110 is a microsporidian that infects the monkfish <i>Lophius piscatorius</i> 
+    and <i>Lophius budegassa</i>. <i>S. lophii</i> grows and replicates inside large cysts visible to the naked eye. 
+    These cysts are comprised of swollen, spore-filled fish cells called xenomas.<br><br>
+    
+    <u>Sequencing</u><br>
+    Spores were separated from fish material for two separate clusters of cysts both collected from 
+    local Monkfish, <i>Lophius piscatorius</i> landed at either Plymouth or Brixham caught in the 
+    North Atlantic.  Purified genomic DNA was extracted and used to create 400 bp and 600 bp libraries for which
+    36 bp and 78 bp (respectively) paired-end sequence reads were obtained using Illumina GAII methods. 
+    The data from the two runs were pooled and assembled together using Velvet 0.7.50 using a kmer 
+    length of 31 and coverage cutoff of 5.  Sequencing resulted in 1392 contigs over 500 bp in length 
+    with an N50 of 5923 and a genome coverage of 70X.
+
+
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="21" 
+            genomeSource="Genbank" genomeVersion="Sep 12, 2013" 
+            annotationSource="Genbank" annotationVersion="Sep 12, 2013"/>
+    <primaryContactId>scott.e.campbell</primaryContactId>
+    <contactId>bryony.a.p.williams</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/73605</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000430065.1</url>
+    </link>
+    <pubmedId>23990793</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="nbomCQ1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Nosema bombycis</i> CQ1 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+    The microsporidian <i>Nosema bombycis</i> CQ1 infects domesticated silkworms resulting in great 
+    economic losses in the silkworm industry. The genome sequence and annotation for <i>Nosema bombycis</i> CQ1
+    were obtained from genomic DNA purified from spores collected from infected silkworms collected in 
+    Chongqing, China.<br><br>
+    
+    <u>Sequencing</u><br>
+    Plasmid and miniBAC libraries were constructed and sequenced by ABI (7.2 X coverage) and  Illumina 
+    (28X coverage) methods. The Illumina reads were assembled by BGI's de novo assembly and refined 
+    using Phrap on the mixed data of Illumina scaffolds and Sanger reads. Protein-coding genes were 
+    annotated using Glimmer (version 3.0), GeneMarkS (version 4.6) Augustus (version 2.0).
+    The total assembly genome size is 15.7 Mb (the N50 of the scaffolds = 57.4 Kb and the 
+    maximum scaffold size = 571.1 Kb)
+
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="21" 
+            genomeSource="Genbank" genomeVersion="Apr 30, 2013" 
+            annotationSource="Genbank" annotationVersion="Apr 30, 2013"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 21, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 21, 2015">re-annotated</history>
+    <primaryContactId>zeyang.zhou</primaryContactId>
+    <contactId>guoqing.pan</contactId>
+    <contactId>jinshan.xu</contactId>
+    <contactId>tian.li</contactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/30919</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000383075.1/</url>
+    </link>
+    <pubmedId>23496955</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="vcorATCC50505_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Vittaforma corneae</i> ATCC 50505 Sequence and Annotation]]></summary>
+    <description><![CDATA[
+    Genome sequence and annotation for <i>Vittaforma corneae</i> ATCC 50505, originally isolated in 1989 from 
+    corneal biopsy material from HIV seronegative adult human male with keratitis.  <br><br>
+    
+    Genomic DNA was sequenced using 454 technology to a coverage of 68x and assembled using 
+    Newbler v. MapAsmResearch-04/19/2010-patch-08/17/2010.  EuPathDB downloaded this data from GenBank.<br><br>
+    
+    Whole genome shotgun sequence and annotation was generated by The Broad Institute Genome Sequencing Platform 
+    	with Federal funds from the National Institute of Allergy and Infectious Diseases National under Contract No.: HHSN2722009000018C.
+    	
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="17" 
+            genomeSource="broad" genomeVersion="0.1" 
+            annotationSource="broad" annotationVersion="0.1"/>
+    <history buildNumber="20" 
+            genomeSource="Genbank" genomeVersion="Dec 16, 2012" 
+            annotationSource="Genbank" annotationVersion="Dec 16, 2012">re-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 17, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 17, 2015">re-annotated</history>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/63501</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000231115.1/</url>
+    </link>
+    <link>
+      <text>Broad Downloads</text>
+      <url>http://www.broadinstitute.org/annotation/genome/microsporidia_comparative/MultiDownloads.html</url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <datasetPresenter name="eromSJ2008_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon romaleae</i> SJ-2008 Sequence and Annotation ]]></summary>
+    <description><![CDATA[
+    Sequence and annotation of <i>Encephalitozoon romaleae</i> SJ-2008. <br>
+    
+    <i>E. romaleae</i> SJ-2008 was originally isolated from Lubber Grasshopper, <i>R. microptera</i>.  Genomic 
+    DNA was isolated from spores that were produced in infected captive male and female <i>R. microptera</i> 
+    grasshoppers. Deep sequencing shotgun libraries were sequenced using Illumina methods.
+    The average sequencing coverage is 300X for this intermediate sized genome (2.5 Mbp). 
+    EuPathDB downloaded the data from GenBank.
+       ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="17" 
+            genomeSource="Genbank" genomeVersion="Aug 2, 2012" 
+            annotationSource="Genbank" annotationVersion="Aug 2, 2012"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Oct 1, 2014" 
+            annotationSource="Genbank" annotationVersion="Oct 1, 2014">re-annotated</history>
+    <primaryContactId>nicolas.corradi</primaryContactId>
+     <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA160949</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000280035.1</url>
+    </link>
+    <pubmedId>22802648</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  <datasetPresenter name="vculfloridensis_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Vavraia culicis</i> floridensis sequence and annotation]]></summary>
+    <description><![CDATA[The genome of <i>Vavraia culicis</i> floridensis was sequenced at 
+    	The Broad Institute to a depth of 27X using 454 sequencing and assembled using Newbler 
+    	v.(MapAsmResearch-04/19/2010-patch-08/17/2010). EuPathDB downloaded the data from the GenBank.
+    	]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it.  
+        </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="17" 
+            genomeSource="broad" genomeVersion="0.1" 
+            annotationSource="broad" annotationVersion="0.1"/>
+    <history buildNumber="20" 
+            genomeSource="Genbank" genomeVersion="Dec 16, 2012" 
+            annotationSource="Genbank" annotationVersion="Dec 16, 2012">re-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 13, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 13, 2015">re-annotated. Organism name changed from Vavraia culicis floridensis to Vavraia culicis subsp. floridensis</history>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA62117</url>
+    </link>
+    <link>
+      <text>Assembly record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/250788/</url>
+    </link>
+    <link>
+      <text>Broad Downloads</text>
+      <url>http://www.broadinstitute.org/annotation/genome/microsporidia_comparative/MultiDownloads.html</url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <datasetPresenter name="aalgUndeen_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Anncaliia algerae</i> Undeen Sequence]]></summary>
+    <description><![CDATA[The genome sequence (Genoscope) of <i>Anncaliia algerae</i> Undeen. <br>
+    Approximately 110 Mb of DNA sequence was obtained from random shotgun sequencing using the Sanger method, resulting in an estimated 4.77x coverage
+     of the genome which is estimated to 23 Mbp. Reads were assembled into 8,427 contigs with a N50 length of 2.209 kb.  EuPathDB downloaded the data from GenBank. 
+          ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    	gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below). 
+    	The sequence and annotations can be viewed in GBrowse along with any functional data that maps to it. 
+     	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="17" 
+            genomeSource="Genbank" genomeVersion="Jun 1, 2012" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>genoscope</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJEA84437</url>
+    </link>
+    <link>
+      <text>Assembly master record at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CAIR01</url>
+    </link>
+   <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+  
+   <datasetPresenter name="htvaOER-3-3_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence of <i>Hamiltosporidium tvaerminnensis</i> OER-3-3]]></summary>
+    <description><![CDATA[<i>Hamiltosporidium tvaerminnensis</i> OER-3-3 Sequence. <br>
+    Genomic DNA was obtained from purified spores isolated from a laboratory culture of infected <i>Daphnia magna</i> host. 
+    A total of 100 ng of genomic DNA was sequenced with single and paired-end 35-bp reads using Illumina methods. 
+    Reads were assembled using EDENA version 2.1.1, Velvet version 0.6.03 and ELAND version GAPipeline-1.0rc4 programs. 
+    EuPathDB downloaded the data from GenBank. ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Apr 28, 2012" 
+            annotationSource="Genbank" annotationVersion="Apr 28, 2012"/>
+    <primaryContactId>patrick.keeling</primaryContactId>
+    <link>
+      <text>Genome page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/genome/?term=Hamiltosporidium%20tvaerminnensis</url>
+    </link>
+	<pubmedId>19807911</pubmedId>
+   <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+  <datasetPresenter name="eaedUSNM41457_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence of <i>Edhazardia aedis</i> USNM 41457]]></summary>
+    <description><![CDATA[<i>Edhazardia aedis</i> USNM 41457 Sequence and Annotation. <br>
+    The genome was sequenced at a 20x coverage using 454 sequencing methods and assembled 
+    with Newbler v.(MapAsmResearch-04/19/2010-patch-08/17/2010).
+    EuPathDB downloaded the data from GenBank ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Oct 17, 2011" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="19" 
+            genomeSource="Genbank" genomeVersion="Aug 27, 2012" 
+            annotationSource="Genbank" annotationVersion="Aug 27, 2012">newly-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Aug 05, 2015" 
+            annotationSource="Genbank" annotationVersion="Aug 05, 2015">sequence-changed,re-annotated</history>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>Genome page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/genome/?term=E.+aedis</url>
+    </link>
+   <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <datasetPresenter name="ehelSwiss_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon hellem</i> Swiss sequence and annotation]]></summary>
+    <description><![CDATA[Sequence and annotation provided by Patrick Keeling and Jean-Francois Pombert at 
+    the Canadian Institute for Advanced Research, Evolutionary Biology Program, Department of Botany, University of
+     British Columbia.]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="KeelingLab" genomeVersion="Sep 29, 2011" 
+            annotationSource="KeelingLab" annotationVersion="Sep 29, 2011"/>
+    <primaryContactId>patrick.keeling</primaryContactId>
+    <link>
+      <text>Genome page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/73047</url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  
+  
+  <datasetPresenter name="ecunEC3_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence of <i>Encephalitozoon cuniculi</i> EC3]]></summary>
+    <description><![CDATA[
+    <i>Encephalitozoon cuniculi</i> EC3 genome sequence.<br>
+    <i>E. cuniculi</i> EC2 was isolated from canine in 1978. For sequencing, genomic DNA was purified from spores that 
+    were collected from infected RK13 cells. Genomic DNA was sequenced by the Broad Institute using the Illumina HiSeq 2000 
+    platform (101-bp paired ends; 220-bp inserts; average standard deviation, 75 to 79) to a coverage of 300x. The genome was 
+    assembled using Velvet v. 1.0.14 (runAssembly, runMapping; MapAsmResearch-04/19/2010-patch-08/17/2010).  Annotations were 
+    applied using a variety of methods (tRNAscan-SE 1.21, BLAST homology, RATT verified by Artemis). <br><br>
+    EuPathDB downloaded the data from GenBank.<br><br>
+    
+    <i>Encephalitozoon cuniculi</i> EC3, whole genome shotgun sequence was generated by The Broad Institute Genome Sequencing Platform with 
+    Federal funds from the National Institute of Allergy and Infectious Diseases National under Contract No.: HHSN2722009000018C.  EuPathDB downloaded the 
+    sequence from GenBank.
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="ubc" genomeVersion="Sep 29, 2011" 
+            annotationSource="ubc" annotationVersion="Sep 29, 2011"/>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/63207</url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <datasetPresenter name="ecunEC2_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon cuniculi</i> EC2 genome sequence ]]> </summary>
+    <description><![CDATA[
+    <i>Encephalitozoon cuniculi</i> EC2 genome sequence.<br>
+    <i>E. cuniculi</i> EC2 was isolated from mouse in 1972. For sequencing, genomic DNA was purified from spores that 
+    were collected from infected RK13 cells. Genomic DNA was sequenced by the Broad Institute using the Illumina HiSeq 2000 
+    platform (101-bp paired ends; 220-bp inserts; average standard deviation, 75 to 79) to a coverage of 300x. The genome was 
+    assembled using Velvet v. 1.0.14 (runAssembly, runMapping; MapAsmResearch-04/19/2010-patch-08/17/2010).  Annotations were 
+    applied using a variety of methods (tRNAscan-SE 1.21, BLAST homology, RATT verified by Artemis). <br><br>
+    
+    Whole genome shotgun sequence was generated by The Broad Institute Genome Sequencing Platform with 
+    Federal funds from the National Institute of Allergy and Infectious Diseases National under Contract No.: HHSN2722009000018C.
+    EuPathDB downloaded the data from GenBank.
+    
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy>  
+    </releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="ubc" genomeVersion="Sep 29, 2011" 
+            annotationSource="ubc" annotationVersion="Sep 29, 2011"/>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/63205</url>
+    </link>
+    <pubmedId>23291622</pubmedId>
+    <pubmedId>4209547</pubmedId>
+    
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <!-- rename nemaSp1ERTm2 with nausERTm2 in bld 33 -->
+  <datasetPresenter name="nausERTm2_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Nematocida ausubeli</i> ERTm2 sequence and annotation]]></summary>
+    <description><![CDATA[
+           <i>Nematocida ausubeli</i> ERTm2, used to be named as <i>Nematocida sp.1</i> ERTm2.
+           <i>Nematocida sp.1</i> ERTm2 is a microsporidia species originally isolated from wild-caught <i>C. briggsae</i> 
+           in Periyar Natural Preserve in Kerala, India.<br><br>
+           
+           ERTm2 was propagated in <i>C. elegans</i> N2 to generate genomic DNA which was sequenced to a 65x coverage using 454 technology. 
+           The genome was assembled using Newbler (MapAsmResearch v. 04/19/2010-patch-08/17/2010) <br><br>
+
+           
+           Whole genome shotgun sequence was 
+           generated by The Broad Institute 
+           Genome Sequencing Platform with Federal funds from the National Institute of Allergy and Infectious Diseases 
+           under Contract No.: HHSN2722009000018C as part of the Microsporidian Genomes Consortium, white paper written by 
+           Christina A. Cuomo and Emily R. Troemel. 
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Feb 28, 2012" 
+            annotationSource="Genbank" annotationVersion="Feb 28, 2012"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 18, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 18, 2015">re-annotated</history>
+    <history buildNumber="33" 
+            genomeSource="Genbank" genomeVersion="Mar 18, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 18, 2015">organism name changed from Nematocida sp.1 ERTm2 to Nematocida ausubeli ERTm2</history>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/61785</url>
+    </link>
+        <link>
+      <text>Microsporidia Comparative Database</text>
+      <url>http://www.broadinstitute.org/annotation/genome/microsporidia_comparative/MultiHome.html</url>
+    </link>
+    <link>
+      <text>Microbial Genome Sequencing White Paper</text>
+      <url>http://www.broadinstitute.org/files/shared/genomebio/Microsporidia_wp.pdf</url>
+    </link>
+    <pubmedId>22813931</pubmedId>
+    <pubmedId>19071962</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="nparERTm3_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Nematocida parisii</i> ERTm3 sequence and annotation]]></summary>
+    <description><![CDATA[
+    <i>Nematocida parisii</i> ERTm3 is a natural pathogen of <i>Caenorhabditis elegans</i> and was originally isolated 
+    from wild-caught <i>C. elegans</i> in rotting apple in park in Santeuil, France. <br><br>
+    
+    Sequencing and Assembly<br>
+    Purified genomic DNA was sequenced using 454 FLX-Titanium technology for two whole-genome shotgun libraries, 400-base fragment, 
+    and 2.7-kb paired-end reads. Reads were screened by BLAST against the nonredundant GenBank nucleotide database to identify 
+    possible contamination; of 1000 reads examined for each species, <2% matched the E. coli genome and <0.1% matched the C. elegans 
+    genome. 454 reads were assembled with Newbler (MapAsmResearch-03/15/2010). A very high fraction (>95%) of reads were assembled. 
+    Contamination with C. elegans and E. coli was removed using Newbler's -vs option.<br><br>
+    
+    Annotation<br>
+    The initial gene set was generated by a synteny-based transfer of the gene set from ERTm1; transferred genes with internal 
+    frameshifts were replaced by Prodigal predictions for that locus. RNA-seq was used to refine the gene predictions for 
+    ERTm1: RNA isolated by Malina A. Bakowski (University of California, San Diego) and RNA-seq performed at the 
+    Broad Institute. Work at UC-San Diego supported by NIH R01 AI087528 to E.R.T. <br><br>
+    
+    Whole genome shotgun sequence was generated by The Broad Institute Genome Sequencing Platform with Federal 
+    funds from the National Institute of Allergy and Infectious Diseases under Contract No.: HHSN2722009000018C 
+    as part of the Microsporidian Genomes Consortium, white paper written by Christina A. Cuomo and Emily R. Troemel. 
+           
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="May 14, 2012" 
+            annotationSource="Genbank" annotationVersion="May 14, 2012"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 13, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 13, 2015">re-annotated</history>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/61123</url>
+    </link>
+    <link>
+      <text>Microsporidia Comparative Database</text>
+      <url>http://www.broadinstitute.org/annotation/genome/microsporidia_comparative/MultiHome.html</url>
+    </link>
+    <link>
+      <text>Microbial Genome Sequencing White Paper</text>
+      <url>http://www.broadinstitute.org/files/shared/genomebio/Microsporidia_wp.pdf</url>
+    </link>
+    <pubmedId>22813931</pubmedId>
+    <pubmedId>19071962</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+
+  <datasetPresenter name="ebieH348_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Enterocytozoon bieneusi</i> H348 sequence and annotation]]></summary>
+    <description><![CDATA[
+   <i>Enterocytozoon bieneusi</i> H348 sequence and annotation. <br><br>
+   
+   Sample Preparation<br>
+   Fecal samples from adult patients presenting with chronic watery diarrhea were 
+   screened by IFA and one patient with a very high <i>E. bieneusi</i> count was 
+   identified. Stool samples were collected, concentrated and purified using an 
+   extensive washing, filtration and centrifugation protocol. Genomic DNA was 
+   purified using a modified Proteinase K-phenol extraction protocol.<br><br>
+   
+   Sequencing and Assembly<br>
+    Two genomic libraries with random 2-3 kb inserts were constructed by Agencourt 
+    Bioscience Corporation in their proprietary high copy number vector. The purified 
+    DNA samples were sequenced using ABI 3.1 BigDye terminator chemistry on ABI 3730XL 
+    automated sequencers (Applied Biosystems, Foster City, CA) by Agencourt Bioscience 
+    Corporation. Average high-quality read length (Phred20) was 802 bases. Reads were 
+    assembled by Agencourt using Paracel, with default settings. Reads from both 
+    libraries were treated as a single dataset.
+   
+   Gene Prediction/Annotation (Integrated Genomics, Inc., Chicago, IL)<br>
+   Genes with known homologs were initially identified utilizing BLASTX versus the ERGO 
+   non-redundant sequence database with a similarity cutoff of e-15. Genes identified 
+   were used to train a Hidden Markov Model-based statistical recognition program, 
+   FunGene [29] that was used to identify novel genes. Intergenic regions were further 
+   examined using Glimmer3 to identify missed coding sequences. ORFs were assigned 
+   identity and function using the ERGO non-redundant database and its curated 
+   annotations.<br><br>
+   
+   EuPathDB downloaded the data from GenBank.          
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Jan 13, 2009" 
+            annotationSource="Genbank" annotationVersion="Jan 13, 2009"/>
+    <primaryContactId>patrick.keeling</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/21011</url>
+    </link>
+    <pubmedId>19132089</pubmedId>
+    <pubmedId>18060071</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ecunEC1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon cuniculi</i> EC1 genome sequence and annotation]]></summary>
+    <description><![CDATA[
+    
+     <i>Encephalitozoon cuniculi</i> EC1 genome sequence and annotation.<br>
+    <i>E. cuniculi</i> EC1 was isolated from canine in 1978. For sequencing, genomic DNA was purified from spores that 
+    were collected from infected RK13 cells. Genomic DNA was sequenced by the Broad Institute using the Illumina HiSeq 2000 
+    platform (101-bp paired ends; 220-bp inserts; average standard deviation, 75 to 79) to a coverage of 300x. The genome was 
+    assembled using Velvet v. 1.0.14 (runAssembly, runMapping; MapAsmResearch-04/19/2010-patch-08/17/2010).  Annotations were 
+    applied using a variety of methods (tRNAscan-SE 1.21, BLAST homology, RATT verified by Artemis). <br><br>
+    EuPathDB downloaded the data from GenBank.<br><br>
+    
+    <i>Encephalitozoon cuniculi</i> EC1, whole genome shotgun sequence was generated by The Broad Institute Genome Sequencing Platform with 
+    Federal funds from the National Institute of Allergy and Infectious Diseases National under Contract No.: HHSN2722009000018C.  EuPathDB downloaded the 
+    sequence from GenBank.
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="ubc" genomeVersion="Sep 29, 2011" 
+            annotationSource="ubc" annotationVersion="Sep 29, 2011"/>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/63135]]></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="nparERTm1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Nematocida parisii</i> ERTm1 sequence and annotation]]></summary>
+    <description><![CDATA[
+           <i>Nematocida parisii</i> ERTm1 sequence and annotation<br>
+           
+           <i>N. parisii</i> ERTm1 was originally isolated from wild-caught <i>C. elegans</i> that was found 
+           in a compost pit in Franconville, near Paris, France.  <i>Nematocida parisii</i> ERTm1 was propagated in 
+           <i>C. elegans</i> N2. <br>
+           
+           Sequencing and Assembly<br>
+    Purified genomic DNA was sequenced using 454 FLX-Titanium technology for two whole-genome shotgun libraries, 400-base fragment, 
+    and 2.7-kb paired-end reads. Reads were screened by BLAST against the nonredundant GenBank nucleotide database to identify 
+    possible contamination; of 1000 reads examined for each species, <2% matched the E. coli genome and <0.1% matched the C. elegans 
+    genome. 454 reads were assembled with Newbler (MapAsmResearch-03/15/2010). A very high fraction (>95%) of reads were assembled. 
+    Contamination with C. elegans and E. coli was removed using Newbler's -vs option.<br><br>
+    
+    Annotation<br>
+    An initial set of protein-coding genes was predicted using Prodigal. RNA-seq was used to refine the gene predictions 
+    for ERTm1. <br><br>
+    
+    Whole genome shotgun sequence was generated by The Broad Institute Genome Sequencing Platform with Federal 
+    funds from the National Institute of Allergy and Infectious Diseases under Contract No.: HHSN2722009000018C 
+    as part of the Microsporidian Genomes Consortium, white paper written by Christina A. Cuomo and Emily R. Troemel. 
+           
+           
+      
+
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="May 14, 2012" 
+            annotationSource="Genbank" annotationVersion="May 14, 2012"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 18, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 18, 2015">re-annotated</history>
+    <primaryContactId>broad</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/51843</url>
+    </link>
+    <link>
+      <text>Microsporidia Comparative Database</text>
+      <url>http://www.broadinstitute.org/annotation/genome/microsporidia_comparative/MultiHome.html</url>
+    </link>
+    <link>
+      <text>Microbial Genome Sequencing White Paper</text>
+      <url>http://www.broadinstitute.org/files/shared/genomebio/Microsporidia_wp.pdf</url>
+    </link>
+    <pubmedId>22813931</pubmedId>
+    <pubmedId>19071962</pubmedId>
+    <pubmedId>20211023</pubmedId>
+     
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="ehelATCC50504_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon hellem</i> ATCC 50504 sequence and annotation]]></summary>
+    <description><![CDATA[          
+    <i>Encephalitozoon hellem </i> ATCC 50504 genome sequence and annotation.<br>
+    
+    DNA was isolated from spores grown in RK13 (rabbit kidney) cells. Total DNA was used to create a library 
+    with an average insert size of 327 bp.  The library was subjected to two rounds of deep sequencing, each 
+    using half a channel on the GA-IIx instrument (Illumina). The resulting reads were assembled de novo 
+    into an assembly of 2,251,784 bp distributed among 12 contigs (53x average coverage). 
+    
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy><![CDATA[In the latest version of this genome the IDs of 138 genes on chromosome 5 were inadevertantly 
+    reused making it impossible to create a clean mapping.  
+    <a href="http://microsporidiadb.org/micro/communityDownload.do?fname=ehelem_reused_IDs.xlsx">Click here for the list of 
+    these IDs.</a>]]></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="KeelingLab" genomeVersion="Apr 19, 2011" 
+            annotationSource="KeelingLab" annotationVersion="Apr 19, 2011"/>
+    <history buildNumber="20" 
+            genomeSource="Genbank" genomeVersion="Aug 2, 2012" 
+            annotationSource="Genbank" annotationVersion="Aug 2, 2012">re-annotated</history>
+    <history buildNumber="22" 
+            genomeSource="Genbank" genomeVersion="Mar 6, 2014" 
+            annotationSource="Genbank" annotationVersion="Mar 6, 2014">re-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Oct 01, 2014" 
+            annotationSource="Genbank" annotationVersion="Oct 01, 2014">re-annotated</history>
+    <primaryContactId>patrick.keeling</primaryContactId>
+    <link>
+      <text>Bioproject home page at GenBank</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/53973]]></url>
+    </link>
+    <pubmedId>22802648</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <datasetPresenter name="eintATCC50506_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon intestinalis</i> ATCC 50506 sequence and annotation]]></summary>
+    <description><![CDATA[
+    <i>Encephalitozoon intestinalis</i> ATCC 50506 sequence and annotation<br>
+    
+    Sequencing and Assembly<br>
+    A total of 200 ng of <i>E. intestinalis</i> DNA was isolated from purified spores and used for Solexa 
+    sequencing, from which the entire genome was assembled de novo, resulting in an assembly of 137 scaffolds 
+    with an average coverage of 40x. PCR and Sanger sequencing were used to link the preliminary scaffolds and 
+    polish internal breaks, resulting in 11 large contigs with a total sequence of 2,191,783 Mbp, or >95% of 
+    the estimated 2.3 Mbp. <br><br>
+    
+  
+     
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="15" 
+            genomeSource="Genbank" genomeVersion="Oct 18, 2012" 
+            annotationSource="Genbank" annotationVersion="Oct 18, 2012"/>
+    <history buildNumber="22" 
+            genomeSource="Genbank" genomeVersion="Mar 7, 2014" 
+            annotationSource="Genbank" annotationVersion="Mar 7, 2014">re-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Oct 1, 2014" 
+            annotationSource="Genbank" annotationVersion="Oct 1, 2014">re-annotated</history>
+    <primaryContactId>patrick.keeling</primaryContactId>
+    <link>
+      <text>Bioproject home page at GenBank</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/42703]]></url>
+    </link>
+    <pubmedId>22802648</pubmedId>
+    <pubmedId>20865802</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="ecunGBM1_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Encephalitozoon cuniculi</i> GB-M1 sequence and annotation]]></summary>
+    <description><![CDATA[
+    
+    Two libraries (a 3-kb fragment library and a BAC clone library) were sequenced 
+    using both ABI 377 (PE-Applied Biosystems; dye terminators) and LICOR 4200 
+    (LICOR; dye primers) sequencers. Sequences were assembled using PHRED, PHRAP 1,2, and 
+    CONSED 3software. Finishing, mainly gap filling, and resequencing regions of poor 
+    quality (polishing) were performed according to standard methods. Sequencing was 
+    done at least three times either on both strands or using both dye primer and 
+    terminator chemistries.  The chromosome consensus sequences were examined for 
+    putative Open Reading Frames (ORF) using the GLIMMER program.<br><br>
+    
+  Sequence and annotation from BioHealthBase for <i>E. cuniculi</i> GB-M1 chromosomes in 
+  GenBank (sequence and annotated features) format. 
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Jun 30, 2009" 
+            annotationSource="Genbank" annotationVersion="Jun 30, 2009"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Feb 27, 2015" 
+            annotationSource="Genbank" annotationVersion="Feb 27, 2015">re-annotated</history>
+    <primaryContactId>genoscope</primaryContactId>
+    <link>
+      <text>GenBank Bioproject home page</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/13833]]></url>
+    </link>
+    <link>
+      <text>Genoscope project home page</text>
+      <url><![CDATA[http://www.genoscope.cns.fr/spip/Encephalitozoon-cuniculi-whole.html]]></url>
+    </link>
+    <pubmedId>11719806</pubmedId>
+    <pubmedId>18060071</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="ncerBRL01_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Nosema ceranae</i> BRL01]]></summary>
+    <description><![CDATA[
+    
+    Genome Seqeunce and annotation for <i>Nosema ceranae</i> BRL01.<br>
+    
+    Spores were collected from infected adult honey bees maintained at the USDA-ARS Bee Research Laboratory, Beltsville, MD, USA. 
+    Genomic DNA was sequenced using 454 technology (GS FLX picotiter plates) and reads were trimmed of low-quality sequence before 
+    assembly with the Celera Assembler package CABOG.  The resulting genome coverage was 25x.
+    
+           
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Jun 9, 2009" 
+            annotationSource="Genbank" annotationVersion="Jun 9, 2009"/>
+    <primaryContactId>jay.evans</primaryContactId>
+    <link>
+      <text>NCBI BioProject home page</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/32971]]></url>
+    </link>
+    <pubmedId>19503607</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="nparERTm1_Troemel_Time_Course_rnaSeq_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName>Transcriptome Profiling - Infection Time Series</displayName>
+    <shortDisplayName>Npar in Celeg RNASeq</shortDisplayName>
+    <shortAttribution>Cuomo et al.</shortAttribution>
+    <summary><![CDATA[ <i> N. parisii</i> infection in <i>C. elegans</i> time course assayed by mRNA sequencing.]]></summary>
+    <description><![CDATA[
+		<u>Time course transcriptome of <i>N. parisii</i> infection in <i>C. elegans</i> assayed by RNA-sequencing.</u><br>
+		<i>N. parisii</i> ERTm1 parasites were isolated from <i>C. elegans</i> intestinal cells at 8, 16, 30, 40, and 64 hours post-infection. 
+		The 8, 16, and 30 hour time-points consist only of the replicative meront stage, while the 40 and 64 hour time-points 
+		contain a mixture meronts, sporonts and mature transmissible spores. 
+		RNA sequencing was performed on mRNA from each time point. ]]>
+    	</description>
+    <usage>EuPathDB maps the RNA-seq reads to the genome and allows users to search for genes based on this mapping. 
+    The transcript levels for individual genes are displayed as graphs on gene record pages. 
+    RNA-seq reads aligned to the genome can be displayed in GBrowse. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement>Broad Institute Sequencing Platform was used for generating sequence data. </acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>emily.troemel</primaryContactId>
+    <contactId>christina.cuomo</contactId>
+    <pubmedId>22813931</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#D87093</prop>
+      <prop name="graphBottomMarginSize">5</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[time in hours]]></prop>
+      <prop name="graphPriorityOrderGrouping">400</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="graphYAxisDescription"><![CDATA[Transcript levels of fragments per kilobase of exon model per million mapped reads (FPKM). Note that Non-Unique reads are ignored in the expression graphs.  This means that the expression of duplicated genes (or gene families) might be underrepresented.  Please consult the non-unique aligned read tracks in the genome browser to determine if your gene of interest contains non-uniquely aligned reads. The percentile graph shows the ranking of expression for this gene compared to all others in this experiment.]]></prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter> 
+
+  <datasetPresenter name="aalgPRA339_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Anncaliia algerae</i> PRA339 sequence and annotation]]></summary>
+    <description><![CDATA[<i>Anncaliia algerae</i> PRA339 is an insect isolate sequenced to 73X coverage using 
+    Illumina methods. The genome was assembled using Allpaths v. R47789.]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="Genbank" genomeVersion="May 1, 2013" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="22" 
+            genomeSource="Genbank" genomeVersion="May 6, 2014" 
+            annotationSource="Genbank" annotationVersion="May 6, 2014">newly-annotated</history>
+    <primaryContactId>christina.cuomo</primaryContactId>
+    <contactId>james.j.becnel</contactId>
+<contactId>louis.m.weiss</contactId>
+    <link>
+      <text>NCBI Project</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/PRJNA188095]]></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="aalgPRA109_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Anncaliia algerae</i> PRA109 sequence and annotation]]></summary>
+    <description><![CDATA[<i>Anncaliia algerae</i> PRA109 was originally isolated from a human muscle biopsy. 
+    Genomic DNA was purified from parasites maintained in the rabbit kidney cell line, RK-13a, and sequenced to 
+    341x coverage using Illumina methods. The genome was assembled using Allpaths v. R48559. ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="Genbank" genomeVersion="Jun 26, 2013" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="22" 
+            genomeSource="Genbank" genomeVersion="May 6, 2014" 
+            annotationSource="Genbank" annotationVersion="May 6, 2014">newly-annotated</history>
+    <primaryContactId>christina.cuomo</primaryContactId>
+    <contactId>louis.m.weiss</contactId>
+    <contactId>james.j.becnel</contactId>
+    <link>
+      <text>NCBI Project</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/PRJNA188094]]></url>
+    </link>
+    <pubmedId></pubmedId>
+   <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+     <prop name="isEuPathDBSite">true</prop>
+     <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+   </templateInjector>
+
+  </datasetPresenter>
+
+   <!-- rename nsp1ERTm6 with nausERTm6 in bld 33 -->
+   <datasetPresenter name="nausERTm6_primary_genome_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+<summary><![CDATA[<i>Nematocida ausubeli</i> ERTm6 sequence and annotation]]></summary>
+    <description><![CDATA[
+    <i>Nematocida ausubeli</i> ERTm6, used to be named as <i>Nematocida</i> sp1 ERTm6.  
+    Illumina whole genome shotgun sequencing of genomic DNA paired-end library 'Solexa-91719' 
+    containing sample 'ERTm6' from individual <i>Caenorhabditis elegans</i> N2 and <i>Nematocida sp1</i> ERTm6.]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="broad" genomeVersion="0.1" 
+            annotationSource="broad" annotationVersion="0.1"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Aug 11, 2014" 
+            annotationSource="Genbank" annotationVersion="Aug 11, 2014">data source changed, sequence-changed, re-annotated</history>
+    <history buildNumber="33" 
+            genomeSource="Genbank" genomeVersion="Aug 11, 2014" 
+            annotationSource="Genbank" annotationVersion="Aug 11, 2014">organism name changed from Nematocida sp1 ERTm6 to Nematocida ausubeli ERTm6</history>
+    <primaryContactId>christina.cuomo</primaryContactId>
+    <contactId>emily.troemel</contactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/82177]]></url>
+    </link>
+	<pubmedId>22813931</pubmedId>
+   <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="slop42_110_Campbell_Transcriptome_rnaSeq_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Transcriptome from spores germinated in-vitro]]></displayName>
+    <shortDisplayName>Germinated Spore Transcriptome</shortDisplayName>
+    <shortAttribution>Campbell et al.</shortAttribution>
+    <summary><![CDATA[RNA from <i>S. lophii</i> 110 spores germinated in-vitro was analyzed by Illumina RNA sequencing.]]></summary>
+    <description><![CDATA[The cDNAs of artificially germinated spores were sequenced by the non strand-specific 
+    TruSeq approach using Illumina sequencing.<br><br>
+    
+     <i>S. lophii</i> 110 spores were extracted and purified from a large 
+    xenoma found in x cells of monkfish host species Lophius piscatorious. RNA was extracted from  <i>S. lophii</i> 
+    spores germinated in-vitro using Calcium ionophore A23187 (Sigma) and a Gly-Gly buffer mediated pH shift. 
+    Paired-end libraries were sequenced using Illumina techniques. ]]></description>
+    <protocol><![CDATA[TRIzol (Invitrogen) RNA extraction protocol.]]></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="21"></history>
+    <primaryContactId>bryony.williams</primaryContactId>
+    <contactId>scott.campbell</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>23990793</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">navyblue</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription">spores germinated in-vitro</prop>
+      <prop name="graphPriorityOrderGrouping">0</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ncerPA08_1199_HTS_SNP_Pelin_HoneyBee_Pathogen_RSRC"
+                    projectName="MicrosporidiaDB"
+                    >
+    <displayName><![CDATA[Nosema ceranae isolate SNPs]]></displayName>
+    <shortDisplayName>N.ceranae isolates</shortDisplayName>
+    <shortAttribution>Pelin et al.</shortAttribution>
+    <summary><![CDATA[Sequencing of eight global populations of the honeybee pathogen Nosema ceranae. ]]></summary>
+    <description><![CDATA[ 
+    Illumina sequencing of 8 Nosema ceranae isolates harvested at different chronological times (2007–2011) and from eight distant geographic locations in five countries (Argentina, France, Spain, USA, Croatia and Turkey). The term isolates is defined as population of spores isolated from one single beehive.
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41"></history>
+    <primaryContactId>nicolas.corradi</primaryContactId>
+    <contactId>adrian.pelin</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>25914091</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">true</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+<!--No Attribution needed-->
+<!-- moved to global
+<internalDataset name="ecunGBM1_genome_gb_RSRC"/>
+<internalDataset name="ecunEC2_genome_embl_RSRC"/>
+<internalDataset name="ecunEC1_genome_embl_RSRC"/>
+<internalDataset name="ecunEC3_genome_embl_RSRC"/>
+
+<internalDataset name="ebieH348_primary_virtual_genome_RSRC"/>
+<internalDataset name="ebieH348_supercontig_primary_virtual_genome_RSRC"/>
+
+<internalDataset name="ncerBRL01_genome_gb_RSRC"/>
+<internalDataset name="ehelATCC50504_dbxref_reusedGeneIds_RSRC"/>
+-->
+
+<!-- INTERNAL -->
+    <internalDataset name="ehelATCC50504_retiredGeneId_NAFeature_aliases_RSRC"/>
+    <internalDataset name="nsp1ERTm6_dbxref_gbProteinId_RSRC"/>
+
+</datasetPresenters>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+
+<!-- 
+  <datasetPresenter name=""
+                    projectName="PlasmoDB"
+                    >
+    <displayName><![CDATA[
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <shortAttribution></shortAttribution>
+    <summary><![CDATA[
+           ]]></summary>
+    <description><![CDATA[
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>TODO</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="tvagG3_primary_genome_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[Genome Sequence and Annotation for <i>Trichomonas vaginalis</i> G3]]></summary>
+    <description><![CDATA[
+      The genome sequence and annotation of <i>Trichomonas vaginalis</i> G3 was produced by Steven Sullivan
+
+For questions please contact Steven Sullivan at sullis02@nyu.edu <br><br>
+
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Jan 11, 2007" 
+            annotationSource="JCVI" annotationVersion="Jan 11, 2007"/>
+    <history buildNumber="23" 
+            genomeSource="JCarltonLab" genomeVersion="Sep 12, 2014" 
+            annotationSource="JCarltonLab" annotationVersion="Sep 12, 2014">re-annotated</history>
+    <primaryContactId>carlton.jane</primaryContactId>
+    <contactId>sullivan.steven</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="optionalSpecies"></prop>
+      <prop name="specialLinkDisplayText"></prop>
+      <prop name="updatedAnnotationText"></prop>
+      <prop name="isCurated">false</prop>
+      <prop name="specialLinkExternalDbName"></prop>
+      <prop name="showReferenceTranscriptomics">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="tvagG3_massSpec_Johnson_FullPeptideData_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[peptides]]></displayName>
+    <shortDisplayName>T.vaginalis peptides</shortDisplayName>
+    <shortAttribution>Johnson et al.</shortAttribution>
+    
+    <summary><![CDATA[
+      T.vaginalis peptides from Richard Hayes, Patricia Johnson laboratory
+
+      ]]></summary>
+    <description><![CDATA[
+      T.vaginalis peptides from Richard Hayes, Patricia Johnson laboratory
+
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>patricia.johnson</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">T. vaginalis</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="tvagG3_EST_TvCS_sequences_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[ESTs in TvCS library]]></displayName>
+    <shortDisplayName>TvCS ESTs</shortDisplayName>
+    
+    <summary><![CDATA[<i>T. vaginalis</i> G3 EST sequences]]> </summary>
+    <description><![CDATA[ 
+            
+        <i>T. vaginalis</i> G3 EST sequences 
+          
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>petrus.tang</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="tvagG3_EST_TvVEC_sequences_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[ESTs in TvVEC library]]></displayName>
+    <shortDisplayName>TvVEC ESTs</shortDisplayName>
+
+    <summary><![CDATA[<i>T. vaginalis</i> G3 EST sequences]]> </summary>
+    <description><![CDATA[
+
+        <i>T. vaginalis</i> G3 EST sequences
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>petrus.tang</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="tvagG3_EST_TvFN_sequences_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[ESTs in TvFN library]]></displayName>
+    <shortDisplayName>TvFN ESTs</shortDisplayName>
+
+    <summary><![CDATA[<i>T. vaginalis</i> G3 EST sequences]]> </summary>
+    <description><![CDATA[
+
+        <i>T. vaginalis</i> G3 EST sequences
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>petrus.tang</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="tvagG3_EST_TvLG_sequences_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[ESTs in TvLG library]]></displayName>
+    <shortDisplayName>TvLG ESTs</shortDisplayName>
+
+    <summary><![CDATA[<i>T. vaginalis</i> G3 EST sequences]]> </summary>
+    <description><![CDATA[
+
+        <i>T. vaginalis</i> G3 EST sequences
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>petrus.tang</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="tvagG3_EST_TvG2M_sequences_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[ESTs in TvG2M library]]></displayName>
+    <shortDisplayName>TvG2M ESTs</shortDisplayName>
+
+    <summary><![CDATA[<i>T. vaginalis</i> G3 EST sequences]]> </summary>
+    <description><![CDATA[
+
+        <i>T. vaginalis</i> G3 EST sequences
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>petrus.tang</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="tvagG3_EST_TvEST_sequences_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[ESTs in TvEST library]]></displayName>
+    <shortDisplayName>TvEST ESTs</shortDisplayName>
+
+    <summary><![CDATA[<i>T. vaginalis</i> G3 EST sequences]]> </summary>
+    <description><![CDATA[
+
+        <i>T. vaginalis</i> G3 EST sequences
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>petrus.tang</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="tvagG3_EST_TvLI_sequences_RSRC"
+                    projectName="TrichDB"
+                    >
+    <displayName><![CDATA[ESTs in TvLI library]]></displayName>
+    <shortDisplayName>TvLI ESTs</shortDisplayName>
+
+    <summary><![CDATA[<i>T. vaginalis</i> G3 EST sequences]]> </summary>
+    <description><![CDATA[
+
+        <i>T. vaginalis</i> G3 EST sequences
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>petrus.tang</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+
+<!-- TODO new in bld 23 -->
+
+</datasetPresenters>

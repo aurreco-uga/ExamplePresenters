@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+
+<!-- 
+  <datasetPresenter name=""
+                    projectName="PlasmoDB"
+                    >
+    <displayName><![CDATA[
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <shortAttribution></shortAttribution>
+    <summary><![CDATA[
+           ]]></summary>
+    <description><![CDATA[
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>TODO</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="shaeEgypt_primary_genome_RSRC"
+                    projectName="SchistoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[Genome Sequence and Annotation for <i>Schistosoma haematobium</i> Egypt]]></summary>
+    <description><![CDATA[
+      The genome sequence and annotation of <i>Schistosoma haematobium</i> Egypt was obtained from Genbank
+      <br><br>
+
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="24" 
+            genomeSource="Genbank" genomeVersion="Sept 19, 2014" 
+            annotationSource="Genbank" annotationVersion="Sept 19, 2014"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Apr 1, 2015" 
+            annotationSource="Genbank" annotationVersion="Apr 1, 2015">re-annotated</history> 
+    <primaryContactId>jessica.kissinger</primaryContactId>
+    <contactId>guilherme.correa.de.oliveira-fiocruz</contactId>
+    <contactId>francislon.silva.de.oliveira-fiocruz</contactId>
+    <link>
+      <text>Genbank Bioproject</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA78265</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+      <prop name="isEuPathDBSite">false</prop>
+      <prop name="optionalSpecies"></prop>
+      <prop name="specialLinkDisplayText"></prop>
+      <prop name="updatedAnnotationText"></prop>
+      <prop name="isCurated">false</prop>
+      <prop name="specialLinkExternalDbName"></prop>
+      <prop name="showReferenceTranscriptomics">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+
+<datasetPresenter name="smanPuertoRico_primary_genome_RSRC"
+                    projectName="SchistoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Schistosoma mansoni</i> Puerto Rico Genome Sequence]]></summary>
+    <description><![CDATA[The genome sequence of <i>Schistosoma mansoni</i>  Puerto Rico. <br>
+    was obtained from GeneDB, the Sanger Institute.
+          ]]></description>
+    <usage>Sequence can be searched based on a variety of parameters such as genomic location, 
+    	BLAST similarity (for a full list of queries see the Searches using these data section below). 
+     	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="24" 
+            genomeSource="Genbank" genomeVersion="5.0" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>jessica.kissinger</primaryContactId>
+    <contactId>guilherme.correa.de.oliveira-fiocruz</contactId>
+    <contactId>francislon.silva.de.oliveira-fiocruz</contactId>
+    <link>
+      <text>The Schistosoma mansoni homepage on GeneDB</text>
+      <url>http://www.genedb.org/Homepage/Smansoni</url>
+    </link>
+   <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+
+<datasetPresenter name="sjapAnhui_primary_genome_RSRC"
+                    projectName="SchistoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Schistosoma japonicum</i> Anhui]]></summary>
+    <description><![CDATA[The genome sequence of <i>Schistosoma japonicum</i> Anhui. <br>
+    obtained from wormbase at EBI. 
+          ]]></description>
+    <usage>Sequence can be searched based on a variety of parameters such as genomic location, 
+    	and BLAST similarity (for a full list of queries see the Searches using these data section below).  
+     	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="24" 
+            genomeSource="Genbank" genomeVersion="1.0" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>jessica.kissinger</primaryContactId>
+    <contactId>guilherme.correa.de.oliveira-fiocruz</contactId>
+    <contactId>francislon.silva.de.oliveira-fiocruz</contactId>
+    <link>
+      <text>WormBase parasite</text>
+      <url>http://parasite.wormbase.org/Schistosoma_japonicum_prjea34885/Info/Index/</url>
+    </link>
+   <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+</datasetPresenters>

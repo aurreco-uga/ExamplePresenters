@@ -1,0 +1,2168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+
+<!-- 
+  <datasetPresenter name=""
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+           ]]></summary>
+    <description><![CDATA[
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>TODO</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+ -->
+
+  <datasetPresenter name="acasNeff_Trophozoite_transcriptome_rnaSeq_RSRC" 
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Trophozoite transcriptome of A. castellani]]></displayName>
+    <shortDisplayName>AcasNeff Troph RNASeq</shortDisplayName>
+    <shortAttribution>Wojtkawska et al.</shortAttribution>
+    <summary><![CDATA[Trophozoite transcriptome of <i> Acanthamoeba castellini </i> str Neff]]></summary>
+    <description><![CDATA[
+	Transcriptome for <i> Acanthamoeba castellanii</i> strain Neff determined by Illumina sequencing of axenic culture collected after 48 hours at the density of 4-5 x 1000000 cells perl ml
+	]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="37"></history>
+    <primaryContactId>wojciech.makalowski</primaryContactId>
+    <contactId>hanna.kmita</contactId>
+    <contactId>yutaka.suzuki</contactId>
+    <link>
+      <text>European Nucleotide Archive entry</text>
+      <url>https://www.ebi.ac.uk/ena/data/view/DRR106678</url>
+    </link>
+    <pubmedId>29559848</pubmedId> 
+    <pubmedId>29284403</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop> 
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">blue</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop> 
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription">A. castellini str Neff trophozoite</prop>
+      <prop name="graphPriorityOrderGrouping">600</prop>
+      <prop name="optionalQuestionDescription"></prop> 
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ehisHM1IMSS_Trophozoite_transcriptome_rnaSeq_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Trophozoite transcriptome of E. histolytica]]></displayName>
+    <shortDisplayName>EhisHM1IMSS Troph RNASeq</shortDisplayName>
+    <shortAttribution>Wojtkawska et al.</shortAttribution>
+    <summary><![CDATA[Trophozoite transcriptome of <i> Entamoeba histolytica </i> str HM-1:IMSS]]></summary>
+    <description><![CDATA[
+        Transcriptome for <i> Entamoeba histolytica </i> strain  HM-1:IMSS determined by Illumina sequencing of axenic culture collected after 48 hours at the density of 4-5 x 1000000 cells perl ml
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="37"></history>
+    <primaryContactId>wojciech.makalowski</primaryContactId>
+    <contactId>hanna.kmita</contactId>
+    <contactId>yutaka.suzuki</contactId>
+    <link>
+      <text>European Nucleotide Archive entry</text>
+      <url>https://www.ebi.ac.uk/ena/data/view/DRR106679</url>
+    </link>
+    <pubmedId>29559848</pubmedId> 
+    <pubmedId>29284403</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">blue</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription">E. histolytica HM-1:IMSS trophozoite</prop>
+      <prop name="graphPriorityOrderGrouping">600</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+<!-- comment out for bld 37 because the provider is doing an analysis of the antisense transcripts and want to publish before we show it                         
+  <datasetPresenter name="ehisHM1IMSS_Weber_Plasticity_Pathogenesis_rnaSeq_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Transcriptome plasticity and pathogenesis in varying environments]]></displayName>
+    <shortDisplayName>Ehis Plastic Patho RNASeq</shortDisplayName>
+    <shortAttribution>Weber et al.</shortAttribution>
+    <summary><![CDATA[ Gene expression change of virulent amoebic strain (<i>E. histolytica</i> HM1:IMSS) in different environmental contexts, including isolation from animal liver, contact with the human colon and short or prolonged <i>in vitro</i> culture.
+	]]></summary>
+    <description><![CDATA[
+	RNA sequencing profiles of samples from the same isolate (E. histolytica HM1:IMSS) in contact with 
+	different environments. Trophozoites were harvested from liver abscess experimentally induced in 
+	the hamster animal model, a condition enhancing amoebic virulence, and from these virulent 
+	parasites loaded in contact with human colon explants, reflecting the intestinal invasive process.
+	<br><br>
+
+	RNA libraries were constructed from polyA + mRNA from the HM1:IMSS strain grown in four different conditions: virulent parasites extracted from liver abscesses of infected hamsters (Virulent Culture), virulent parasites exposed to explants of human colon (Virulent Colon), long-term cultured virulence-attenuated amoeba (Attenuated Culture) that have lost the ability to form liver abscesses, and trophozoites short-time cultured (Normal Culture) for roughly less than three months (24 passages). Three replicates of each condition were performed resulting in 12 RNA libraries in total that were sequenced on an Illumina HiSeq 2000 platform.
+    <br><br>
+    <img src="/a/images/AmoebaPlasticityGuillen.jpg" height="440px" width="400px">
+    
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="37"></history>
+    <primaryContactId>nancy.guillen</primaryContactId>
+    <contactId>christian.weber</contactId>
+    <link>
+      <text>European Nucleotide Archive entry</text>
+      <url>https://www.ebi.ac.uk/ena/data/view/PRJEB14707</url>
+    </link>
+    <pubmedId>27767091</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">blue</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">640</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+-->
+  <datasetPresenter name="ehisHM1IMSS-B_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Entamoeba histolytica</i> HM-1:IMSS-B genome sequence and annotation
+           ]]></summary>
+    <description><![CDATA[ Genome sequence and annotation for <i>Entamoeba histolytica</i> strain HM-1:IMSS-B
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="genbank" genomeVersion="Mar 8, 2013" 
+            annotationSource="genbank" annotationVersion="Mar 8, 2013"/>
+    <history buildNumber="29" 
+            genomeSource="genbank" genomeVersion="Mar 19, 2015" 
+            annotationSource="genbank" annotationVersion="Mar 19, 2015">re-annotated</history>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA51239</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ehisHM1IMSS-A_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Entamoeba histolytica</i> HM-1:IMSS-A genome sequence and annotation
+           ]]></summary>
+    <description><![CDATA[ Genome sequence and annotation for <i>Entamoeba histolytica</i> strain HM-1:IMSS-A 
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="genbank" genomeVersion="Apr 18, 2013" 
+            annotationSource="genbank" annotationVersion="Apr 18, 2013"/>
+    <history buildNumber="29" 
+            genomeSource="genbank" genomeVersion="Mar 21, 2015" 
+            annotationSource="genbank" annotationVersion="Mar 21, 2015">re-annotated</history>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA51237</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ehisHM3IMSS_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[ Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ <i>Entamoeba histolytica</i> HM-3:IMSS genome sequence and annotation
+           ]]></summary>
+    <description><![CDATA[Genome sequence and annotation for <i>Entamoeba histolytica</i> strain HM-3:IMSS.<br>
+    This strain was isolated from the aspirate of an amebic liver abscess in adult human male, Mexico City, 
+    Mexico, 1972 and corresponds to ATCC 30890. The genome was sequenced using Illumina methods to a 134.99 
+    coverage. It was assembled using Newbler v. 2.5.3.
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="genbank" genomeVersion="Apr 1, 2013" 
+            annotationSource="genbank" annotationVersion="Apr 1, 2013"/>
+    <history buildNumber="29" 
+            genomeSource="genbank" genomeVersion="Mar 20, 2015" 
+            annotationSource="genbank" annotationVersion="Mar 20, 2015">re-annotated</history>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA72935</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+<!-- The Nfowleri entry below could use more information about how the annotation was performed. -->
+
+  <datasetPresenter name="nfowATCC30863_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[ Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ <i>Naegleria fowleri</i> ATCC 30863 genome sequence and annotation
+           ]]></summary>
+    <description><![CDATA[Genome sequence and annotation for <i>Naegleria fowleri</i> strain ATCC 30863.  
+    The ATCC designates this strain as 
+    <i>Naegleria fowleri</i> Carter under the product number 30863.  This strain was isolated from an 8-year-old human male, 
+    Charleston, SC, 1978.
+    <p>
+    Genome Sequencing:<br>
+    The genome was sequenced using both Illumina HiSeq 2000 and Roche 454 GS FLX technology. In total, 
+    over 500 million reads were <i>de novo</i> assembled into 1,124 
+    scaffolds with an average coverage of 770x and an N50 of 136,406.
+    First, DNA was sequenced with the Illumina HiSeq 2000 platform, resulting in approximately 116 
+    million 100-bp paired-end reads with an insert size of 300 bp. The <i>de novo<i> assembly of 
+    these short 100-bp reads was facilitated by 454 backbone sequencing, providing approximately 
+    350,000 single reads with an average length of 378 bp. Finally, the assembly was improved with 
+    information from a mate-pair library composed of approximately 400 million Illumina reads with 
+    an insert size of 3 kb.  The nuclear genome is 29,619,856 bp in size and is 
+    AT-rich, with a GC content of only 35.4%. The calculation of the genome size via flow cytometry 
+    indicated that the <i>N. fowleri</i> genome is approximately 66 Mb. Based on the 29,619,856-bp size of 
+    the <i>de novo</i>-assembled genome, the genome of <i>N. fowleri</i> is considered diploid. 
+    </p>
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="MuellerLab" genomeVersion="Jun 27, 2013" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="24"
+            genomeSource="Wittwer" genomeVersion="Nov 05, 2014"
+            annotationSource="Wittwer" annotationVersion="Nov 05, 2014">newly-annotated</history>
+    <primaryContactId>matthias.wittwer</primaryContactId>
+    <contactId>norbert.muller</contactId>
+    <contactId>denise.zysset.burri</contactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA214944</url>
+    </link>
+    <pubmedId>24950717</pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="ehisHM1IMSS_microarrayExpression_Alterzon_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Trophozoite Gene Expression During Glucose Starvation
+            ]]></displayName>
+    <shortDisplayName>EhHM1:IMSS Tropho GlucStarv Marray</shortDisplayName>
+    <shortAttribution>Baumel-Alterzon et al.</shortAttribution>
+    <summary><![CDATA[ Effects of glucose starvation on gene expression in <i>E. histolytica</i> trophozoites 
+    were determined using microarray analysis.
+           ]]></summary>
+    <description><![CDATA[Microarray analysis was used to compare growth conditions in <i>E. histolytica</i> HM1:IMSS
+     trophozoites: <br>
+     1. control - high glucose growth medium<br> 
+     2. starvation - low glucose medium for one month<br>
+     3. recovery - high glucose medium for 3 hours after starvation <br><br>
+     
+     Two million trophozoites growing under control, starvation or recovery conditions were recovered by centrifugation (550 g).  
+     Purified RNA was converted to cDNA, labeled and hybridized to EH-IP2008 microarray. Three independent biological replicates 
+     were performed, each having two technical replicates hybridized in dye swap.
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="20"></history>
+    <primaryContactId>serge.ankri</primaryContactId>
+    <contactId>sharon.baumel.alterzon</contactId>
+<contactId>nancy.guillen</contactId>
+<contactId>christian.weber</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>23016994</pubmedId>
+
+
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayTwoChannelDirectComparison">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">true</prop>
+      <prop name="graphColors">purple</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphXAxisSamplesDescription">log2(Recovery/Starvation) and log2(Starvation/Control)</prop>
+      <prop name="channelOnePctSampleMap">Recovery vs Starvation=Recovery;Starvation vs Control=Starvation</prop>
+      <prop name="channelTwoPctSampleMap">Recovery vs Starvation=Starvation;Starvation vs Control=Control</prop>
+      <!-- below are optional -->
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin"></prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">500</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+    </templateInjector>
+
+  </datasetPresenter>
+
+
+  <datasetPresenter name="ehisRahman_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>Entamoeba histolytica</i> Rahman genome sequence
+    ]]></summary>
+    <description><![CDATA[
+     Genome sequence for <i>Entamoeba histolytica</i> Rahman strain. 
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Feb 2, 2011" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>gareth.weedall</primaryContactId>
+    <contactId>neil.hall</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+
+  <datasetPresenter name="aastUnknown_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome seqeunce for <i>Acanthamoeba astronyxis</i> Unknown strain]]></summary>
+    <description><![CDATA[
+           Genome sequence for <i>Acanthamoeba astronyxis</i> Unknown strain. <br><br>
+           
+           This strain is ATCC 30137 and was isolated from soil in California in 1944. 
+           Axenic cultures were grown in PYB culture medium (ATCC 711) and at 25 
+           degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation kit. 
+           Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+                            ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="25"
+             genomeSource="Genbank" genomeVersion="Jan 31, 2015"
+             annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+    <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826245.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFH00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFH01#contigs</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+  <datasetPresenter name="acasMa_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Acanthamoeba castellanii</i> Ma genome sequence]]></summary>  
+    <description><![CDATA[Genome sequence for <i>Acanthamoeba castellanii</i> Ma<br><br>
+    
+           This strain is ATCC 50370 and was isolated from human eye infection, New York, NY, 1978. 
+           Axenic cultures were grown in PYB culture medium (ATCC 711) and at 25 
+           degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation kit. 
+           Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+                  ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="25"
+            genomeSource="Genbank" genomeVersion="Feb 2, 2015"
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+    <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826485.1</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFL00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFL01#contigs</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="acspGalka_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Acanthamoeba sp</i> Galka genome sequence]]></summary> 
+    <description><![CDATA[Genome sequence for <i>Acanthamoeba sp</i> Galka <br><br>
+    
+    Sequence derived from ATCC 50435, labelled as <i>Acanthamoeba pearcei</i>, but sequence 
+    comparison shows that it is most likely to be <i>Acanthamoeba</i> sp. ATCC 50496 strain Galka. 
+    It was isolated from a human cornea out of Houston, TX in 1982. Axenic cultures were 
+    grown in PYB culture medium (ATCC 711) and at 25 degrees Celsius. DNA was isolated 
+    using a Qiagen Genomic DNA isolation kit. Fragment genomic libraries (400bp) were 
+    sequenced on the Illumina Hiseq platform.
+    
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="25"
+             genomeSource="Genbank" genomeVersion="Jan 31, 2015" 
+             annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826505.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFJ00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFJ01#contigs</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="acspIncertae_sedis_primary_genome_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Acanthamoeba sp</i> Incertae sedis genome sequence]]></summary> 
+    <description><![CDATA[Genome sequence for <i>Acanthamoeba sp</i> Incertae sedis <br><br>
+    
+    Sequence derived from ATCC 30884 labeled as <i>Acanthamoeba royreba</i>, 
+    but subsequent comparison shows that this is not <i>A. royreba</i> (ATCC 30884) but another strain 
+    of uncertain identity. Axenic cultures were grown in PYB 
+    culture medium (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a 
+    Qiagen Genomic DNA isolation kit. Fragment genomic libraries (400bp) were sequenced 
+    on the Illumina Hiseq platform.
+               ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="25"
+             genomeSource="Genbank" genomeVersion="Jan 29, 2015" 
+             annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826365.1//</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDEZ00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDEZ01#contigs</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+   <datasetPresenter name="acspT4B-type_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba sp</i> T4b-type genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba sp</i> T4b-type<br><br>
+     
+          
+          Sequence derived from ATCC 30872, labelled as <i>Acanthamoeba polyphaga</i>, 
+          but subsequent comparison shows that this is not <i>A. polyphaga</i> (ATCC 30872) but another 
+          T4B-type strain of uncertain identity. Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+     
+                              ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25"
+              genomeSource="Genbank" genomeVersion="Jan 31, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826345.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFK00000000.1</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFK01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+   <datasetPresenter name="aculA1_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba culbertsoni</i> A1 genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba culbertsoni</i> A1 <br><br>
+     
+          This sequence is ATCC 30171 and was isolated from primary monkey kidney 
+          tissue culture, possible from India in 1957. Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+     
+               ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25"
+              genomeSource="Genbank" genomeVersion="Jan 31, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+    <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826265.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFF00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFF01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+   <datasetPresenter name="alenPD2S_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba lenticulata</i> PD2S genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba lenticulata</i> PD2S<br><br>
+     
+          This sequence is ATCC 30841 and was isolated from swimming pool, Strasbourg, 
+          France, 1976. Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+     
+     ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25" 
+              genomeSource="Genbank" genomeVersion="Jan 31, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826285.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFG00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFG01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+   <datasetPresenter name="alugL3a_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba lugdunensis</i> L3a genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba lugdunensis</i> L3a<br><br>
+     
+          This sequence is ATCC 50240.  Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+     
+     
+     ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25" 
+              genomeSource="Genbank" genomeVersion="Jan 29, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826425.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFB00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFB01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+   <datasetPresenter name="amau1652_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba mauritaniensis</i> 1652 genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba mauritaniensis</i> 1652<br><br>
+     
+          This sequence is ATCC 50253.  Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+     ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25"
+              genomeSource="Genbank" genomeVersion="Jan 31, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826465.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFE00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFE01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+
+   <datasetPresenter name="apalReich_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba palestinensis</i> Reich genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba palestinensis</i> Reich<br><br>
+     
+          Sequence derived from ATCC 30866, labelled as <i>Acanthamoeba healyi</i> but sequence compaison 
+          shows that this isolate is identical to <i>A. palestinensis</i> type strains. 
+          Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+                   ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25" 
+              genomeSource="Genbank" genomeVersion="Jan 29, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record (in Genbank as A. healyi)</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826305.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project under A. healyi)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFA00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record (in Genbank as A. healyi)</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFA01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+
+   <datasetPresenter name="aquiVil3_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba quina</i> Vil3 genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba quina</i> Vil3<br><br>
+     
+          This sequence is ATCC 50241. 
+          Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+                   ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25" 
+              genomeSource="Genbank" genomeVersion="Feb 2, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826445.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFN00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFN01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+   <datasetPresenter name="arhySingh_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba rhysodes</i> Singh genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba rhysodes</i> Singh<br><br>
+     
+          This sequence is ATCC 30973 and was isolated from soil at the Rothamsted Experimental 
+          Station, Harpenden, England, 1952.
+          Axenic cultures were grown in PYB culture medium 
+          (ATCC 711) and at 25 degrees Celsius. DNA was isolated using a Qiagen Genomic DNA isolation 
+          kit. Fragment genomic libraries (400bp) were sequenced on the Illumina Hiseq platform.
+                         ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25"
+              genomeSource="Genbank" genomeVersion="Jan 31, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826385.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFC00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFC01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+   <datasetPresenter name="atriSH621_primary_genome_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Genome Sequence]]></displayName>
+     <shortDisplayName></shortDisplayName>
+     <summary><![CDATA[<i>Acanthamoeba triangularis</i> SH621 genome sequence]]></summary> 
+     <description><![CDATA[Genome sequence for <i>Acanthamoeba triangularis</i> SH621<br><br>
+     
+          Sequence derived from ATCC 30870, labelled as <i>Acanthamoeba palestinensis</i>, but sequence 
+          comparison shows that this isolate is identical to <i>A. triangularis</i> type strains. 
+          Axenic cultures were grown in PYB culture medium (ATCC 711) and at 25 degrees Celsius. 
+          DNA was isolated using a Qiagen Genomic DNA isolation kit. Fragment genomic libraries 
+          (400bp) were sequenced on the Illumina Hiseq platform.]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25"
+              genomeSource="Genbank" genomeVersion="Jan 31, 2015" 
+              annotationSource="n/a" annotationVersion="n/a"/>
+     <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+     <link>
+      <text>NCBI Assembly record (in Genbank as A. palestinensis)</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000826325.1/</url>
+    </link>
+    <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project as A. palestinensis)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/CDFD00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Traces record (in Genbank as A. palestinensis)</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=CDFD01#contigs</url>
+    </link>
+     <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+   </datasetPresenter>
+
+
+  <datasetPresenter name="enutP19_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>Entamoeba nuttalli</i> P19 Sequence and Annotation
+    ]]></summary>
+    <description><![CDATA[ The sequence and annotation of <i>Entamoeba nuttalli</i> P19 were produced at the J. Craig Venter Institute 
+    to a sequencing depth of coverage is 78X using Illumina sequencing methods.  Data were downloaded from GenBank.
+         ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below).  
+    The sequence and annotation can be viewed in GBrowse along with any functional data that maps to it. 
+        </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="17" 
+            genomeSource="genbank" genomeVersion="Sep 27, 2012" 
+            annotationSource="genbank" annotationVersion="Sep 27, 2012"/>
+    <history buildNumber="29" 
+            genomeSource="genbank" genomeVersion="Mar 18, 2015" 
+            annotationSource="genbank" annotationVersion="Mar 18, 2015">re-annotated</history>
+    <primaryContactId>hernan.a.lorenzi</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/72167</url>
+    </link>
+    <link>
+      <text>NCBI Assembly Record</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCF_000257125.1/</url>
+    </link>
+        <link>
+      <text>NCBI Nucleotide record (Whole genome shotgun sequencing project)</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/AGBL00000000.1/</url>
+    </link>
+        <link>
+      <text>NCBI Scaffold records</text>
+      <url>http://www.ncbi.nlm.nih.gov/nuccore/?term=JH925098:JH930330[accn]</url>
+    </link>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="ehisDS4_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica </i> DS4-868 genome sequence
+    ]]></summary>
+    <description><![CDATA[   Genome sequence for <i>Entamoeba histolytica</i> DS4-868.  
+    This strain was isolated from a human diarrhea/dysentery patient and grown in axenic culture. 
+    The genome was sequenced using 454 (FLX fragment library) and Illumina methods to a genome coverage of 24X coverage.  
+
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Aug 4, 2010" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>Poster describing sequencing of clinical isolates</text>
+      <url>http://amoebadb.org/amoeba/communityDownload.do?fname=Hannick%20Eh%20MPM%20Poster%202010.pdf</url>
+    </link>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/?term=51259</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="ehisKU48_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica</i> KU48 genome sequence
+         ]]></summary>
+    <description><![CDATA[Genome sequence  for <i>Entamoeba histolytica</i> KU48.  
+    This strain was isolated from the aspirate of a human liver absess and grown in axenic culture. 
+    The genome was sequenced using 454 (FLX fragment library) and Illumina methods to a genome 
+    coverage of 44.2X coverage.
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy>Users should acknowledge the J. Craig Venter Institute and the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of 
+    Health and Human Services in any publications that result from use of this draft sequence assembly. Any investigators who propose to publish analyses of the sequence/open reading 
+    frames/genes on a genome scale should contact the J. Craig Venter Institute for the use of pre-publication data. </releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Aug 17, 2010" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI's bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/?term=51235</url>
+    </link>
+    <link>
+      <text>Poster describing the sequencing</text>
+      <url>http://amoebadb.org/amoeba/communityDownload.do?fname=Hannick%20Eh%20MPM%20Poster%202010.pdf</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+<!--
+  <datasetPresenter name="ehisRahman_primary_virtual_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Contig to Scaffold Map
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>Entamoeba histolytica</i> Rahman contig to scaffold map
+    ]]></summary>
+    <description><![CDATA[<i>Entamoeba histolytica</i> Rahman contig to scaffold map from the Department Functional and Comparative Genomics, University of Liverpool.
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>TODO</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+-->
+
+
+  <datasetPresenter name="emosLaredo_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[ <i>Entamoeba moshkovskii</i> Laredo sequence and annotation 
+    ]]></summary>
+    <description><![CDATA[ Genome sequence and annotation  for <i>Entamoeba moshkovskii</i> Laredo was provided by Gareth Weedall and Neil Hall. 
+    
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="liverpool" genomeVersion="Feb 2, 2011" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="17" 
+            genomeSource="liverpool" genomeVersion="Oct 15, 2012" 
+            annotationSource="liverpool" annotationVersion="Oct 15, 2012">newly-annotated</history>
+    <history buildNumber="21" 
+            genomeSource="liverpool" genomeVersion="Jan 19, 2014" 
+            annotationSource="liverpool" annotationVersion="Jan 19, 2014">re-annotated</history>
+    <primaryContactId>neil.hall</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+
+  <datasetPresenter name="ehisHM1IMSS_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica</i> HM-1:IMSS genome and annotation from JCVI
+    ]]></summary>
+    <description><![CDATA[Whole genome shotgun sequence and annotation for <i>Entamoeba histolytica</i> HM-1:IMSS obtained from 
+    Lis Caler at the J. Craig Venter Institute (<a href="http://pathema.jcvi.org/cgi-bin/Entamoeba/PathemaHomePage.cgi"Target="_blank">JCVI</a>).
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Nov 27, 2009" 
+            annotationSource="JCVI" annotationVersion="Nov 27, 2009"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="ehisKU27_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica</i> KU27 genome sequence and annotation
+    ]]></summary>
+    <description><![CDATA[ Genome sequence  for <i>Entamoeba histolytica</i> KU27.  
+    This strain was isolated from the stool of an asymptomatic patient and grown in monoxenic culture. 
+    The genome was sequenced using 454 (FLX fragment library) and Illumina methods to a genome 
+    coverage of 18.5X coverage.
+
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy>Users should acknowledge the J. Craig Venter Institute and the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services in any publications that result from use of this draft sequence assembly. Any investigators who propose to publish analyses of the sequence/open reading frames/genes on a genome scale should contact the J. Craig Venter Institute for the use of pre-publication data. </releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Aug 17, 2010" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="19" 
+            genomeSource="Genbank" genomeVersion="Feb 12, 2013" 
+            annotationSource="Genbank" annotationVersion="Feb 12, 2013">newly-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="genbank" genomeVersion="Mar 19, 2015" 
+            annotationSource="genbank" annotationVersion="Mar 19, 2015">re-annotated</history>
+    <primaryContactId>jcvi</primaryContactId>
+     <link>
+      <text>NCBI's Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/51233</url>
+    </link>
+    <link>
+      <text>Poster describing the sequencing</text>
+      <url>http://amoebadb.org/amoeba/communityDownload.do?fname=Hannick%20Eh%20MPM%20Poster%202010.pdf</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+
+  <datasetPresenter name="ehisMS96_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>Entamoeba histolytica</i> MS96 Genome Sequence 
+    ]]></summary>
+    <description><![CDATA[Genome sequence  for <i>Entamoeba histolytica</i> MS96.  
+    This strain was isolated from the stool of an asymptomatic patient and grown in monoxenic culture. 
+    The genome was sequenced using 454 (FLX fragment library) and Illumina methods to a genome 
+    coverage of 15.3X coverage.
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Aug 24, 2010" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI's Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/51261</url>
+    </link>
+    <link>
+      <text>Poster describing the sequencing</text>
+      <url>http://amoebadb.org/amoeba/communityDownload.do?fname=Hannick%20Eh%20MPM%20Poster%202010.pdf</url>
+    </link>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="einvIP1_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>Entamoeba invadens</i> IP1 sequence and annotation 
+    ]]></summary>
+    <description><![CDATA[
+    <i>Entamoeba invadens</i> IP1 parasitized reptiles. Genomic DNA from a green water snake was sequenced 
+    using Sanger methods and the genome assembled with Celer Assembler v. 3 to a genome coverage of 2.8X.  
+                        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy><![CDATA[In the latest version of this annotation the IDs of 2774 genes were inadvertently reused
+     making it impossible to create a mapping.
+    <a href="http://amoebadb.org/amoeba/communityDownload.do?fname=Einv_geneID_reused_mapping.xlsx">Click here for the list of 
+    these IDs.</a>]]></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Nov 27, 2009" 
+            annotationSource="JCVI" annotationVersion="Nov 27, 2009"/>
+    <history buildNumber="29" 
+            genomeSource="genbank" genomeVersion="Mar 19, 2015" 
+            annotationSource="genbank" annotationVersion="Mar 19, 2015">data source changed, sequence-changed, re-annotated</history>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/12926</url>
+    </link>
+    <link>
+      <text>JCVI home page</text>
+      <url>http://gsc.jcvi.org/projects/msc/entamoeba/entamoeba_invadens_ip1/index.shtml</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="edisSAW760_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[ <i>Entamoeba dispar</i> SAW760 genome sequence and annotation
+    ]]></summary>
+    <description><![CDATA[<i>Entamoeba dispar</i> SAW760 genome sequence. Genomic DNA  was sequenced 
+    using Sanger methods and the genome assembled with Celer Assembler v. 3 to a genome coverage of 4.32X.   ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Nov 27, 2009" 
+            annotationSource="JCVI" annotationVersion="Nov 27, 2009"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/12914</url>
+    </link>
+    <link>
+      <text>JCVI home page</text>
+      <url>http://gsc.jcvi.org/projects/msc/entamoeba/entamoeba_dispar_saw760/index.shtml</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="acasNeff_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>Acanthamoeba castellanii</i> str. Neff genome sequence and annotation
+    ]]></summary>  
+   <description><![CDATA[The sequence and annotation of <i>Acanthamoeba casttellanii</i> str. Neff was produced at the 
+   J. Craig Venter Institute. The sequencing depth of coverage is 109.9x Illumina, 50.1x 454 and 0.42x Sanger.
+   The data were downloaded from GenBank.  ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, 
+    gene ID and BLAST similarity (for a full list of queries see the Searches using these data section below).  
+    The sequence and annotation can be viewed in GBrowse along with any functional data that maps to it.</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="17" 
+            genomeSource="JCVI" genomeVersion="Nov 19, 2012" 
+            annotationSource="JCVI" annotationVersion="Nov 19, 2012"/>
+    <history buildNumber="19" 
+            genomeSource="genbank" genomeVersion="Mar 18, 2013" 
+            annotationSource="genbank" annotationVersion="Mar 18, 2013">re-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="genbank" genomeVersion="Mar 19, 2015" 
+            annotationSource="genbank" annotationVersion="Mar 19, 2015">re-annotated</history>
+    <primaryContactId>brendan.loftus</primaryContactId>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/66753</url>
+    </link>
+    <link>
+      <text>Assembly home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AHJI01</url>
+    </link>
+    <pubmedId>23375108</pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ehisKU50_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence 
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica</i> KU50 Genome Sequence 
+    ]]></summary>
+    <description><![CDATA[Genome sequence  for <i>Entamoeba histolytica</i> KU50.  
+    This strain was isolated from a human stool sample and grown in axenic culture. 
+    The genome was sequenced using 454 (FLX fragment library) and Illumina methods to a genome 
+    coverage of 10.6X coverage.
+ ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Aug 4, 2010" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>jcvi</primaryContactId>
+     <link>
+      <text>NCBI's bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/?term=51231</url>
+    </link>
+    <link>
+      <text>Poster describing the sequencing</text>
+      <url>http://amoebadb.org/amoeba/communityDownload.do?fname=Hannick%20Eh%20MPM%20Poster%202010.pdf</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+<!-- Sus - I ca't find this on JCVI or GenBank -->
+  <datasetPresenter name="ehisHM1CA_primary_genome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[<i>Entamoeba histolytica</i> HM-1:CA genome sequence
+    ]]></summary>
+    <description><![CDATA[Reference assembly for <i>E. histolytica HM-1:CA</i> obtained from Lis Caler at the J. Craig Venter Institute (<a href="http://pathema.jcvi.org/cgi-bin/Entamoeba/PathemaHomePage.cgi"Target="_blank">JCVI</a>).
+<br>Users should acknowledge the J. Craig Venter Institute and the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services in any publications that result from use of this draft sequence assembly. Any investigators who propose to publish analyses of the sequence/open reading frames/genes on a genome scale should contact the J. Craig Venter Institute for the use of pre-publication data. 
+<br><br>You can download a poster describing the sequencing of these clinical isolates <a href="/a/communityDownload.do?fname=Hannick%20Eh%20MPM%20Poster%202010.pdf">here</a>.
+ ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="JCVI" genomeVersion="Aug 4, 2010" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter>
+
+
+  <!--  Sus stopped here 2 June 2014 -->
+  <!-- Microarray http://www.ncbi.nlm.nih.gov/pubmed/16569449  ??-->
+
+
+  <datasetPresenter name="ehisHM1IMSS_microarrayExpression_Gilchrist_GSE28883_G3-HM1_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[G3 v. HM1:IMSS Transcript Expression
+    ]]></displayName>
+    <shortDisplayName>G3 v. HM1:IMSS Marray</shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica</i>  G3 v. HM1:IMSS Transcript Expression Array Profiles   ]]></summary> 
+   <description><![CDATA[Changes in the transcriptome of Entamoeba histolytica accompany the epigenetic silencing of the amoebapore gene
+
+In E. histolytica G3 transfectants, transcriptional silencing of the amoebapore gene (Ehap-a) is accompanied by the 
+down-regulation of two other members of the saposin-like (SAPLIP) gene family (Ehap-b, and EhSaplip1). In the current work, 
+comparison of the G3 transcriptome with that of the parent HM-1:IMSS strain has identified an additional 12 transcripts 
+that were down regulated and 60 which were upregulated at least 7 fold. To investigate this phenomena in more depth, 
+one of the transcripts (TIGR 459.m00030) which was increased >200 fold was further investigated. This E. histolytica 
+specific transcript has the potential to encode a 66 amino acid protein however antibodies raised against a synthetic 
+N-terminal peptide of the 459.m gene did not recognize any such protein in either G3 or HM-1:IMSS amoeba lysates. 
+Treatment of G3 transfectants with the proteasome inhibitor MG-132 to prevent rapid 459.m protein degradation did 
+not result in any detectable 459.m protein. Neither did the transfection of the parent HM-1:IMSS with an expression 
+construct in which the Ehactin gene promoter was used to greatly increase the level of the 459.m transcript. However, 
+transfectants in which the 459.m ORF sequence was placed downstream the GST gene, expressed a fused protein. 
+To determine if the increase in this non-coding mRNA were due to changes in the stability of the 459.m transcript or 
+increased transcription, reporter constructs were generated. The reporter gene was both placed directly 3&#39&#39 of 
+the 459.m gene promoter or fused to the C-terminal sequence of the 459.m ORF. The 459.m promoter, in isolation, was 
+weak and no difference in reporter expression was observed in either G3 or HM-1:IMSS transfectants. The genetic 
+context of the 459.m gene was examined and retroposon elements (EhERE1 and EhSINE) were discovered downstream 
+suggesting the possibility of their involvement in the observed transcription changes.
+
+<br/><br/>
+Authors: Rivka Bracha, Carol A. Gilchrist and David Mirelman ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>carol.gilchrist</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+ <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayOneChannelRma">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColors">#FFCC33;#006699</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Sample Type             1. G3 (Ehap-a silenced strain)              2. HM1:IMSS (Parent strain)]]></prop>
+      <!-- below are optional -->
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin">7</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">60</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+
+
+  <datasetPresenter name="ehisHM1IMSS_microarrayExpression_Gilchrist_Singh_intestinal_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Intestinal Colonization/Invasion
+    ]]></displayName>
+    <shortDisplayName>EhisHM1IMSS IntestInvasion Marray</shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica</i> HM-1:IMSS Intestinal Colonization/Invasion Array Profiles
+    ]]></summary> 
+   <description><![CDATA[An Affymetrix platform gene expression array was designed for this analysis that included probe 
+   sets for 9435 open reading frames (ORFs) and 9066 5' and 3' flanking regions. Transcripts were detected for > 80% of 
+   all ORFs. A total of 523 transcripts (5.2% of all <i>E. histolytica</i> genes) were significantly changed in amoebae 
+   isolated from the intestine on Days 1 and 29 after infection: 326 and 109 solely on Days 1 and 29, and 88 on both days. 
+   Quantitative real-time reverse transcriptase PCR confirmed these changes in 11/12 genes tested using mRNA isolated 
+   from an additional six mice.<br>
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>carol.gilchrist</primaryContactId>
+    <link>
+      <text>Data Taken From Geo Dataset GSE8484</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE8484]]></url>
+    </link>
+    <pubmedId>16569449</pubmedId>
+ <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayOneChannelRma">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColors">#800517;#307D7E;#254117;#7E3517;#806517</prop>
+      <prop name="graphXAxisSamplesDescription">Strain and lifecycle stage</prop>
+      <!-- below are optional -->
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels"><![CDATA[HM1:IMSS;Rahman;HM1:IMSS\\nmouse-adapted;HM1:IMSS\\nmouse-adapted 1d;HM1:IMSS\\nmouse-adapted 29d]]></prop>
+      <prop name="graphBottomMargin">9</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">30</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ehisHM1IMSS_microarrayExpression_Gilchrist_Singh_stage_RSRC"
+                    projectName="AmoebaDB">
+    <displayName><![CDATA[Stage Conversion 
+    ]]></displayName>
+    <shortDisplayName>stage conversion</shortDisplayName>
+    
+    <summary><![CDATA[<i>E. histolytica</i> HM-1:IMSS Stage Conversion Array Profiles
+    ]]></summary> 
+   <description><![CDATA[Gene expression in <i>Entamoeba histolytica</i> cysts and trophozoites<br>RNA was isolated from <i>E. histolytica</i> parasites recently derived from human patients and grown in xenic culture (Robinson's media) for 1-8 weeks. These recently isolated cultures contained a mixture of trophozoites and cysts (as assayed by staining with calcofluor). Two different strains, isolated from different patients, were used. Gene expression in these strains was compared to gene expression in multiple E. histolytica strains (HMI:IMSS, Rahman and 200:NIH) that contained only trophozoites, which had been grown in axenic culture (TYI-S-33) for > 10 years, using a full genome Affymetrix-platform microarray. Multiple lines of evidence suggest that many genes differentially expressed between these two conditions (recent isolates vs. long term lab growth) are developmentally regulated.<br><br>All samples were isolated using Trizol and samples other than the cyst containing clinical isolate samples were further purified with the Qiagen RNeasy kit (clinical isolates produced insufficient RNA for cleanup). Samples GSM154008 (HM1replicate 3) and GSM154011 (Rahman replicate 3) were amplified using the SPIA protocol, and hybridized and scanned at VBI. All other samples were processed entirely by Stanford PAN facility. Samples GSM154022, GSM154023, and GSM154024 (the cyst containing clinical samples) were amplified 2 rounds using the standard affy T7 procedure. All others had sufficient RNA and only underwent the standard affy in vitro transcription labeling protocol.<br>
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"></history>
+    <primaryContactId>carol.gilchrist</primaryContactId>
+    <link>
+      <text>Data Taken From Geo Dataset GSE6648</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6648]]></url>
+    </link>
+    <pubmedId>17250591</pubmedId>
+ <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayOneChannelRma">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColors">#E9967A;#8B4513;#66CDAA;#556B2F;#87CEEB;#008080;#C9BE62</prop>
+      <prop name="graphXAxisSamplesDescription">Strain and lifecycle stage</prop>
+      <!-- below are optional -->
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels">Trophs\\n(HMI:IMSS);Trophs\\n(Rahman);Trophs\\n(200:NIH);Trophs\\n(200:NIH)-LG;Trophs/Cysts\\n(1wk);Trophs/Cysts\\n(8wk);Trophs/Cysts\\n(3wk)</prop>
+      <prop name="graphBottomMargin">9</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">0</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+<!-- SNP HTS -->
+  <datasetPresenter name="ehisHM1IMSS_HTS_SNP_Weedall_SOLID_htsSNPs_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Aligned genomic sequence reads -  Multiple <i>E. histolytica</i> Strains
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[Whole genome sequencing of multiplen of 9 <i>E. Histolytica</i> strains 
+    ]]></summary>   
+ <description><![CDATA[ABI SOLiD sequence reads of multiple <i>E. histolytica</i> strains were provided by Gareth Weedall and Neil Hall, 
+ of the Institute of Integrative Biology, Liverpool.  Reads were aligned to the <i>E. histolytica</i> HM-1:IMSS reference genome using 
+ Bowtie and SNPs called using VarScan. ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>neil.hall</primaryContactId>
+    <contactId>gareth.weedall</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+
+  </datasetPresenter>
+
+
+
+<!-- MASS SPEC -->
+
+  <datasetPresenter name="ehisHM1IMSS_massSpec_Ujang_Membrane_Cytosolic_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Membrane and Cytosolic proteomes by 3 extraction methods]]></displayName>
+    <shortDisplayName>Ehis Membrane/Cyto Proteome</shortDisplayName>
+    <shortAttribution>Ujang et al, unpublished</shortAttribution>
+
+    <summary><![CDATA[
+     <i>Entamoeba histolytica</i> HM1:IMSS proteome analysis of membrane and cytosolic fractions
+    ]]></summary>
+  <description><![CDATA[
+	<i>Entamoeba histolytica</i> HM1:IMSS proteome analysis of membrane and cytosolic fractions using two mass spectrometry systems, namely LC-MALDI MS/MS and LC-ESI MS/MS to identify proteins obtained by three different methods, ProteoExtract (Calbiochem), ProteoPrep (Sigma) and a conventional method described in Teixeira & Huston (2008).
+<br>
+        Membrane fractions and cytosolic fractions of Entamoeba histolytica trophozoites were extracted via the three extraction methods mentioned. Subsequently, acetone precipitation was carried out for ProteoExtract and ProteoPrep samples as a mean of buffer exchange. The protein samples were subjected to insolution - trypsin digestion.
+<br> ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="39"></history>
+    <primaryContactId>nurulhasanah.othman</primaryContactId>
+    <contactId>jorim.anak.ujang</contactId>
+    <contactId>rahmah.noordin</contactId>
+    <contactId>lim.boon.huat</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+        <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">E. histolytica</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+<!-- comment out #31288
+  <datasetPresenter name="ehisHM1IMSS_massSpec_Trophozoites_Cysts_Cyst-like_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Trophozoite, cyst and cyst-like structures proteomics]]></displayName>
+    <shortDisplayName>E. his Trophs_Cysts Prot</shortDisplayName>
+    <shortAttribution>Luna-Nacar et al.</shortAttribution>
+    
+    <summary><![CDATA[Proteomic profile of <i>E. histolytica</i> HM1:IMSS trophozoites, cysts that were 
+    isolated from stool samples and in-vitro produced cyst-like structures from <i>E. histolytica</i> HM1:IMSS
+    ]]></summary>  
+  <description><![CDATA[
+	Proteomic profile of <i>E. histolytica</i> HM1:IMSS trophozoites, cysts that were isolated from 
+	stool samples and in-vitro produced cyst-like structures from <i>E. histolytica</i> HM1:IMSS
+	                      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="39"></history>
+    <primaryContactId>julio.carrero</primaryContactId>
+    <contactId>milka.azucena.luna.nacar</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>27228164</pubmedId>
+	<templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">E. histolytica</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="ehisHM1IMSS_massSpec_Marion_Proteomics_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Trophozoite Phagosome Proteome ]]></displayName>
+    <shortDisplayName>EhisM1IMSS Troph Phagasome Prot</shortDisplayName>
+    <shortAttribution>Marion et al.</shortAttribution>
+    
+    <summary><![CDATA[Proteome of Human Serum Coated Magnetic Bead-Purified Phagosomes from Trophozoite
+    ]]></summary>  
+  <description><![CDATA[    Proteome of Phagosomes from <i>E. histolytica</i> trophozoites purified using human serum coated magnetic beads. 
+<br>    
+        Phagosomes were purified from <i>E. histolytica</i> wild type and myosin IB over-expressing (MyoIB+) trophozoites using human 
+        serum-coated magnetic beads.  Phagosomes from wild type parasites were purified following a 3 minute incubation with beads, 
+        and  phagosomes from MyoIB+ parasites were purified following 5 or 15 minute incubations.  Proteins were analyzed by liquid 
+        chromatography and tandem mass spectrometry (LC-MS/MS).
+<br> ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>nancy.guillen</primaryContactId>
+    <contactId>sabrina.marion</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>16153248</pubmedId>
+	<templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">E. histolytica</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="ehisHM1IMSS_massSpec_Glycosylation_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Concanavalin A-enriched Glycoproteins from Trophozoite
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <shortAttribution>Carpentieri et al.</shortAttribution>
+    
+    <summary><![CDATA[Concanavalin A-enriched Glycoproteins from Trophozoite
+    ]]></summary>    
+  <description><![CDATA[Concanavalin A-enriched Glycoproteins from Trophozoite (Carpentieri et. al.)
+<br>    
+        Total protein extract (soluble fraction) from <i>E. histolytica</i> trophozoites was purified over a Concanavalin A column followed by tryptic digestions and N-glycanase F hydrolysis (to release N-linked glycans and identify glycosylation sites).  Proteins were analyzed by liquid chromatography and tandem mass spectrometry (LC-MS/MS).  ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>andrea.carpentieri</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>20852023</pubmedId>
+	<templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">E. histolytica</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+
+
+  <datasetPresenter name="ehisHM1IMSS_massSpec_Markiewicz_Proteomics_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Purified Uropods from Trophozoite
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <shortAttribution>Markiewicz et al.</shortAttribution>
+    
+    <summary><![CDATA[Purified Uropods from Trophozoite
+    ]]></summary>    
+  <description><![CDATA[Purified Uropods from Trophozoite (Markiewicz et. al.)
+        <br>
+        Uropod extruded fractions were purified following a Concanavalin A incubation of E. histolytica 
+        trophozoites.  Purification was performed by successive centrifugation and final pellet was 
+        processed for proteomics analysis.  Proteins were analyzed by liquid chromatography and tandem 
+        mass spectrometry (LC-MS/MS).
+        <br>
+ ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>nancy.guillen</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>21483708</pubmedId>
+	<templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">E. histolytica</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="ehisHM1IMSS_massSpec_Huston_phagosome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Phagosomes from trophozoites
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <shortAttribution>Boettner et al.</shortAttribution>
+    
+    <summary><![CDATA[Phagosome Proteome
+    ]]></summary>    
+  <description><![CDATA[ Magnetic Bead-Purified Phagosomes from Trophozoite (Boettner et. al.)<br>
+        Ingested carboxylated magnetic beads within intact phagosomes from <i>E. histolytica</i> were 
+        separated from amebic lysate and subjected to delipidation and mass spectrometry sequencing. 
+        Phagosome preparations were performed at 0, 5, 10, and 60 minutes following centrifugation 
+        of the beads into contact with trophozoites. In addition lysed amoeba were incubated with beads 
+        and subjected to the same steps to account for background binding to the carboxylated beads. 
+        This resultant proteome identified many proteins previously associated with phagocytosis in the 
+        literature, including: the galactose binding lectin, small GTPases, hydrolytic proteins, cytoskeleton
+         proteins, and endoplasmic reticulum proteins.<br>
+ ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>christopher.huston</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>18208324</pubmedId>
+	<templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">E. histolytica</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="ehisHM1IMSS_massSpec_Ujang_ESproteome_RSRC"
+                    projectName="AmoebaDB"
+                    >
+    <displayName><![CDATA[Excretory-secretory (ES) proteome
+    ]]></displayName>
+    <shortDisplayName>ES proteome</shortDisplayName>
+    <shortAttribution>Ujang et al.</shortAttribution>
+
+    <summary><![CDATA[Phagosome Proteome
+    ]]></summary>
+  <description><![CDATA[Mass spec analysis using two methods (LC-ESI-MS/MS and LC-MALDI-TOF/TOF) was performed on <i>Entamoeba histolytica</i> HM1:IMSS trophozoite excretory-secretory (ES) proteins. Two replicates were analysed with ESI, and three replicates with MALDI TOF-TOF. The authors considered proteins to be significant if they met one of the following criteria: a protein that was detected in both replicates using LC-ESI-MS/MS; a protein that was detected in at least two replicates using LC-MALDI-TOF/TOF; and a protein that was detected in only one replicate but detected by both mass-spectrometry systems<br>
+ ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="32"></history>
+    <primaryContactId>nurulhasanah.othman</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>27895543</pubmedId>
+        <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">E. histolytica</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="(.*)_genomeFeature_repeatElements_GFF3_RSRC$"
+                    projectName="AmoebaDB"
+                    datasetNamePattern="%_genomeFeature_repeatElements_GFF3_RSRC">
+    <displayName><![CDATA[Aligned Repeat Elements
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Repetitive Elements in the Genome
+    ]]></summary>    
+  <description><![CDATA[ 
+    Repeat elements were mapped in <i>Entamoeba</i> species: <i>E. histolytica</i> HM-1:MMS, <i>E. invadens</i> IP1, and <i>E. dispar</i> SAW760 (LINE, SINE, ERE).<br> 
+    SINE elements = Short INterspersed repetitive Elements, LINE elements = Long INterspersed repetitive Element, ERE = Entamoeba repeat element. ]]></description>
+    <usage>These data are available as a GBrowse track and can be displayed in context with the genome. </usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>lis.caler</primaryContactId>
+    <contactId>hernan.a.lorenzi</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>19077187</pubmedId>
+  </datasetPresenter> 
+
+   <datasetPresenter name="ehisHM1IMSS_Guillen_rnaSeq_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Transcriptomes of HM1:IMSS and Rahman strain trophozoites]]></displayName>
+     <shortDisplayName>HM1:IMSS Rahman Tropho RNAseq</shortDisplayName>
+     <shortAttribution>Hon et al.</shortAttribution>
+     <summary><![CDATA[ 
+         Transcriptomes of virulent <i>Entamoeba histolytica</i> HM1:IMSS and non-virulent Rahman 
+         strains were determined by Illumina RNA sequencing.
+            ]]></summary>
+     <description><![CDATA[ 
+     The transcriptomes of <i>E. histolytica</i> HM1:IMSS (virulent) and E. histolytica Rahman (non-virulent) were determined by RNA sequencing. 
+     Trophozoites in log phase of growth were used to prepare paired-end cDNA libraries. cDNA fragments of  ~200 bp were purified from each 
+     library and sequenced according manufacturer’s instructions (Illumina HiSeq2000, Illumina).
+     
+            ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="19"></history>
+     <primaryContactId>nancy.guillen</primaryContactId>
+     <contactId>chung.chau.hon</contactId>
+     <link>
+       <text></text>
+       <url></url>
+     </link>
+     <pubmedId>23258700</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">blue</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription">HM1:IMSS and Rahman strains</prop>
+      <prop name="graphPriorityOrderGrouping">590</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector> 
+   </datasetPresenter>
+
+
+   <datasetPresenter name="nfowATCC30863_Pathogenic_Trophozoite_Trascriptome_rnaSeq_RSRC" 
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Trophozoite Transcriptome (Nfow)]]></displayName>
+     <shortDisplayName> Nfow Trophozoite RNAseq</shortDisplayName>
+     <shortAttribution>Zysset-Burri et al.</shortAttribution>
+     <summary><![CDATA[ Transcriptome of <i> Naegleria fowleri  </i> ATCC 30863 trophozoites. ]]></summary>
+     <description><![CDATA[The transcriptome of <i> Naegleria fowleri  </i> 
+                  ATCC 30863 trophozoites was determined by RNA sequencing.  RNA was sequenced using 
+                  the Illumina HiSeq 2000 platform, resulting in approximately 229 million 100-bp 
+                  paired-end reads. The reads from RNA sequencing are deposited in DDBJ/EMBL/GenBank 
+                  under accession SRX553040]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="25"></history>
+     <primaryContactId>matthias.wittwer</primaryContactId>
+     <link>
+     <text>European Nucleotide Archive entry</text>
+     <url>http://www.ebi.ac.uk/ena/data/view/SRR1299159</url>
+     </link>
+     <pubmedId>24950717</pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+           <prop name="graphForceXLabelsHorizontal">true</prop> 
+           <prop name="hasFishersExactTestData">false</prop>
+           <prop name="isEuPathDBSite">true</prop>
+           <prop name="graphType">bar</prop>
+           <prop name="graphColor">blue</prop>
+           <prop name="graphBottomMarginSize">0</prop>
+           <prop name="graphSampleLabels"></prop> 
+           <prop name="showIntronJunctions">true</prop>
+           <prop name="includeInUnifiedJunctions">true</prop>
+           <prop name="isAlignedToAnnotatedGenome">true</prop>
+           <prop name="hasMultipleSamples">false</prop>
+           <prop name="graphXAxisSamplesDescription">Naegleria fowleri  ATCC 30863 trophozoites </prop>
+           <prop name="graphPriorityOrderGrouping">590</prop>
+           <prop name="optionalQuestionDescription"></prop> 
+           <prop name="isDESeq">false</prop>
+	   <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+      </templateInjector>
+    </datasetPresenter>
+
+
+   <datasetPresenter name="einvIP1_Singh_Encyst_Excyst_rnaSeq_RSRC"
+                     projectName="AmoebaDB">
+     <displayName><![CDATA[Transcriptome during encystation and excystation]]></displayName>
+     <shortDisplayName>EinvIP1 En-Excyst RNAseq</shortDisplayName>
+     <shortAttribution>Ehrenkaufer et al.</shortAttribution>
+     <summary><![CDATA[ 
+           RNA-Seq analysis of transcriptional changes during the complete developmental 
+           cycle of <i>E. invadens</i> (encystation and excystation).
+           
+            ]]></summary>
+     <description><![CDATA[ 
+     
+           Whole transcriptome sequencing of <i>Entamoeba invadens</i> IP-1 during encystation and excystation.
+           The goal of the project was to identify changes to the transcriptome during development. <br><br>
+           
+           RNA was isolated from trophozoites, from encysting parasites 
+           (at 8, 24, 48 and 72 hours after transfer to encystation media) 
+           and from excysting parasites (2 and 8 hours after induction of 
+           excystation), converted to cDNA, and sequenced on a SOLiD platform. 
+           RNA-seq data was used to refine gene models, find potential unannotated 
+           genes, and identify genes that are developmentally regulated.
+           
+            ]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+     <history buildNumber="20"></history>
+     <primaryContactId>upinder.singh</primaryContactId>
+     <contactId>gretchen.m.ehrenkaufer</contactId>
+     <contactId>gareth.weedall</contactId>
+     <contactId>neil.hall</contactId>
+     <link>
+       <text></text>
+       <url></url>
+     </link>
+     <pubmedId>23889909</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="hasFishersExactTestData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">blue</prop>
+      <prop name="graphBottomMarginSize">8</prop>
+      <prop name="graphSampleLabels">Trophozoites;8hr encysting;24hr encysting;48hr encysting;72hr encysting;2hr excysting;8hr excysting</prop>
+      <prop name="showIntronJunctions">false</prop>
+      <prop name="includeInUnifiedJunctions">false</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription">Trophozoites, 8 hour encysting parasites, 24 hour encysting parasites, 48 hour encysting parasites, 72 hour encysting parasites, 2 hour excysting parasites and 8 hour excysting parasites </prop>
+      <prop name="graphPriorityOrderGrouping">590</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector> 
+   </datasetPresenter> 
+
+  <datasetPresenter name="ehisHM1IMSS_smallNcRna_Singh_Small_RNA_RSRC"
+                    projectName="AmoebaDB">
+    <displayName>Argonaute 2-2 Associated small RNAs</displayName>
+    <shortDisplayName>E.hisHM1IMSS Rahman Argo2-2 assoc RNAseq</shortDisplayName>
+    <shortAttribution>Zhang et al.</shortAttribution>
+    <summary><![CDATA[
+     RNA sequencing of small RNAs that co-precipitate with the Argonaute 2-2 protein in virulent 
+     <i>E. histolytica</i> strain HM1:IMSS and small RNAs from the avirulent strain Rahman.<br>
+     At views > 3kb a plot of coverage across the genome is seen. <br>
+     At < 3kb, individual alignments can be viewed, with sequence information visible at <100bp.<br><br>
+                        ]]></summary>
+    <description><![CDATA[To characterise the <i>E. histolytica</i> small RNA population associated with Argonaute 2-2, a 
+    component of RNAi pathway, the RNA species that co-precipitate with Argonaute 2-2 
+    were sequenced from the virulent HM1:IMSS strain and compared to a small RNA-enriched library from 
+    the avirulent Rahman strain.<br><br>
+
+    Small RNA cloning was based on a previously published protocol for 5' phosphate independent 
+    cloning (CIP + PNK method). For the Argonaute 2-2 IP library, RNA was extracted from the IP 
+    material and directly ligated to 
+    the 3'-adaptor oligonucleotide. Material was size-fractionated, treated with CIP and PNK, and 
+    ligated to the 5' adaptor. For the Rahman library no Argonaute 2-2 immunoprecipitation was performed. 
+    Total RNA was enriched for small RNA species, size fractionated and the 15-30 nt band was excised. 
+    Adaptor ligation was carried out as for the HM1:IMSS library. For both libraries, 
+    the ligated RNA was reverse-transcribed, amplified using 454 primers, 
+    purified and sequenced using the 454 pipeline.<br><br>
+
+    After removing the adaptors, reads were mapped using bowtie2 in local mode. 
+    Local mode employs soft-clipping which maps a subset of 
+    the read if the full read cannot be aligned. Reads whose full length did not map 
+    may appear to be trimmed and results for these reads will differ from the publication.<br>
+
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+    <primaryContactId>upinder.singh</primaryContactId>
+    <contactId>gretchen.m.ehrenkaufer</contactId>
+    <contactId>neil.hall</contactId>
+    <contactId>hanbang.zhang</contactId>
+    <pubmedId>23347563</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.SmallNcRna"/>
+  </datasetPresenter> 
+
+  <!-- NOT Sure... do we need attribution for these ?? -->
+  <internalDataset name="ehisHM1IMSS_Ehistolytica_oldIds_NAFeature_aliases_RSRC"/>
+  <internalDataset name="emosLaredo_contig_liverpool_RSRC"/>
+  <internalDataset name="nfowATCC30863_Transcriptome_transcript_sequences_RSRC"/>
+<!-- moved to global
+  <internalDataset name="edisSAW760_aliasesFromAnnotation_NAFeature_aliases_RSRC"/> 
+ 
+  <internalDataset name="einvIP1_aliasesFromAnnotation_NAFeature_aliases_RSRC"/>
+  <internalDataset name="ehisHM1IMSS_aliasesFromAnnotation_NAFeature_aliases_RSRC"/>
+  <internalDataset name="ehisRahman_primary_virtual_genome_RSRC"/>
+  <internalDataset name="emosLaredo_contig_genome_features_RSRC"/>
+  <internalDataset name="einvIP1_aliasesFromJCVIAnnotation_NAFeature_aliases_RSRC"/>
+-->
+
+  <!-- Optional TODO:  microarray Platform 
+  <internalDataset name="ehisHM1IMSS_microarrayPlatform_E_his-1a520285F_RSRC"/>
+  <internalDataset name="ehisHM1IMSS_microarrayPlatform_A-MEXP-2230_RSRC"/>
+-->
+  
+
+<internalDataset name="nfowATCC30863_dbxref_AlterSplicingGeneIDs_RSRC"/>
+<!-- TODO: attribution needed -->
+<internalDataset name="ehisHM1IMSS_SNP_metaData_Weedall_SOLID_htsSNPs_RSRC"/>
+
+ <!-- TODO: for gus4 reload -->
+ <internalDataset name="emosLaredo_genome_liverpool_RSRC"/>
+ <internalDataset name="nfowATCC30863_PreAltSplGeneIDs_NAFeature_aliases_RSRC"/>
+ <internalDataset name="ehisHM1IMSS_Weber_Plasticity_Pathogenesis_rnaSeq_RSRC"/>
+
+</datasetPresenters>
+

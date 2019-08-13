@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+
+  <datasetPresenter name="btauHereford_primary_genome_RSRC"
+                    projectName="HostDB">
+    <displayName>Genome Sequence and Annotation</displayName>
+    <shortDisplayName>Cow Genome</shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Bos taurus</i> breed Hereford]]></summary>
+    <description><![CDATA[Genome sequence and annotation for <i>Bos taurus</i> breed Hereford]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="42" 
+            genomeSource="GenBank" genomeVersion="Bos_taurus_UMD_3-1-1_2014-11" 
+            annotationSource="GenBank" annotationVersion="Bos_taurus_UMD_3-1-1_2014-11"/>
+    <primaryContactId>genbank</primaryContactId>
+    <link>
+      <text>NCBI BioProject at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA32899/</url>
+    </link>  
+    <link>
+      <text>NCBI Assembly record at GenBank</text>
+      <url>https://www.ncbi.nlm.nih.gov/assembly/GCA_000003055.5</url>
+    </link> 
+    <pubmedId>19393038</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">false</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+       <datasetPresenter name="hsapREF_massSpec_Secretome_IEC_infection_RSRC" 
+                    projectName="HostDB">
+    <displayName><![CDATA[Giardia secretome IEC infection]]></displayName>
+    <shortDisplayName>Giardia secretome IEC infection</shortDisplayName>
+    <shortAttribution>Maayeh et al.</shortAttribution>
+    <summary><![CDATA[
+	Secretome of human intestinal epithelial cell secretome during interaction with <i>Giardia intestinalis</i> WB clone C6 (ATCC30957; assemblage A) and isolates GS, clone H7 (ATCC50581; assemblage B)
+          
+         ]]></summary>
+    <description><![CDATA[
+            Secretome of <i>Giardia intestinalis</i> isolates WB clone C6 (ATCC30957; assemblage A) and GS, clone H7 (ATCC50581; assemblage B) during interaction with intestinal epithelial cells (IECs). To identify putative virulence factors and elucidate mechanistic pathways leading to disease, proteomics was used to identify the major excretory-secretory products (ESPs) when Giardia trophozoites of WB and GS isolates (assemblages A and B, respectively) interact with intestinal epithelial cells (IECs) in vitro at two time points (2hr and 6hr).
+ 
+         ]]></description>
+    <history buildNumber="39"></history>
+    <primaryContactId>staffan.svard</primaryContactId>
+    <contactId>showgy.maayeh</contactId>
+    <link>
+      <text/>
+      <url/>
+    </link>
+    <pubmedId>29228011</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">H. sapiens</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+<!-- move to bld-38
+  <datasetPresenter name="hsapREF_quantitativeMassSpec_Extracellular_vesicle_infected_3D7_RSRC"
+                    projectName="HostDB">
+    <displayName><![CDATA[Extracellular vesicle proteomics of human cells infected with P falciparum wild type and PfEMP knockout]]></displayName>
+    <shortDisplayName>Hsap EVPfal Prot</shortDisplayName>
+    <shortAttribution>Sampaio NG et al.</shortAttribution>
+    <summary><![CDATA[ 
+	Extracellular vesicle proteomics of human cells infected with <i>P falciparum</i> wild type and PfEMP knockout
+    ]]></summary>
+    <description><![CDATA[ 
+	Extracellular vesicle proteomics of human cells infected with <i>P falciparum</i> wild type and PfEMP knockout
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="37"></history>
+    <primaryContactId>emily.eriksson</primaryContactId>
+    <contactId>natalia.sampaio</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>29349926</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.QuantitativeProteomicsNonRatio">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">false</prop>
+      <prop name="isEuPathDBSite">false</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphColors">#144BE5</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphXAxisSamplesDescription">P. falciparum WT and PfEMP knockout; three replicates each</prop>
+      <prop name="profileSetNameMap"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin"></prop>
+      <prop name="graphForceXLabelsHorizontal">TRUE</prop>
+      <prop name="optionalQuestionDescription"><![CDATA[ 
+	]]></prop>
+      <prop name="graphPriorityOrderGrouping">1100</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="isLogged">1</prop>
+    </templateInjector>
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="mmul17573_primary_genome_RSRC"
+                    projectName="HostDB">
+    <displayName>Genome Sequence and Annotation</displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome Sequence and Annotation]]></summary>
+    <description><![CDATA[
+                The genome sequence and annotation for <i>Macaca mulatta</i> - Rhesus macaque
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="34" 
+            genomeSource="NorgrenLab" genomeVersion="v7" 
+            annotationSource="NorgrenLab" annotationVersion="v7.8.5"/>
+    <primaryContactId>robert.norgren</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>25319552</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">false</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="hsapREF_primary_genome_RSRC"
+                    projectName="HostDB">
+    <displayName>Genome Sequence and Annotation</displayName>
+    <shortDisplayName>Human Genome</shortDisplayName>
+    <summary>The genome sequence and annotation for the human genome GRCh38</summary>
+    <description>The human genome was sequenced using a combination of Sanger, hierarchical shotgun and whole genome shotgun sequencing 
+    methods and assembled with the aide of tiled BAC clones.</description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="18" 
+            genomeSource="UCSC" genomeVersion="hg19" 
+            annotationSource="GENCODE" annotationVersion="13"/>
+    <history buildNumber="29" 
+            genomeSource="GENCODE" genomeVersion="GRCh38" 
+            annotationSource="GENCODE" annotationVersion="24">data source changed, sequence-changed, re-annotated, mitochondrial genome and annotation added</history>
+    <primaryContactId>gencode</primaryContactId>
+    <link>
+      <text>This directory contains the Dec. 2013 assembly of Homo sapiens high coverage
+            assembly GRCh38 from Genome Reference Consortium (GCA_000001405.22).
+			</text>
+      <url>ftp://ftp.sanger.ac.uk/pub/gencode//Gencode_human/release_24/</url>
+    </link>  
+    <link>
+      <text>Statistics for Human GENCODE Release (version 24)</text>
+      <url>http://www.gencodegenes.org/archive_stats.html#a24</url>
+    </link>  
+    <link>
+      <text>The Genome Reference Consortium</text>
+      <url>http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/human/</url>
+    </link> 
+    <pubmedId>11237011</pubmedId>
+    <pubmedId>11181995</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenomeWithNonNuclear">
+       <prop name="isEuPathDBSite">false</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+
+  <datasetPresenter name="mmusC57BL6J_primary_genome_RSRC"
+                    projectName="HostDB">
+    <displayName>Genome Sequence and Annotation</displayName>
+    <shortDisplayName>Mouse Genome</shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Mus musculus</i> C57BL/6J]]></summary>
+    <description><![CDATA[Genome sequence and annotation for <i>Mus musculus</i> C57BL/6J]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="Ensembl" genomeVersion="GRCm38" 
+            annotationSource="Ensembl" annotationVersion="GRCm38"/>
+    <history buildNumber="29" 
+            genomeSource="GENCODE" genomeVersion="GRCm38" 
+            annotationSource="GENCODE" annotationVersion="M9">data source changed, sequence-changed, re-annotated, mitochondrial genome and annotation added</history>
+    <primaryContactId>gencode</primaryContactId>
+    <link>
+      <text>This directory contains the Jan. 2012 assembly of Mus musculus assembly GRCm38 
+            from Genome Reference Consortium (GCA_000001635.7). It is based on Mus musculus strain C57BL/6J. 
+			</text>
+      <url>ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_mouse/release_M9/</url>
+    </link>  
+    <link>
+      <text>The Genome Reference Consortium</text>
+      <url>http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/index.shtml</url>
+    </link> 
+    <pubmedId>12466850</pubmedId>
+    <pubmedId>19468303 </pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenomeWithNonNuclear">
+       <prop name="isEuPathDBSite">false</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+
+<!--
+  <datasetPresenter name="hsapREF_Gregory_ME49_mRNA_rnaSeq_RSRC"
+                    projectName="HostDB">
+    <displayName>Tachyzoite Post Infection Time Series</displayName>
+    <shortDisplayName>Time Series</shortDisplayName>
+    <summary></summary>
+    <description></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="18"></history>
+    <primaryContactId>TODO</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+       <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+       <prop name="graphForceXLabelsHorizontal"></prop>
+       <prop name="graphBottomMarginSize">0</prop>
+       <prop name="hasFishersExactTestData">false</prop>
+       <prop name="isEuPathDBSite">false</prop>
+       <prop name="graphType">bar</prop>
+       <prop name="graphColor">blue</prop>
+       <prop name="showIntronJunctions">true</prop>
+       <prop name="includeInUnifiedJunctions">true</prop>
+       <prop name="isAlignedToAnnotatedGenome">true</prop>
+       <prop name="hasMultipleSamples">true</prop>
+       <prop name="graphXAxisSamplesDescription"><![CDATA[Time point in hours]]></prop>
+       <prop name="graphPriorityOrderGrouping">780</prop>
+       <prop name="optionalQuestionDescription"></prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+     </templateInjector>
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="mmusC57BL6J_Saeij_Jeroen_strains_rnaSeq_RSRC"
+                    projectName="HostDB">
+      <displayName><![CDATA[Mouse transcriptome during infection with 29 strains of T. gondii]]></displayName>
+      <shortDisplayName>mouse infected w/ 29 Tg strains</shortDisplayName>
+      <shortAttribution>Minot et al.</shortAttribution>
+      <summary><![CDATA[ 
+                Comparative transcriptome analysis of 29 different strains of <i>Toxoplasma gondii</i> 
+                and the murine macrophages infected with them (HostDB).
+             ]]></summary>
+      <description><![CDATA[ 
+      
+      The transcriptomes of primary murine macrophages (M. musculus C57BL6J) during infection with <i>Toxoplasma gondii</i>
+      (ToxoDB) were determined by Illumina RNA sequencing. Primary bone marrow-derived macrophages from 
+      C57BL/6 mice were infected with 29 different T. gondii strains. Polyadenylated RNA was isolated 
+      20-22 hours post-infection and sequenced using the Illumina Hi-Seq 2000.
+              ]]></description>
+      <protocol></protocol>
+      <caveat></caveat>
+      <acknowledgement></acknowledgement>
+      <releasePolicy></releasePolicy>
+      <history buildNumber="19"></history>
+      <primaryContactId>jeroen.saeij</primaryContactId>
+      <link>
+        <text>Biological Resource Centre (BRC) list of strains</text>
+        <url>http://www.toxocrb.com/catalogues/catalogue-of-strains-from-human-origin/</url>
+      </link>
+      <pubmedId>22847430</pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+       <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+       <prop name="graphForceXLabelsHorizontal"></prop>
+       <prop name="hasFishersExactTestData">true</prop>
+       <prop name="isEuPathDBSite">false</prop>
+       <prop name="graphType">line</prop>
+       <prop name="graphColor">blue</prop>
+       <prop name="graphBottomMarginSize">12</prop>
+       <prop name="graphSampleLabels"></prop>
+       <prop name="showIntronJunctions">true</prop>
+       <prop name="includeInUnifiedJunctions">true</prop>
+       <prop name="isAlignedToAnnotatedGenome">true</prop>
+       <prop name="hasMultipleSamples">true</prop>
+       <prop name="graphXAxisSamplesDescription">29 different strains of T. gondii</prop>
+       <prop name="graphPriorityOrderGrouping">590</prop>
+      <prop name="optionalQuestionDescription"><![CDATA[ 
+      <a href="http://toxodb.org/toxo/showQuestion.do?questionFullName=InternalGeneDatasetQuestions.GenesByRNASeqEvidence">Find <i>Toxoplasma gondii</i> genes on ToxoDB.org </a>
+      ]]></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">true</prop>
+      <prop name="profileTimeShift">0</prop>
+     </templateInjector>
+    </datasetPresenter> 
+
+  <!-- loaded for bld-31. no time for QA, changes made by Jane did not correct the differences seen between TriTrypDB Lmex and the published data - commented out in both TriTrypDB and host for bld 32  -->
+  <datasetPresenter name="mmusC57BL6J_macrophage_Lmexicana_rnaSeq_RSRC"
+                    projectName="HostDB">
+      <displayName><![CDATA[Transcriptomes of mouse macrophages infected with Leishmania mexicana]]></displayName>
+      <shortDisplayName>Mmus infected w/ Lmex RNASeq</shortDisplayName>
+      <shortAttribution>Fiebig et al.</shortAttribution>
+      <summary><![CDATA[ 
+          Transcriptomes of uninfected <i>Mus musculus</i> bone marrow macrophages (BMDM) and 24h post-infection 
+          with <i>Leishmania mexicana</i>. 
+
+
+             ]]></summary>
+      <description><![CDATA[ 
+        Transcriptomes of mouse macrophages (BMDM) infected with <i>Leishmania mexicana</i><br>
+        <i>Mus musculus</i> bone marrow derived macrophage were infected with promastigotes and harvested 24h later along with 
+        uninfected control cultures.  Three biological replicates were collected for each sample. Total RNA was extracted, 
+        enriched for polyA mRNA and sequenced using Illumina technology.<br><br>
+        
+      !!! Reads mapping to the <i>Leishmania mexicana</i> genome were also analyzed and are available in TriTrypDB under the data 
+      set name 'Promastigote, Axenic Amastigote and Intracellular Amastigote Transcriptomes'. <br><br>
+         
+
+              ]]></description>
+      <protocol></protocol>
+      <caveat></caveat>
+      <acknowledgement></acknowledgement>
+      <releasePolicy></releasePolicy>
+      <history buildNumber="32"></history>
+      <primaryContactId>eva.gluenz</primaryContactId>
+      <contactId>steven.kelly</contactId>
+      <link>
+        <text>Raw RNA-seq reads mouse infected with Leishmania mexicana amastigotes</text>
+        <url>http://www.ebi.ac.uk/ena/data/view/ERP009870</url>
+      </link>
+      <link>
+        <text>Corresponding L. mexicana data set in TriTrypDB</text>
+        <url>http://tritrypdb.org/tritrypdb/app/record/dataset/DS_10d28f3e4f</url>
+      </link>
+      <pubmedId>26452044</pubmedId>
+      <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+        <prop name="switchStrandsGBrowse">false</prop>
+        <prop name="switchStrandsProfiles">false</prop>
+        <prop name="isEuPathDBSite">false</prop>
+        <prop name="isAlignedToAnnotatedGenome">true</prop>
+        <prop name="isTimeSeries">false</prop>
+        <prop name="showIntronJunctions">true</prop>
+        <prop name="includeInUnifiedJunctions">false</prop>
+        <prop name="hasMultipleSamples">true</prop>
+        <prop name="hasFishersExactTestData">true</prop>
+        <prop name="optionalQuestionDescription"></prop>
+        <prop name="graphType">bar</prop>
+        <prop name="graphColor">brown</prop>
+        <prop name="graphForceXLabelsHorizontal">true</prop>
+        <prop name="graphBottomMarginSize">4</prop>
+        <prop name="graphSampleLabels"></prop>
+        <prop name="graphPriorityOrderGrouping">0</prop>
+        <prop name="graphXAxisSamplesDescription"><![CDATA[Uninfected BMDMs; Leishmania mexicana Infected BMDMs]]></prop>
+        <prop name="isDESeq">true</prop>
+        <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+      </templateInjector> 
+    </datasetPresenter> 
+
+
+  <!-- loaded for bld-31. no time for QA and contacting providers... will release in bld-34 -->
+    <datasetPresenter name="hsapREF_Li_Transcriptome_Remodeling_rnaSeq_RSRC"
+                    projectName="HostDB">
+   <displayName><![CDATA[H sapiens Transcriptome during Infection with T cruzi]]></displayName>
+    <shortDisplayName><![CDATA[Tcruzi hsapREF infec RSeq]]></shortDisplayName>
+    <shortAttribution>Li et al.</shortAttribution>
+    <summary><![CDATA[
+          Transcriptome of human foreskin fibroblasts during infection (time course) with <i>T. cruzi</i> Y strain.
+         ]]></summary>
+    <description><![CDATA[
+      
+      
+      Transcriptomes of human foreskin fibroblasts (HFF) (ATCC #CRL-2522) infected with <i>Trypanosoma cruzi</i> Y strain 
+      amastigotes at 4, 6, 12, 24, 48 and 72 hrs post-infection (hpi)<br><br>
+      
+      Total RNA was isolated from amastigote-containing human fibroblast (ATCC #CRL-2522) monolayers 
+      at 6 time points spanning 4–72 hpi.  Two to four independent biological replicates were sequenced (Illumina 
+      HiSeq1000) for each condition, generating 2.7 billion high quality reads (101 bp paired-ends) from 35 samples.   
+      <br><br>
+      
+      Samples:<br>
+      uninf 4hpi:  uninfected Hsap 4 hours post-infection<br>
+      uninf 6hpi:  uninfected Hsap 6 hours post-infection<br>
+      uninf 12hpi: uninfected Hsap 12 hours post-infection<br>
+      uninf 24hpi: uninfected Hsap 24 hours post-infection<br>
+      uninf 48hpi: uninfected Hsap 48 hours post-infection<br>
+      uninf 72hpi: uninfected Hsap 72 hours post-infection<br>
+      <br>
+      amas 4hpi:   Hsap 4 hours post-infection (Tcru amastigotes)<br>
+      amas 6hpi:   Hsap 6 hours post-infection (Tcru amastigotes)<br>
+      amas 12hpi:  Hsap 12 hours post-infection (Tcru amastigotes)<br>
+      amas 24hpi:  Hsap 24 hours post-infection (Tcru amastigotes)<br>
+      amas 48hpi:  Hsap 48 hours post-infection (Tcru amastigotes)<br>
+      amas 72hpi:  Hsap 72 hours post-infection (Tcru amastigotes)<br>
+      <br><br>
+      
+      This data set has a corresponding T. cruzi data set in TriTrypDB that is called 
+      "<i>T cruzi</i> Transcriptome during Infection in Human Fibroblasts."<br>
+      
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="34"></history>
+    <primaryContactId>yuan.li</primaryContactId>
+    <pubmedId>27046031</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">false</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">false</prop>
+      <prop name="includeInUnifiedJunctions">false</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription">uninfected and infected time series</prop>
+      <prop name="graphPriorityOrderGrouping">580</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="mmusC57BL6J_Swierzy_Mmus_Infection_with_Tgondii_rnaSeq_RSRC" projectName="HostDB">
+    <displayName><![CDATA[Transcriptomes of 4 M. musculus cell types during infection with T. gondii]]></displayName>
+    <shortDisplayName><![CDATA[M mus infect w/ Tgon RNASeq]]></shortDisplayName>
+    <shortAttribution>Swierzy et al.</shortAttribution>
+    <summary><![CDATA[
+      <i>M. musculus</i> cortical neurons, astrocytes, skeletal muscle cells and fibroblast transcriptomes 
+      during infection with <i>T. gondii</i> strain NTE.
+         ]]></summary>
+    <description><![CDATA[
+      Impact of <i>T. gondii</i> infection on the host transcriptome using high-throughput RNA sequencing. 
+      Murine cortical neurons and astrocytes, skeletal muscle cells (SkMCs) and fibroblasts were infected with <i>Toxoplasma gondii</i> strain NTE and 
+      total RNA was isolated from mixed parasite/host cultures 24 hours post infection. Single end 36 bp reads (SkMCs, astrocytes, 
+      fibroblasts) or single end 50 bp reads (neurons) of the library fragments were recorded.
+      
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="35"></history>
+    <primaryContactId>carsten.lueder</primaryContactId>
+    <contactId>izabela.swierzy</contactId>
+    <pubmedId>28775382</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">false</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">false</prop>
+      <prop name="includeInUnifiedJunctions">false</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription">cell type and infection</prop>
+      <prop name="graphPriorityOrderGrouping">580</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+<!-- <br>Two NHP subjects, RMe14 and RFv13 received blood transfusions, from two different donor monkeys. RMe14 received transfusion from NHP with ID “CG80” and RFv13 received transfusion from NHP with ID “CF97”. These transfusions occurred on day 22 of the experiment. Samples from these NHPs after day 22 may have been affected by transfusions.  No samples were collected from donor CG80.  Blood samples were collected from donor CF97 41 days after the transfusion. No clinical data was generated for the donor sample. -->
+
+  <datasetPresenter name="mmul17573_Galinski_Mmulatta_Infected_with_Pcynomolgi_rnaSeq_RSRC" projectName="HostDB">
+    <displayName><![CDATA[M. mulatta infected with P. cynomolgi over 100 days]]></displayName>
+    <shortDisplayName><![CDATA[Mmul infect Pcyn RNA seq]]></shortDisplayName>
+    <shortAttribution>Joyner et al.</shortAttribution>
+    <summary><![CDATA[
+      Transcriptome of whole blood and bone marrow from <i>Macaca mulatta</i> infected with <i>Plasmodium cynomolgi</i> over 100 days
+         ]]></summary>
+    <description><![CDATA[
+<i>Macaca mulatta</i> infected with <i>Plasmodium cynomolgi</i> B strain to produce and integrate clinical, hematological, parasitological, and omics measures of acute primary infection and relapses.<br><br>
+Summary:<br>Five <i>M. mulatta</i> were inoculated with 2000 <i>P. cynomolgi</i> B strain sporozoites. Parasitological and haematological data were collected daily to study the clinical presentations of primary infections and relapses. Peripheral blood and bone marrow aspirates were collected at specific time points during infection for transcriptomic analysis. <br><br>
+Detailed Description:<br>Malaria-naive male rhesus macaques (<i>Macaca mulatta</i>), approximately three years of age, were inoculated intravenously with salivary gland sporozoites isolated at the Centers for Disease Control and Prevention from multiple Anopheles species (<i>An. dirus</i>, <i>An. gambiae</i>, and <i>An. stephensi</i>) and then profiled for clinical, parasitological, immunological, functional genomic, lipidomic, proteomic, and metabolomic measurements. The experiment was designed for 100 days, and pre- and post-100 day periods to prepare subjects and administer curative treatments respectively. The anti-malarial drug Artemether was subcuratively administered selectively to several subjects during the primary parasitemia to suppress clinical complications and to all animals for curative treatment of blood-stage infections to allow detection of relapses. One subject was euthanized during the 100-day experimental period due to clinical complications. The anti-malarial drugs Primaquine and Chloroquine were administered to all remaining subjects at the end of the study for curative treatment of the liver and blood-stage infections, respectively. Capillary blood samples were collected daily for the measurement of CBCs, reticulocytes, and parasitemias. Capillary blood samples were collected every other day to obtain plasma for metabolomic analysis. Venous blood and bone marrow samples were collected at seven time points for functional genomic, proteomic, lipidomic, and immunological analyses. The experimental design and protocols for this study were approved by the Emory University Institutional Animal Care and Use Committee (IACUC).
+<br><br>
+*Transfusion information here: <a href="http://plasmodb.org/common/downloads/MaHPIC/Experiment_04/E04MalariaClinical/E04M99MEMmCyDaWB_09282016-README_MULTIPL.txt">README</a>
+
+<br><br><img src="/a/images/ParasitemiaDOTS_HOST.jpg" height="468px" width="407px">
+<br><style>#MaHPIC_Host table, #MaHPIC_Host td, #MaHPIC_Host th, #MaHPIC_Host tr {
+ text-align : center; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; border: 1px solid black;} #MaHPIC_Host { margin-left : 5 em; }
+</style> 
+<table id="MaHPIC_Host"> 
+<tr><th><b>Primate ID</b></th> <th><b>Baseline (Pre-infection)</b></th> <th><b>Acute Primary</b></th> <th><b>Post-peak</b></th> <th><b>Inter-relapse</b></th> <th><b>Relapse</b></th> </tr>
+<tr><td>RIc14</td><td>TP1</td><td>TP2</td><td>TP3</td><td>TP5, TP7</td><td>TP4, TP6</td></tr>
+<tr><td>RSb14</td><td>TP1</td><td>TP2</td><td>TP3</td><td>TP5, TP7</td><td>TP4, TP6</td></tr>
+<tr><td>RMe14</td><td>TP1</td><td>TP2</td><td>TP3</td><td>TP4, TP5, TP7</td><td>TP6</td></tr>
+<tr><td>RFa14</td><td>TP1</td><td>TP2</td><td>TP3</td><td>TP4, TP5, TP6</td><td>TP7</td> </tr>
+<tr><td>RFv13</td><td>TP1</td><td>TP2</td><td>TP3</td><td>N/A</td><td>N/A</td></tr>
+</table>
+* Note that while TP4 for Rlc14 is officially classified as a relapsing time point, consumers should be aware that these samples were collected at a time when the distinction between relapse and inter-relapse was subject to clinical interpretation and may be considered as having been collected during relapse resolution.
+
+
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="37"></history>
+    <primaryContactId>mary.r.galinski</primaryContactId>
+    <contactId>jessica.kissinger</contactId>
+    <contactId>jeremy.deBarry</contactId>
+    <contactId>chester.joyner</contactId>
+     <link>
+      <text>MaHPIC E04 Experiment description at PlasmoDB</text>
+      <url>http://plasmodb.org/plasmo/mahpic.jsp</url>
+    </link>
+    <link>
+      <text>Corresponding Plasmodium data at PlasmoDB</text>
+      <url>http://plasmodb.org/plasmo/app/record/dataset/DS_40a06f276b</url>
+    </link>
+    <link>
+      <text>MaHPIC Umbrella NCBI Bioproject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA368917</url>
+    </link>
+    <link>
+      <text>Bone Marrow data at NCBI GEO</text>
+      <url>https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94273</url>
+    </link>
+    <link>
+      <text>Whole Blood data at NCBI GEO</text>
+      <url>https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE99486</url>
+    </link>
+    <pubmedId>27590312</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.custom.HostDB.RNASeqGalinskiMmulatta">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">line</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">false</prop>
+      <prop name="includeInUnifiedJunctions">false</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription">cell type and infection</prop>
+      <prop name="graphPriorityOrderGrouping">580</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+   <datasetPresenter name="hsapREF_Fernandes_LM_LA_Infection_rnaSeq_RSRC"
+                    projectName="HostDB">
+   <displayName>Leishmania major and Leishmania amazonensis RNAseq during human macrophage infection</displayName>
+   <shortDisplayName>L major and L amazonensis infection RNAseq</shortDisplayName>
+    <shortAttribution>Fernandes et al.</shortAttribution>
+    <summary><![CDATA[
+           RNAseq analysis of transcriptomes of human macrophage and parasite during an infection time course. Human macrophages were infected with <I>Leishmania major</I> and <I>Leishmania amazonensis</I>
+       ]]></summary>
+    <description><![CDATA[
+           RNAseq analysis of transcriptomes of human macrophage and parasite during an infection time course. Human macrophages were infected with <I>Leishmania major</I> and <I>Leishmania amazonensis</I> and RNA-seq data was mapped to both parasite and human genomes for analysis.  The <i>L. major</i> transcriptomic data is available in <a href="http://tritrypdb.org/a/app/record/dataset/DS_d18599afa8">TriTrypDB</a> and the host response to infection data is available in HostDB.
+    
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="37"></history>
+    <primaryContactId>najib.m.el.sayed</primaryContactId>
+    <contactId>maria.c.fernandes</contactId>
+<link>
+      <text>Parasite transcroptomics from the same experiment</text>
+      <url>http://tritrypdb.org/a/app/record/dataset/DS_d18599afa8</url>
+    </link>      
+<link>
+      <text>NCBI Bioproject page</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/252769</url>
+    </link>
+    <link>
+      <text>NCBI Bioproject page</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/290995</url>
+    </link>
+    <link>
+      <text>NCBI Bioproject page</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/292915</url>
+    </link>
+    <pubmedId>27165796</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">Blue</prop>
+      <prop name="graphBottomMarginSize">6</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">false</prop>
+      <prop name="includeInUnifiedJunctions">false</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Samples]]></prop>
+      <prop name="graphYAxisDescription"><![CDATA[
+              ]]></prop>
+      <prop name="graphPriorityOrderGrouping">1040</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <!-- for bld-41. NOTE: comment out its internal presenter after uncommenting this one 
+  <datasetPresenter name="hsapREF_Heo_Intestine_Lung_Organoids_rnaSeq_RSRC"
+                    projectName="HostDB">
+    <displayName><![CDATA[Transcriptional response of small intestine and lung organoids to C. parvum infection ]]></displayName>
+    <shortDisplayName>intestine and lung organoids </shortDisplayName>
+    <shortAttribution>Heo et al.</shortAttribution>
+    <summary><![CDATA[
+Transcriptome of <i>H.sapiens</i> small intestine and lung organoids after C.parvum infection
+        ]]> </summary>
+    <description><![CDATA[
+Small intestinal organoids and lung organoids were derived from different 3 independent donors and were microinjected with <i>Cryptosporidium parvum</i> oocysts (Iowa strain, University of Arizona). RNA was collected at 24 and 72 hours post-injection and sequenced on an Illumina NextSeq500 using 75-bp paired-end sequencing. Reads were aligned to the human genome and the <i>C. parvum </i> genome (Iowa strain) by Burrows-Wheeler Aligner.  
+        ]]></description>
+	  <history buildNumber="41"></history>
+    <primaryContactId>hans.cleavers</primaryContactId>
+    <contactId>roberta.oconnor</contactId>
+    <link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA449692/</url>
+    </link>
+    <pubmedId>29946163</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels">TODO</prop>
+      <prop name="graphXAxisSamplesDescription">TODO</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+  --> 
+
+   <datasetPresenter name="hsapREF_Teixeira_virulent_avirulent_rnaSeq_RSRC"
+                    projectName="HostDB">
+   <displayName>HFF transcriptional response to virulent and avirulent T. cruzi</displayName>
+   <shortDisplayName>transc response to Tcru</shortDisplayName>
+    <shortAttribution>Belew et al. 2017</shortAttribution>
+    <summary><![CDATA[
+   Transcriptional response of human foreskin fibroblasts following infection with <i>T. cruzi</i>.
+       ]]></summary>
+    <description><![CDATA[
+Human foreskin fibroblasts (HFF) were infected with one of two cloned strains of <i>Trypanosoma cruzi</i>, CL Brener and CL-14, a virulent and avirulent clone, respectively, in biological triplicate. RNA was extracted from infected HFF at 60 and 96 hours post infection and from uninfected controls using Trizol. The samples were DNAse treated and purified using a Qiagen RNeasy mini kit. Poly(A)+ RNA was selected using oligo-dT following Illumina TruSeqv2 instructions, and cDNA libraries were made using a TruSeq RNA Sample Prep Kit Version II with an average insert size of ~300 nucleotides. Libraries were sequenced on an Illumina HiSeq 1500. There are 3 biological replicates for each infected condition and 4 biological replicates for the mock-infected (uninfected) condition.
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41"></history>
+		<primaryContactId>najib.and.santuza</primaryContactId>
+		<contactId>najib.m.el.sayed</contactId>
+		<contactId>santuza.m.r.teixeira</contactId>    
+    <contactId>barbara.burleigh</contactId>
+    <contactId>ricardo.gazzinelli</contactId>
+    <contactId>sergio.schenkman</contactId>
+
+    <link>
+      <text>NCBI Bioproject page</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA389926</url>
+    </link>
+    <link>
+      <text>NCBI Bioproject page</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA389925</url>
+    </link>
+    <pubmedId>29240831</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">Goldenrod</prop>
+      <prop name="graphBottomMarginSize">6</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">false</prop>
+      <prop name="includeInUnifiedJunctions">false</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[]]></prop>
+      <prop name="graphYAxisDescription"><![CDATA[ ]]></prop>
+      <prop name="graphPriorityOrderGrouping">1040</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+    <datasetPresenter name="hsapREF_massSpec_Wastling_Tgon_Ncan_infection_RSRC"
+          projectName="HostDB"
+          >
+        <displayName><![CDATA[<b>Human Proteome During Infection with 4 strains of T. gondii and one strain of N. caninum</b>]]></displayName>
+      <shortDisplayName></shortDisplayName>
+      <shortAttribution>Wastling</shortAttribution>
+      <summary><![CDATA[
+      <i>H. sapiens</i> peptide sequences from a proteomic analysis of a mixed parasite/host sample
+      collected during <i>T. gondii</i> infections in human foreskin fibroblasts.
+      ]]></summary>
+      <description><![CDATA[
+
+    <u>Proteomic analysis of <i>Homo Sapiens</i> during infection with <i>Toxoplasma gondii</i>.</u><br><br>
+
+    Four different strains of <i>T. gondii</i> tachyzoites were propagated on Vero cells
+    before being used to infect human foreskin fibroblasts (HFFs).
+    Confluent monolayers of HFFs were infected with approximately 10E^7 tachyzoites. Mixed host/parasite cell cultures
+    were collected by scraping during 6 different time course infections:<br><br>
+
+    HFF infected with:<br>
+    1. <i>T. gondii</i> GT1 for 16 hrs: cultures harvested at 0, 2, 4, 8, and 16 hrs.<br>
+    2. <i>T. gondii</i> ME49 for 16 hrs: cultures harvested at 0, 2, 4, 8, and 16 hrs.<br>
+    3. <i>T. gondii</i> ME49 for 44 hrs: cultures harvested at 0, 2, 36, and 44 hrs.<br>
+    4. <i>T. gondii</i> RH for 36 hrs: cultures harvested at 0, 2, 22, and 36 hrs.<br>
+    5. <i>T. gondii</i> VEG for 16 hrs: cultures harvested at 0, 2, 4, 8, and 16 hrs.<br>
+    6. <i>T. gondii</i> VEG for 44 hrs: cultures harvested at 0, 2, 36, and 44 hrs.<br><br>
+    7. <i>N. caninum</i> LIV 36 hr time course: cultures harvested at 0, 2, and 36 hrs.<br><br>
+    Protein preparations from infected cultures (human and parasite mixed) were trypsin digested, mixed with
+    peptide internal standards and analysed by LC-MS/MS. Resulting spectra were searched (PEAKS Studio 7.0) against
+    a combination of <i>T. gondii</i> ME49 protein sequence database (ToxoDB's "ToxoDB-8.0_TgondiiME49_AnnotatedProteins")
+    and Human protein reference sequence database (UniProt, May 2013). <br>
+
+    This dataset has an equivalent analysis on the parasite proteome (See ToxoDB for details).
+
+
+      ]]></description>
+      <caveat></caveat>
+      <acknowledgement></acknowledgement>
+      <releasePolicy></releasePolicy>
+      <history buildNumber="28"></history> 
+      <primaryContactId>jonathan.m.wastling</primaryContactId>
+<contactId>dong.xia</contactId>
+      <link>
+        <text></text>
+        <url></url>
+      </link>
+      <pubmedId></pubmedId>
+      <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+        <prop name="species">H. sapiens</prop>
+        <prop name="optionalOrganismAbbrev"></prop>
+        <prop name="hasPTMs">false</prop>
+      </templateInjector>
+    </datasetPresenter>
+
+
+  <datasetPresenter name="hsapREF_quantitativeMassSpec_Wastling_tgon_strains_RSRC"
+                    projectName="HostDB">
+    <displayName><![CDATA[Human Quantitative Proteome During an Infection with 4 strains of T. gondii]]></displayName>
+    <shortDisplayName>H.sapiens infected with T.gondii MS</shortDisplayName>
+    <shortAttribution>Wastling</shortAttribution>
+    <summary><![CDATA[ 
+    <i>H. sapiens</i> peptide sequences from a proteomic analysis of mixed parasite/host samples
+    collected during time course infections with <i>T. gondii</i>.
+    ]]></summary>
+    <description><![CDATA[ 
+    <u>Proteomic analysis of <i>Homo Sapiens</i> during infection with <i>Toxoplasma gondii</i>.</u><br><br> 
+    
+    Four different strains of <i>T. gondii</i> tachyzoites were propagated on Vero cells 
+    before being used to infect human foreskin fibroblasts (HFFs). 
+    Confluent monolayers of HFFs were infected with approximately 10E^7 tachyzoites. Mixed host/parasite cell cultures 
+    were collected by scraping during 6 different time course infections:<br><br>
+    
+    HFF infected with:<br>
+    1. <i>T. gondii</i> GT1 16 hr time course: cultures harvested at 0, 2, 4, 8, and 16 hrs.<span style="color:#144BE5">&nbsp&nbsp&nbsp(Blue Line)</span><br>
+    2. <i>T. gondii</i> ME49 16 hr time course: cultures harvested at 0, 2, 4, 8, and 16 hrs.<span style="color:#70598F">&nbsp(Purple Line)</span><br>
+    3. <i>T. gondii</i> ME49 44 hr time course: cultures harvested at 0, 2, 36, and 44 hrs.<span style="color:#5B984D">&nbsp&nbsp&nbsp(Green Line)</span><br>
+    4. <i>T. gondii</i> RH 36 hr time course: cultures harvested at 0, 2, 22, and 36 hrs.<span style="color:#FA9B83"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(Orange Line)</span><br>
+    5. <i>T. gondii</i> VEG 16 hr time course: cultures harvested at 0, 2, 4, 8, and 16 hrs.<span style="color:#EF724E">&nbsp&nbsp(Brunt Sienna Line)</span><br>
+    6. <i>T. gondii</i> VEG 44 hr time course: cultures harvested at 0, 2, 36, and 44 hrs.<span style="color:#E1451A">&nbsp&nbsp&nbsp&nbsp(Red Line)</span><br><br>
+   
+    Protein preparations from infected cultures (human and parasite mixed) were trypsin digested, mixed with 
+    peptide internal standards and analysed by LC-MS/MS. Resulting spectra were searched (Mascot v2.3) against 
+    a combination of <i>T. gondii</i> ME49 protein sequence database (ToxoDB's "ToxoDB-8.0_TgondiiME49_AnnotatedProteins") 
+    and Human protein reference sequence database (UniProt, May 2013). Quantitative analysis was carried out on 
+    Progenesis LC-MS v4.1 (Nonlinear Dynamics, UK).<br><br>
+    
+    This dataset has an equivalent analysis on the parasite proteome (See ToxoDB for details). 
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="20"></history>
+    <primaryContactId>jonathan.m.wastling</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.QuantitativeProteomicsNonRatio">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">false</prop>
+      <prop name="isEuPathDBSite">false</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphColors">#144BE5;#70598F;#5B984D;#FA9B83;#EF724E;#E1451A</prop>
+      <prop name="graphType">line</prop>
+      <prop name="graphXAxisSamplesDescription">Time Point (hours post infection)</prop>
+      <prop name="profileSetNameMap"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin"></prop>
+      <prop name="graphForceXLabelsHorizontal">TRUE</prop>
+      <prop name="optionalQuestionDescription"><![CDATA[ 
+      <a href="http://toxodb.org/toxo/showQuestion.do?questionFullName=InternalGeneDatasetQuestions.GenesByQuantitativeProteomics">Find <i>Toxoplasma gondii</i> genes on ToxoDB.org </a>
+      ]]></prop>
+      <prop name="graphPriorityOrderGrouping">1000</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="isLogged">1</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="hsapREF_massSpec_Lasonder_Schizont_Phosphoproteome_RSRC"
+                    projectName="HostDB">
+    <displayName><![CDATA[Human Erythrocyte Phosphoproteome during infection with P. fal 3D7 schizonts (2012)]]></displayName>
+    <shortDisplayName>H.sapiens Schizont PhosProt (2012)</shortDisplayName>
+    <shortAttribution>Lasonder et al.</shortAttribution>
+    <summary><![CDATA[Phosphoproteomic analysis of <i>H. sapiens</i> erythocytes harvested 
+    during the schizont stage of a <i>P. falciparum</i> 3D7 infection.]]></summary>
+    <description><![CDATA[
+    
+    
+    <u><i>H. sapiens</i> phosphoproteome during infection with <i>P. falciparum</i> 3D7 schizonts</u><br>
+    <i>H. sapiens</i> erythrocytes infected with <i>P. falciparum</i> 3D7 parasites were harvested 
+    when >90% of parasites were at the multinucleated schizont stage. Protein samples 
+    were prepared using two methods: Gel-electrophoresis 
+    and Gel-Free Filter Assisted Sample Preparation (FASP). Samples were analyzed by LC-MS/MS. 
+    Peptides were identified by searching the mass spectrometry data with Mascot against a 
+    combined database of P. falciparum and human proteins and were validated with the target−decoy 
+    methods of the MaxQuant software and peptides were discovered using Mascot and MaxQuant.  <br><br>
+    
+    The corresponding <i>P. falciparum</i> 3D7 schizont stage phosphoproteome can be accessed on PlasmoDB.<br><br>
+    
+    <img src="/a/images/Lasonder_schizont_protocol_host.jpg"  height="350px" width="550px" 
+    alt="Overview of phosphoproteomic experimental procedures.">
+
+        ]]></description>
+
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+   <primaryContactId>edwin.lasonder</primaryContactId>
+   <pubmedId>23025827</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">H. sapiens</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">true</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="btauHereford_Widmer_intracellularStages_rnaSeq_RSRC"
+                    projectName="HostDB">
+    <displayName><![CDATA[Host cell transcriptome in bovine cells infected with Cryptosporidium parvum]]></displayName>
+    <shortDisplayName>intracellular stages</shortDisplayName>
+    <shortAttribution>Widmer et al.</shortAttribution>
+    <summary><![CDATA[
+Transcriptome of MDBK cells during <i>C. parvum</i> intracellular infection. 
+Reads were mapped to the <i>Bos taurus</i>, breed Hereford reference genome.
+        ]]> </summary>
+    <description><![CDATA[
+To better understand parasite-host interactions, the transcriptome of cultured MDBK cells infected 
+with <i>Cryptosporidium parvum</i> was analyzed. Four to five replicate samples of MDBK cells were 
+sequenced 2h, 24h, and 48h post-infection. The 2-h and 24-h samples were infected with C. parvum 
+isolate MD, whereas the 48-h samples were infected with C. parvum isolate TU114. Uninfected cells 
+were also sequenced. <i>C. parvum</i> transcriptome data can be accessed through the corresponding
+<a target="_blank" href="http://cryptodb.org/cryptodb/app/record/dataset/DS_f86ff234a4">CryptoDB dataset page</a>.
+        ]]></description>
+	  <history buildNumber="42"></history>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>lucas.matos</contactId>
+    <contactId>katia.bresciani</contactId>
+    <contactId>john.mcevoy</contactId>
+    <link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJEB28876/</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <!-- for bld-43 Note: delete its internal presenter when you uncomment this one
+  <datasetPresenter name="btauHereford_Horcajo_Infection_with_Ncan_rnaSeq_RSRC"
+                    projectName="HostDB">
+    <displayName><![CDATA[Transcriptome of Bos taurus during infection with virulent and avirulent N. caninum strains]]></displayName>
+    <shortDisplayName>Btau infect w/Ncan RNASeq</shortDisplayName>
+    <shortAttribution>Horcajo et al.</shortAttribution>
+    <summary><![CDATA[
+Transcriptomic analysis of <i>Bos taurus</i> during infection with two different isolates of <i>Neospora caninum</i>, the highly virulent isolate Nc-Spain7 and the comparatively avirulent isolate Nc-Spain1H. This data was also aligned to the <i>N. caninum</i> genome and the parasite data is available in ToxoDB.  
+        ]]> </summary>
+    <description><![CDATA[ 
+The bovine trophoblast cell line F3 was infected with either highly virulent isolate <i>Neospora caninum</i>-Spain7 and the comparatively avirulent isolate <i>Neospora caninum</i>-Spain1H. Non-infected control flasks were also prepared. Infected and non-infected cells were washed 4 h p.i. to remove non-adhered/non-invading tachyzoites. At 8 h p.i., when parasites had invaded, but had not commenced multiplication, samples were collected and analyzed by Illumina RNA sequence.<br><br>
+
+This data was also aligned to the <i>N. caninum</i> genome and the parasite data is available in ToxoDB.  
+        ]]></description>
+	  <history buildNumber="43"></history>
+    <primaryContactId>l.m.ortega-mora</primaryContactId>
+    <contactId>pilar.horcajo</contactId>
+    <link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA514022</url>
+    </link>
+    <pubmedId>28899691</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+  --> 
+
+  <!-- for bld-43 Note: delete its internal presenter when you uncomment this one
+  <datasetPresenter name="mmusC57BL6J_He_WT_gra18_infection_rnaSeq_RSRC"
+                    projectName="HostDB">
+    <displayName><![CDATA[Transcriptome of mouse bone marrow derived macrophages infected by Wild-Type and gra18 mutant strains of T. gondii]]></displayName>
+    <shortDisplayName>WT and gra18 KO infection</shortDisplayName>
+    <shortAttribution>He et al.</shortAttribution>
+    <summary><![CDATA[
+Transcriptome of mouse bone marrow derived macrophages infected by Wild-Type and gra18 mutant strains of <i>T. gondii</i>
+        ]]> </summary>
+    <description><![CDATA[ 
+RNA profiles were generated from BMDMs (BALB/c mice) that were left uninfected or infected with the Pru ku80, Pru ku80 Δgra18, and Pru ku80 Δgra18, GRA18+++ strains (MOI = 6) for 18 hours and subsequently subjected or not to LPS stimulation for 4 hours
+        ]]></description>
+	  <history buildNumber="43"></history>
+    <primaryContactId>alexandre.bougdour</primaryContactId>
+    <contactId>mohamed-ali.hakimi</contactId>
+    <link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA400199</url>
+    </link>
+    <pubmedId>30320549</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter> 
+  -->
+
+ <internalDataset name="hsapREF_ucscId_NAFeature_aliases_RSRC"/>
+ <internalDataset name="hsapREF_havanaGeneId_NAFeature_aliases_RSRC"/>
+ <internalDataset name="hsapREF_havanaTranscriptId_NAFeature_aliases_RSRC"/>
+
+<!-- TODO in bld 29 -->
+  <internalDataset name="mmusC57BL6J_ucscId_NAFeature_aliases_RSRC"/>
+  <internalDataset name="mmusC57BL6J_dbxref_simple_transcript2Genbank_RSRC"/>
+  <internalDataset name="mmusC57BL6J_supercontig_gencode_RSRC"/>
+  <internalDataset name="mmusC57BL6J_dbxref_transcript2PDB_RSRC"/>
+  <internalDataset name="mmusC57BL6J_havanaGeneId_NAFeature_aliases_RSRC"/>
+  <internalDataset name="hsapREF_dbxref_transcript2PDB_RSRC"/>
+  <internalDataset name="hsapREF_dbxref_simple_hg38TOhg19_RSRC"/>
+  <internalDataset name="hsapREF_supercontig_gencode_RSRC"/>
+  <internalDataset name="mmul17573_genome_NorgrenLab_RSRC"/>
+  <internalDataset name="mmul17573_parasitemia_levels_Galinski_infected_Mmulatta_parasitemia_RSRC"/>
+<!-- for bld 41 -->
+<internalDataset name="hsapREF_Heo_Intestine_Lung_Organoids_rnaSeq_RSRC"/>
+<internalDataset name="btauHereford_Horcajo_Infection_with_Ncan_rnaSeq_RSRC"/>
+<internalDataset name="mmusC57BL6J_He_WT_gra18_infection_rnaSeq_RSRC"/>
+
+</datasetPresenters>

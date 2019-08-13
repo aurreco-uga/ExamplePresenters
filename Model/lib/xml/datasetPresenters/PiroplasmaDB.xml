@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+<!-- 
+  <datasetPresenter name=""
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+           ]]></summary>
+    <description><![CDATA[
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19"></history>
+    <primaryContactId>TODO</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+  </datasetPresenter>
+ -->
+
+<!-- bld 43, when uncomment it please delete the internal dataset
+  <datasetPresenter name="tparMuguga_quantitativeMassSpec_Nyagwange_Sporozoite_Quant_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Theileria parva sporozoite proteome]]></displayName>
+    <shortDisplayName>TparMuguga Sporozoite Prot</shortDisplayName>
+    <shortAttribution>Nyagwange et al.</shortAttribution>
+    <summary><![CDATA[
+	<i>T. parva</i> Mugugua sporozoite proteome determined by MudPIT LC-MS/MS analysis
+       ]]> </summary>
+    <description><![CDATA[ 
+	<i>T. parva</i> sporozoite proteome determined by MudPIT LC-MS/MS analysis<br><br>
+Sporozoites<br>
+300 adult ticks infected with <i>T. parva</i> Muguga isolate (mean infection rate of 167 acini per tick) were allowed to feed on rabbits to induce sporozoite maturation. After 4 days, the tick salivary glands were dissected from the ticks. Sporozoites were purified from tick salivary glands.<br><br>
+
+Proteomics<br>
+Sporozoite rich pellet was suspended in SDS-PAGE sample buffer, heated and analyzed by Mud-PIT, LC-MS/MS analysis. Raw MS/MS data files were analysed with Peaks software (Bioinformatics solutions) using a database containing all Uniprot database entries for R. appendiculatus and the re-annotated proteome of T. parva (a total of 16,969 protein entries with 4084 T. parva and 12,884 R. appendiculatus protein entries, July 2016). A peptide false discovery rate (FDR) of 1.2% was applied and only proteins with unique peptide identification were included in the final sporozoite proteome list.<br><br>
+
+In order to rank the identified proteins by their abundance in the sample, an Exponentially Modified Protein Abundance Index (emPAI) was calculated using Mascot (Matrix Science) (Ishihama et al., 2005). EmPAI is the exponential form of protein abundance index (PAI) minus 1 (emPAI = 10PAI − 1) and is proportional to protein content in a protein mixture (Ishihama et al., 2005). PAI is calculated by dividing the number of observed peptides by the number of observable peptides per protein.
+
+	]]></description>
+    <history buildNumber="43"></history>
+    <primaryContactId>vishvanath.nene</primaryContactId>
+    <contactId>james.nyagwange</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>29258832</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.QuantitativeProteomicsDirectComparison">
+      <prop name="hasPercentileData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphColors">#FFA07A</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="channelOnePctSampleMap"></prop>
+      <prop name="channelTwoPctSampleMap"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin"></prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">880</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="isLogged">1</prop>
+      <prop name="profileSetNameMap"></prop>
+    </templateInjector>
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="bdiv1802A_primary_genome_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+	Genome sequence and annotation for <i>Babesia divergens</i> strain 1802A
+            ]]></summary>
+    <description><![CDATA[
+	The <I>Babesia divergens</I> 1802A strain was isolated in May 1988 from a cow in the Le Cher department of France with acute babesiosis divergens. Sequencing was performed using the 
+454 Titanium platform combining reads from a genomic fragment paired-end library with 3 and 8 kb mate-pair libraries and assembled using Newbler v2.6. Sequencing errors were corrected 
+using additional SOLiD v3 reads. 
+
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="42"
+            genomeSource="Sanger" genomeVersion="Dec 19, 2013"
+            annotationSource="Sanger" annotationVersion="Dec 19, 2013"/>
+    <primaryContactId>andrew.jackson</primaryContactId>
+    <contactId>al.darby</contactId>
+    <contactId>thomas.otto</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>24799432</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="bmicRI_massSpec_Whole_Blood_Prot_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[B. microti whole blood proteome (GI) ]]></displayName>
+    <shortDisplayName>BmicGI blood Prot</shortDisplayName>
+    <shortAttribution>Magni et al.</shortAttribution>
+    <summary><![CDATA[Proteome of blood (hamster) stage <i>Babesia microti</i> GI parasites purified with hydrogen affinity nanoparticle technology. 
+           ]]></summary>
+    <description><![CDATA[
+	Whole blood proteome of <i>Babesia microti</i> GI<br>
+	<i>Babesia microti</i> GI was propagated in Golden Syrian hamsters according to protocols approved by the ATCC Institutional Animal Care and 
+	Use Committee. Blood samples for proteomic studies were collected by peri-orbital route 14 days p.i. and exhibited 30% parasitemia. This 
+	included all parasitized RBCs regardless of intra-erythrocytic stage or number of parasites per cell. <br><br>
+
+	Five separate injections of the <i>B. microti</i>-infected hamster blood sample and the uninfected control were analyzed by MS. Tandem 
+	mass spectra obtained from this analysis were searched against theoretical spectra derived from an annotated database of protein 
+	sequences from <i>B. microti</i> R1 strain (PiroplasmaDB.org) using the SEQUEST algorithm and tryptic cleavage constraints. 
+	Peptide hits were combined within the five technical replicates.<br>
+
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="42"></history>
+    <primaryContactId>robert.molestina</primaryContactId>
+    <contactId>ruben.magni</contactId>
+<contactId>lance.liotta</contactId>
+<contactId>alessandra.luchini</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>30391228</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">B. microti</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="bovaMiyake_primary_genome_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+	Genome sequence and annotation for <i>Babesia ovata</i> strain Miyake
+            ]]></summary>
+    <description><![CDATA[
+	<i>Babesia ovata</i> Miyake strain was sequenced with MinION and PacBio RS II. Reads were assembled with Canu using genome size = 14 m and default settings for the other parameters. Contaminant and redundant sequences were removed and contains were polished using Illumina reads with Pilon with 26 iterations until a plateau was reached. The genome was assembled into 14,453,397 bp in size with 5031 protein-coding sequences (91 contigs and N50 = 2,090,503 bp). Gene models were called using AUGUSTUS version 3.1.0 and supported by RNA sequence (MiSeq RNAseq) data.
+
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="37"
+            genomeSource="GenBank" genomeVersion="Dec 16, 2017"
+            annotationSource="GenBank" annotationVersion="Dec 16, 2017"/>
+    <primaryContactId>junya.yamagishi</primaryContactId>
+    <contactId>hassan.hakimi</contactId>
+    <link>
+      <text>GenBank Assembly page</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_002897235.1/</url>
+    </link>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJDB5725</url>
+    </link>
+    <pubmedId>29078748</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+<!-- undo this data in bld 23, and move it in bld 25, Task #18084
+  <datasetPresenter name="bmicRI_HTS_SNP_GSCID_NGS_SNP_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName><![CDATA[Aligned genomic sequence reads - Isolates]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[SNP calls based on high throughput sequencing of <i>B. microti</i> strains GI, Naushon, ATCC 30222, ATCC PRA-99, Nan_Hs_2011_N11-50, and GreenwichYale_Lab_Strain_1. ]]></summary>
+    <description><![CDATA[HTS SNPs from field isolates:<br> GI, Naushon, ATCC 30222, ATCC PRA-99, Nan_Hs_2011_N11-50, and GreenwichYale_Lab_Strain_1]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+    <primaryContactId>choukri.ben.mamoun</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+    </templateInjector>
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="bbigBOND_primary_genome_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Babesia bigemina</i> BOND
+           ]]></summary>
+    <description><![CDATA[<i>Babesia bigemina</i> BOND genome sequence and annotation.<br>
+                
+        
+         The <i>B. bigemina</i> BOND genome was sequenced using capillary technology to 
+         8X coverage and assembled with Phrap. The genome was manually improved in Gap4. 
+         Protein-coding genome annotation for <i>B. bigemina</i> BOND was generated by taking a 
+         consensus of several <i>ab initio</i> gene prediction programs. Annotation from 
+         <i>B. bovis</i> was used to train Augustus, glimmerHMM and SNAP.<br><br>
+         
+           For more details, please
+         see the associated publication.
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="24"
+            genomeSource="Genbank" genomeVersion="Jun 13, 2014"
+            annotationSource="Genbank" annotationVersion="Jun 13, 2014"/>
+    <history buildNumber="29"
+            genomeSource="Genbank" genomeVersion="Jan 22, 2015"
+            annotationSource="Genbank" annotationVersion="Jan 22, 2015">re-annotated</history>
+    <primaryContactId>matthew.berriman</primaryContactId>
+    <contactId>arnab.pain</contactId>
+<contactId>thomas.otto</contactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJEB5046</url>
+    </link>
+    <pubmedId>24799432</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cfelWinnie_primary_genome_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Cytauxzoon felis</i> Winnie
+            ]]></summary>
+    <description><![CDATA[<i>Cytauxzoon felis</i> Winnie Sequence and Annotation:<br>
+    <p>
+    Genome Sequence and Annotation:<br>
+    <i>Cytauxzoon felis</i> genomic DNA was purified from leuko-reduced cat blood. 
+    The genome was sequenced using a 454 Genome Sequencer FLX with Titanium chemistry 
+    and the standard Roche protocol. The sequence was assembled using Newbler 2.0 with 
+    a minimum overlap requirement of 90% identity over 30 bases. Resulting contigs were 
+    compared to the <i>Felis catus</i> genome and contaminating cat sequences (~2% of 
+    total reads) were removed. <br><br>
+    Please see the associated publication for details of the assembly and annotation.
+    </p>
+    <img src="/a/images/Cytauxzoon_felis_life_cycle.jpg"  height="375px" width="415px" 
+    alt="Life cycle of Cytauxzoon felis">
+    
+    Cytauxzoon_felis_life_cycle.jpg
+                      
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="24"
+            genomeSource="BirdLab" genomeVersion="Jan 20, 2015"
+            annotationSource="BirdLab" annotationVersion="Jan 20, 2015"/>
+    <primaryContactId>david.bird</primaryContactId>
+    <contactId>adam.birkenheuer</contactId>
+    <contactId>jaime.tarigo</contactId>
+    <contactId>elizabeth.h.scholl</contactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA196611</url>
+    </link>
+    <pubmedId>23977000</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="toriShintoku_primary_genome_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Theileria orientalis</i> Shintoku 
+           ]]></summary>
+    <description><![CDATA[<i>Theileria orientalis</i> Shintoku is a tick-borne apicomplexan protozoan parasite 
+    of cattle. The complete genome sequence of <i>T. orientalis</i> was determined by a combination of 
+    whole-genome shotgun and fosmid end sequencing. <br><br>
+    
+    Both ends of 40,704 plasmid inserts and 3,840 fosmid 
+    clones were sequenced with ABI 3730 (Applied Biosystems) and MegaBACE 4500 (GE Healthcare) sequencers. 
+    Contigs were assembled using 111,945 shotgun reads. Gap closing and resequencing of low-quality regions 
+    in the assembled data were performed by shotgun sequencing of fosmid clones that covered the target regions, 
+    nested deletions, construction of short-insert libraries, and primer walking on selected clones and 
+    PCR-amplified DNA fragments. 
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="Genbank" genomeVersion="Sep 6, 2012" 
+            annotationSource="Genbank" annotationVersion="Sep 6, 2012"/>
+    <primaryContactId>chihiro.sugimoto</primaryContactId>
+    <contactId>kyoko.hayashida</contactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJDA49463</url>
+    </link>
+    <pubmedId>22951932</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="tequWA_primary_genome_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Genome Sequence and Annotation
+            ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Theileria equi</i> WA genome sequence and annotation
+           ]]></summary>
+    <description><![CDATA[DNA from <i>Theileria equi</i> WA strain was used to construct a small 
+    and large insert plasmid library as well as a bacterial artificial chromosome library. 
+    A total of 100,835 high quality sequence reads (822 bp average read length, 7X coverage by Sanger methods) 
+    were generated and assembled using the Celera Assembler, resulting in 119 scaffolds consisting 
+    of 495 contigs. A BAC library was end sequenced to generate an additional 3023 reads which 
+    were used to confirm the assembly and for targeted sequencing in the closure phase. 
+    Gaps were closed by a combination of primer walking and transposon based or shotgun 
+    sequencing of medium insert clones, BAC clones or PCR products. 
+           ]]></description>
+    <protocol></protocol>
+    <caveat><![CDATA[The original name assigned to this genome, <i>Babesia equi</i> strain WA is incorrect.  
+    The name is changed to <i>Theileria equi</i> strain WA.
+           ]]></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19" 
+            genomeSource="Genbank" genomeVersion="Dec 11, 2012" 
+            annotationSource="Genbank" annotationVersion="Dec 11, 2012"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Aug 21, 2014" 
+            annotationSource="Genbank" annotationVersion="Aug 21, 2014">re-annotated</history>
+    <primaryContactId>kelly.brayton</primaryContactId>
+    <contactId>lowell.s.kappmeyer</contactId>
+    <link>
+      <text>Celera Assembler</text>
+      <url>http://sourceforge.net/projects/wgs-assembler/</url>
+    </link>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA38023</url>
+    </link>
+    <pubmedId>23137308</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="bbovT2Bo_primary_genome_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Sequence and annotation for <i>Babesia bovis</i> T2Bo]]> </summary>
+    <description><![CDATA[
+        
+<i>Babesia bovis</i> strain T2Bo is a tick-transmitted parasite of cattle.
+</br></br>
+A combined sequencing approach consisting of a clone by clone and whole genome shotgun method (8x coverage) 
+was used to generate the complete genome sequence of <i>B. bovis</i> T2Bo strain. There are four chromosomes 
+in this strain (other <i>B. bovis</i> strains have been found to present only three chromosomes in their 
+haploid genomes). The gap closure phase of this sequencing project has resulted in 13 contigs.
+</br></br>
+This Whole Genome Shotgun project has been deposited at DDBJ/EMBL/GenBank under the project accession 
+<a href="http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=154799573">AAXT00000000</a>.
+</br></br>
+Chromosomes 2 and 3 are complete. Chromosome 4 is in three pieces that could not be assembled definitively, 
+but the chromosome is covered. Chromosome 1 has a large gap full of repetitive sequences, and the small 
+contigs are within the gap. The order and orientation of the pieces of chromosome 1 and chromosome 4 are 
+not known.
+</br></br>
+Additionally, the complete apicoplast genome sequence is available in GenBank under accession <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=nuccore&cmd=search&term=AAXT01000007">AAXT01000007</a>, and the complete mitochondrial genome sequence under GenBank accession <a href="http://www.ncbi.nlm.nih.gov/sites/entrez?term=EU075182&cmd=Search&db=nuccore&QueryKey=213">EU075182</a>.
+</br></br>
+The genome sequencing project is a collaboration between Washington State University, the Agricultural 
+Research Service - Animal Disease Research Unit and The Institute for Genomic Research. The complete 
+and annotated nuclear, apicoplast and mitochondrial genome sequence have been published.
+        
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="10" 
+            genomeSource="Genbank" genomeVersion="Mar 10, 2010" 
+            annotationSource="Genbank" annotationVersion="Mar 10, 2010"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/bioproject/18731]]></url>
+    </link>
+    <pubmedId>9467743</pubmedId>
+    <pubmedId>17953480</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <datasetPresenter name="tannAnkara_primary_genome_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Theileria annulata</i> Ankara]]></summary>
+    <description><![CDATA[
+    
+    Genome sequence and annotation for <i>Theileria annulata</i> Ankara, a tick-borne hemoparasite that gives 
+    rise to lymphoproliferative disease.<br><br>
+    
+    Sequencing:<br> 
+    Piroplasms were isolated from infected blood of Freisian calves.  Genomic DNA was purified and sequenced 
+    at the Sanger Institute to an 8x coverage using a whole genome shotgun approach.<br>
+    
+    Annotation:<br>
+    Annotation was performed using Artemis, genes being identified by manual curation of the output 
+    of the gene finding software that included Genefinder (Phil Green, unpublished work) and PHAT 
+    (Pretty Handy Annotation Tool, trained on a set of 100 manually curated TA genes.<br><br>
+        
+EuPathDB downloaded the <i>T. annulata</i> Ankara sequence (RefSeq) from GenBank. It is a copy of the 
+<i>T. annulata</i> strain Ankara genome sequence submitted to GenBank/EMBL/DDBJ by the Sanger Institute. 
+        
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="10" 
+            genomeSource="Genbank" genomeVersion="May 21, 2010" 
+            annotationSource="Genbank" annotationVersion="May 21, 2010"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Feb 02, 2015" 
+            annotationSource="Genbank" annotationVersion="Feb 02, 2015">re-annotated</history>
+    <primaryContactId>sanger</primaryContactId>
+    <link>
+      <text></text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/genomeprj/16308]]></url>
+    </link>
+    <link>
+      <text>Sanger Theileria annulata page</text>
+      <url><![CDATA[http://www.sanger.ac.uk/resources/downloads/protozoa/theileria-annulata.html]]></url>
+    </link>
+    <pubmedId>15994557</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  <!-- CAN WE REMOVE THIS?  I think this database is dead -->
+  <datasetPresenter name="TannulataAnkara_hssp_dbxref_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName><![CDATA[HSSP Mappings]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary></summary>
+    <description><![CDATA[
+                 
+HSSP is a derived database that merges structural and sequence protein information. Proteins from the 
+Protein Data Bank are correlated with sequence homologues which share the same 3D structures. This 
+database contains sequence aligned families as well as implied secondary and tertiary structures. 
+
+HSSP (homology-derived structures of proteins) is a derived database merging structural (2D and 3D) and 
+sequence information (1D).
+        
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>embl-ebi</primaryContactId>
+    <link>
+      <text></text>
+      <url><![CDATA[http://srs.ebi.ac.uk/srsbin/cgi-bin/wgetz?-page+LibInfo+-lib+HSSP]]></url>
+    </link>
+  </datasetPresenter>
+  
+  <datasetPresenter name="bmicRI_primary_genome_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Babesia microti</i> R1 Sequence and Annotation]]></summary>
+    <description><![CDATA[  
+    
+    Sequence and annotation for <i>Babesia microti</i> R1.<br>
+    Purified <i>Babesia microti</i> R1 DNA was mechanically sheared into 3 and 10 kb 
+    fragments that were subsequently cloned. In addition, a large insert (30 kb) bacterial artificial 
+    chromosome library was constructed. Vector DNAs were purified and end-sequenced using dye-terminator 
+    chemistry on ABI3730 sequencers. A first assembly was performed using Arachne.
+             ]]></description>
+    <usage>Sequence and annotation can be searched based on a variety of parameters such as genomic location, gene ID and BLAST similarity (for a full list of queries see the “Searches using these data” section below). 
+    The sequence and annotation can be viewed in GBrowse along with any functional data that maps to it.  
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="17" 
+            genomeSource="Cornillot" genomeVersion="Jul 18, 2012" 
+            annotationSource="Cornillot" annotationVersion="Jul 18, 2012"/>
+    <history buildNumber="20" 
+            genomeSource="Genbank" genomeVersion="Dec 12, 2012" 
+            annotationSource="Genbank" annotationVersion="Dec 12, 2012">re-annotated</history>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Jul 30, 2016" 
+            annotationSource="Genbank" annotationVersion="Jul 30, 2016">re-annotated</history>
+    <history buildNumber="32" 
+            genomeSource="Genbank" genomeVersion="Feb 09, 2017" 
+            annotationSource="Genbank" annotationVersion="Feb 09, 2017">re-annotated</history>
+    <history buildNumber="36" 
+            genomeSource="Genbank" genomeVersion="Jul 12, 2017" 
+            annotationSource="Genbank" annotationVersion="Jul 12, 2017">re-annotated, apicoplast genome and annotation added, mitochondrion genome switched to a different isoform</history>
+    <primaryContactId>choukri.mamoun</primaryContactId>
+    <contactId>emmanuel.cornillot</contactId>
+    <link>
+      <text>GenBank Assembly page</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000691945.2</url>
+    </link>
+    <link>
+      <text>BioProject home page at GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject?term=PRJEA72411</url>
+    </link>
+    <pubmedId>22833609</pubmedId>
+    <pubmedId>27752055</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenomeWithNonNuclear">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="tparMuguga_primary_genome_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Theileria parva</i> Muguga sequence and annotation]]></summary>
+    <description><![CDATA[
+    Genome sequence and annotation for <i>Theileria parva</i> Muguga.<br>
+    The <i>T. parva</i> Muguga genome was sequenced using a whole genome shotgun approach. A total of 
+    129,000 sequences were obtained from genomic shotgun libraries of the Muguga clone of 
+    T. parva prepared in the pHOS1 (2 kbp inserts, 6 fold coverage) and pHOS2 vectors 
+    (9 kbp inserts, 2.8 fold coverage). <br><br>
+    
+    The sequences were assembled with TIGR Assembler. 
+    Gaps were closed by primer walking on plasmid templates or genomic PCR products that 
+    spanned the gaps, or by transposon insertion and sequencing of the 9 kbp shotgun clones. 
+    About 5,000 end-sequences of a 30 kbp linking library were also generated and used to 
+    confirm the final assembly. Gene models were predicted using the GlimmerM and phat gene 
+    finders that had been trained on two sets of partial or full-length gene sequences.<br><br>
+        
+The reference sequence (RefSeq) genome assembly for <i>T. parva</i> strain Muguga is provided by NCBI 
+and based on sequence, assembly and annotation submitted by The Institute for Genomic Research 
+(<a href="http://www.tigr.org/tdb/e2k1/tpa1/">TIGR</a>) 
+        
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="10" 
+            genomeSource="Genbank" genomeVersion="Mar 10, 2010" 
+            annotationSource="Cornillot" annotationVersion="Mar 10, 2010"/>
+    <primaryContactId>jcvi</primaryContactId>
+    <link>
+      <text></text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/genomeprj/16136]]></url>
+    </link>
+    <pubmedId>15994558</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+   <!--  I emailed Audrey in July 2014, the correct reference is 24195453. swfeltz
+   
+   not sure whose comment this is below?
+   From Audrey's 2011 paper.  But i think this data may be from Whole genome transcriptome array design and statistical analyses:<br>
+    A single 45 bp gene-specific oligonucleotide probe was designed for each 
+    of the 66 putative B. bovis peptidase transcripts.  These were then spotted onto glass 
+    microscope slides according to specification of MYcroarray.com.  Each probe was randomly 
+    placed at five locations on each array. Three arrays per biological replicate were included as 
+    technical replicates.  Since each peptidase gene was represented by five copies of a specific probe 
+    per chip, the transcription of every peptidase gene was individually assessed 45 times in each strain.  
+    Internal chip controls, provided by MYcroarray Inc. were placed along with the specific B. bovis 
+    peptidase oligonucleotide probes and were used to evaluate background intensities for each array-->
+    
+  <datasetPresenter name="bbovT2Bo_microarrayExpression_lau_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName><![CDATA[Transcript Profiling Attenuated vs. Virulent strain]]></displayName>
+    <shortDisplayName>BbT2Bo Atten v Vir Marray</shortDisplayName>
+    
+    <summary><![CDATA[Expression profiling of attenuated and virulent strains of <i>Babesia bovis</i> 
+    using whole genome microarray.]]></summary>
+                        
+    <description><![CDATA[
+    
+    Comparison of the global transcriptomes of a <i>Babesia bovis</i> T2Bo strain pair, 
+    one virulent and one attenuated strain.<br><br>
+    
+    Samples:<br>
+    Biological replicate (BR) sample pairs were prepared for transcriptomic analyses. For the generation of BR samples, 
+    animals were inoculated with 1 x 10^7 parasitized erythrocytes. When clinical symptoms associated with acute babesiosis 
+    were observed and blood smears detected parasitemia, infected blood was collected to establish short-term (<30 days) 
+    culture to obtain sufficient starting material. This ensured the original phenotypes were maintained post cultivation.<br><br>
+    
+    Microarray:<br>
+    RNA from each sample was converted to cRNA, labeled with dye and hybridized to custom arrays 3 x 20 <i>B. bovis</i> (Bb) MYcroarrays. 
+                              ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>audrey.lau</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>24195453</pubmedId>
+<!-- dataset=bbovT2Bo_microarrayExpression_lau_RSRC project=PiroplasmaDB --> 
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayOneChannelRma">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColors">#D87093;darkblue</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Attenuated vs. Virulent]]></prop>
+      <!-- below are optional -->
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin">7</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="linePlotXAxisLabel">Hours</prop>
+      <prop name="graphYAxisDescription"><![CDATA[(exprn_val) left - normalized expression value.<br> (percentile) Ranking percentile of intensity, relative to all other genes.]]></prop>
+      <prop name="graphPriorityOrderGrouping">0</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="tannAnkara_massSpec_dobbelaere_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName><![CDATA[Schizont Proteome (Ankara)
+            ]]></displayName>
+    <shortDisplayName>TaAnkara Schizont Prot</shortDisplayName>
+    <shortAttribution>Witschi et al.</shortAttribution>
+    <summary><![CDATA[ Total schizont proteome of <i>T. annulata</i> Ankara purified from infected macrophage. 
+           ]]></summary>
+    <description><![CDATA[ <i>Theileria annulata</i> Ankara schizonts were purified from infected macrophage 
+    and whole parasite lysates were analyzed by 1DE, LC-MS/MS. Resulting spectra were searched (Mascot) against the <i>T. annulata</i> and 
+    <i>Bos taurus</i> annotated proteins, identifying 645 proteins.
+<br/><br/>
+<b>NOTE</b>: The samples shown represent results from different technical protocols and replicated runs which is different 
+from how the data is grouped in the manuscript. These do not provide additional biological insights to the expressed proteome.
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="19"></history>
+    <primaryContactId>jonathan.m.wastling</primaryContactId>
+    <contactId>dirk.dobbelaere</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>23178997</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+	  <prop name="species">T.annulata</prop>
+      <prop name="optionalOrganismAbbrev">T.a.</prop>
+      <prop name="hasPTMs">false</prop>
+	</templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="tannAnkara_massSpec_wiens_schizont_phosphoproteins_RSRC"
+       projectName="PiroplasmaDB">
+    <displayName><![CDATA[Schizont Total and Phosphoproteomes (Ankara)  ]]></displayName>
+    <shortDisplayName>TaAnkara Schiz PhosProt</shortDisplayName>
+    <shortAttribution>Wiens et al.</shortAttribution>
+    <summary><![CDATA[ Total and phosphoproteomes of <i>T. annulata</i> Ankara schizonts that were 
+         purified from the schizont-infected TaC12 cells blocked in S-phase and mitosis. 
+         
+           ]]></summary>
+    <description><![CDATA[ 
+    
+         Label free mass specrometry analysis of protein samples (total and phospho-enriched) 
+         prepared from <i>Theileria annulata</i> Ankara schizonts that were 
+         purified from the schizont-infected TaC12 cells blocked in S-phase and mitosis. <br><br>
+         
+         <u>Samples:</u><br>
+         Schizont phosphoproteome<br>
+         Schizont total proteome<br><br>
+         
+         <u>Comparing PiroplasmaDB dataset to author publication:</u><br>
+         This dataset is parsed at a lower stringency in PiroplasmaDB than was used for the associated PLOS ONE 
+         publication (link below). All proteins with identified peptides were included in the PiroplasmaDB analysis, 
+         whereas proteins with only one identified peptide were removed from the analysis used for the publication. 
+         This results in a greater number of proteins (genes) in the dataset as it appears in PiroplasmaDB. <br><br> 
+         
+         <u>Increasing stringency on PiroplasmaDB search:</u><br>
+         The search parameter "Minimum Number of Unique Peptide Sequences" can effectively remove genes that have only a 
+         single aligned peptide.  Setting the parameter value to 2 or greater will return genes with 2 or more aligned peptides.  
+         This will increase the stringency of the search to the level used in the PLOS ONE publication and increase 
+         the confidence that genes returned by the search are expressed at the protein level. <br><br>
+         
+         <img src="/a/images/images/Tann_phospho_pureProtocol.jpg"/> 
+         
+           ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="27"></history>
+    <primaryContactId>kerry.l.woods</primaryContactId>
+    <contactId>jonathan.m.wastling</contactId>
+    <contactId>olga.wiens</contactId>
+    <contactId>dong.xia</contactId>
+    <link>
+      <text>Proteome Exchange record for this dataset</text>
+      <url>http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000899</url>
+    </link>
+    <pubmedId>25077614</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+          <prop name="species">T.annulata</prop>
+      <prop name="optionalOrganismAbbrev">T.a.</prop>
+      <prop name="hasPTMs">true</prop>
+        </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="bmicRI_HTS_SNP_Genetic_Diversity_HTS_SNP_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName>Aligned Genomic Sequence Reads - 42 global isolates from human, tick and rodent</displayName>
+    <shortAttribution>Lemieux et al.</shortAttribution>
+    <summary><![CDATA[
+      Whole genome re-sequencing of <i>B. microti</i> isolates from human, rodent and tick.  Data were used to 
+      determine SNPs against the <i>B. microti</i> RI reference. 
+    ]]></summary>
+    <description><![CDATA[
+        The complete genomes of 42 <i>Babesia microti</i> isolates, including 32 human cases, two samples from 
+        ticks and four from rodents were sequenced. Geographic location of sample origins include Northeastern 
+        USA, Midwestern USA, Alaska, Russia and Japan. The 6.4 Mb genome was sequenced to a mean depth of 153-fold 
+        on Illumina HiSeq instruments using a paired-end protocol. The data were used to calculate SNPs against 
+        the <i>B microti</i> reference genome.<br><br>
+        
+        Data were used to determine single nucleotide polymorphisms against the <i>B. microti</i> RI reference. 
+
+    ]]></description>
+    <history buildNumber="33"></history>
+    <primaryContactId>pardis.sabeti</primaryContactId>
+    <contactId>eric.rosenberg</contactId>
+    <contactId>sam.telford</contactId>
+    <contactId>jeffrey.bailey</contactId>
+    <link>
+      <text>Data location: NCBI Bioproject home page</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/317812</url>
+    </link>
+    <pubmedId>27572973</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">true</prop>
+    </templateInjector>
+  </datasetPresenter> 
+
+ <datasetPresenter name="tparMuguga_DaSilva_rnaSeq_RSRC"
+                    projectName="PiroplasmaDB">
+    <displayName>Schizont transcriptome for Theileria parvum </displayName>
+    <shortDisplayName>TparMuguga Schizont RNASeq</shortDisplayName>
+    <shortAttribution>DaSilva</shortAttribution>
+    <summary><![CDATA[Transciptome of <i>Theileria parva</i> Muguga schizont stage determined by strand-specific paired end Illumina sequencing.]]></summary>
+    <description><![CDATA[Transciptome of <i>Theileria parva</i> Muguga schizont stage determined by strand-specific paired end Illumina sequencing.]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="42"></history>
+    <primaryContactId>joana.da.silva</primaryContactId>
+    <link>
+      <text>NCBI SRA data location</text>
+      <url>https://www.ncbi.nlm.nih.gov/sra/SRX1482736</url>
+    </link>
+    <pubmedId></pubmedId>
+     <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+       <prop name="switchStrandsGBrowse">false</prop>
+       <prop name="switchStrandsProfiles">false</prop>
+       <prop name="graphForceXLabelsHorizontal"></prop>
+       <prop name="graphBottomMarginSize">0</prop>
+       <prop name="graphSampleLabels"></prop>
+       <prop name="hasFishersExactTestData">false</prop>
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="graphType">bar</prop>
+       <prop name="graphColor">blue</prop>
+       <prop name="showIntronJunctions">true</prop>
+       <prop name="includeInUnifiedJunctions">true</prop>
+       <prop name="isAlignedToAnnotatedGenome">true</prop>
+       <prop name="hasMultipleSamples">false</prop>
+       <prop name="graphXAxisSamplesDescription"><![CDATA[schizont]]></prop>
+       <prop name="graphPriorityOrderGrouping">780</prop>
+       <prop name="optionalQuestionDescription"></prop>
+       <prop name="isDESeq">false</prop>
+       <prop name="isDEGseq">false</prop>
+       <prop name="includeProfileSimilarity">false</prop>
+       <prop name="profileTimeShift"></prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+  <!-- 
+  <datasetPresenter name="bmicRI_HTS_SNP_WhitePaper_HTS_SNP_RSRC"
+                    projectName="PiroplasmaDB"
+                    >
+    <displayName>Aligned genomic sequence reads - strains ATCC 30222, ATCC PRA-99, GI, GreenwichYale_Lab_Strain, Nan_Hs_2011_N11-50 and Naushon</displayName>
+<shortAttribution>Silva et al.</shortAttribution>
+    <summary><![CDATA[High throughput next generation sequencing SNP calls for strains ATCC 30222, ATCC PRA-99, GI, GreenwichYale_Lab_Strain, Nan_Hs_2011_N11-50 and Naushon aligned to the <i>B. microti</i> strain RI]]></summary>
+    <description><![CDATA[High-throughput, whole genome sequencing of seven <i>B. microti</i> isolates
+
+
+High throughput sequencing data from strain ATCC 30222, ATCC PRA-99, GI, GreenwichYale_Lab_Strain, Nan_Hs_2011_N11-50 and Naushon
+    were analyzed for single nucleotide polymorphisms
+    using <i>B. microt</i> strain RI as a reference genome.]]></description>
+    <history buildNumber="30"></history>
+    <primaryContactId>choukri.mamoun</primaryContactId>
+<contactId>joana.da.silva</contactId>
+<contactId>emmanuel.cornillot</contactId>
+    <link>
+      <text>Whole Genome Sequencing of Babesia microti</text>
+      <url>https://www.ncbi.nlm.nih.gov/assembly/organism/5868/latest/</url>
+    </link>
+<pubmedId>27752055</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">true</prop>
+    </templateInjector>
+  </datasetPresenter> 
+  -->
+
+
+<!-- INTERNAL -->
+<!-- moved to global
+-->
+
+
+<!-- No Match in DataSource
+<internalDataset name="bmicRI_genome_Cornillot_RSRC"/> -->
+
+<internalDataset name="bmicRI_mitochondrial_chromosome_Cornillot_RSRC"/>
+<internalDataset name="bmicRI_HTS_SNP_WhitePaper_HTS_SNP_RSRC"/>
+<!-- bld 32 -->
+<internalDataset name="bmicRI_PreviousTranscriptIDs_NAFeature_aliases_RSRC"/>
+
+<!-- bld 43 -->
+<internalDataset name="tparMuguga_quantitativeMassSpec_Nyagwange_Sporozoite_Quant_RSRC"/>
+
+</datasetPresenters>

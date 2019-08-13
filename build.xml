@@ -1,0 +1,245 @@
+<project name="ApiCommonPresenters" default="Installation" basedir=".">
+
+
+  <!-- in order to turn on parallel processing, need to uncomment this, and then the <foreach> task -->
+  <!--
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+  -->
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  Dependencies  oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <import file="${projectsDir}/ApiCommonWebService/build.xml" />
+  <import file="${projectsDir}/ApiCommonDatasets/build.xml" />
+
+ 
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo    Checkout    oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ApiCommonWebService-Checkout" unless="ApiCommonWebService.present"> 
+    <ant target="defaultProjectCheckout" inheritAll="false"> 
+      <property name="svnurl" value="https://cbilsvn.pmacs.upenn.edu/svn/apidb/ApiCommonWebService" />
+      <property name="project" value="ApiCommonWebService"/>
+      <property name="version" value="??"/>
+    </ant>
+  </target>    
+
+  
+  <target name="ApiCommonPresenters-ChildCheckout">
+    <available file="../ApiCommonWebService" type="dir" property="ApiCommonWebService.present" />
+    <available file="../ApiCommonDatasets" type="dir" property="ApiCommonDatasets.present" />
+    <antcall target="ApiCommonWebService-Checkout" />
+    <antcall target="ApiCommonDatasets-Checkout" />
+  </target>
+  
+    <target name="ApiCommonDatasets-Checkout" unless="ApiCommonDatasets.present"> 
+    <ant target="defaultProjectCheckout" inheritAll="false">
+      <property name="svnurl" value="https://cbilsvn.pmacs.upenn.edu/svn/apidb/ApiCommonDatasets"/>
+      <property name="project" value="ApiCommonDatasets"/>
+      <property name="version" value="api-build-9"/>
+      <property name="excludeChildren" value="true"/>
+    </ant>
+  </target>
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo    Update    oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ApiCommonPresenters-ChildUpdate" >
+    <ant target="defaultProjectUpdate">
+      <property name="project" value="ApiCommonWebService"/>
+    </ant>
+    <ant target="defaultProjectUpdate">
+      <property name="project" value="ApiCommonDatasets"/>
+      <property name="excludeChildren" value="true"/>
+    </ant>
+  </target>
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  Installation  oooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ApiCommonPresenters-Installation" depends="ApiCommonWebService-Installation,
+                                            ApiCommonDatasets/Datasets-Installation,
+  	                                        ApiCommonPresenters-MavenInstallation,
+                                            ApiCommonPresenters/Model-Installation"  >
+
+    <ant target="defaultProjectInstall">
+      <property name="project" value="ApiCommonPresenters"/>
+    </ant>
+  </target>
+	
+	<target name="ApiCommonPresenters-MavenInstallation">
+	  <ant target="mavenBuildProject">
+	      <property name="project" value="ApiCommonPresenters"/>
+	  </ant>
+	  <property name="alreadyBuilt" value="true"/>
+	</target>
+   
+
+  <!-- oooooooooooooooooo  Installation Postprocess  ooooooooooooooooooooo -->
+
+  <target name="ApiCommonPresenters-Installation-postprocess">
+    <echo message="Postprocessing the ApiCommonPresenters installation"/>
+
+    <replace dir="${targetDir}/bin" 
+             propertyFile="${targetDir}/config/replacements.prop" > 
+      <include name="**/*" />
+      <replacefilter token="@perl@" property="perl"/>
+    </replace> 
+
+  </target>
+
+
+  <!-- ooooooooooooooooooooooo  Install Components  ooooooooooooooooooooooo -->
+
+
+  <target name="ApiCommonPresenters/Model-Installation" depends="ProjectTree">
+
+    <echo message="Making Dataset property files"/>
+    <echo message="propertiesFromDatasets ApiCommonDatasets"/>
+    <exec failonerror="true" executable="${targetDir}/bin/propertiesFromDatasets">
+      <arg line="ApiCommonDatasets"/>
+    </exec>
+
+    <echo message="Making JBrowse Directories From prop files"/>
+    <echo message="jbrowseFromDatasets"/>
+    <exec failonerror="true" executable="${targetDir}/bin/jbrowseFromDatasets">
+    </exec>
+
+
+<!-- The following code process the properties files in parallel -->
+<!--
+    <exec failonerror="true" executable="${targetDir}/bin/datasetSchemaCheck">
+      <arg line="ApiCommonDatasets"/>
+    </exec>
+
+    <foreach target="datasetToProp" param="datasetFile" parallel="true" maxThreads="10">
+      <fileset dir="${projectsDir}/ApiCommonDatasets/Datasets/lib/xml/datasets/">
+        <include name="**/*.xml"/>
+        <exclude name="**/*Deprecated*"/>
+      </fileset>
+    </foreach>
+-->
+
+    <echo message="Injecting Templates"/>
+    <echo message="presenterInjectTemplates -presentersDir ${projectsDir}/ApiCommonPresenters/Model/lib/xml/datasetPresenters -templatesDir ${projectsDir}/ApiCommonModel/Model/lib/dst -contactsXmlFile ${projectsDir}/ApiCommonPresenters/Model/lib/xml/datasetPresenters/contacts/contacts.xml -globalPresentersFile ${projectsDir}/ApiCommonModel/Model/lib/xml/datasetPresenters/global.xml"/>
+    <exec failonerror="true" executable="${targetDir}/bin/presenterInjectTemplates">
+      <arg line="-presentersDir ${projectsDir}/ApiCommonPresenters/Model/lib/xml/datasetPresenters -templatesDir ${projectsDir}/ApiCommonModel/Model/lib/dst -contactsXmlFile ${projectsDir}/ApiCommonPresenters/Model/lib/xml/datasetPresenters/contacts/contacts.xml  -globalPresentersFile ${projectsDir}/ApiCommonModel/Model/lib/xml/datasetPresenters/global.xml"/>
+    </exec>
+
+      <java failonerror="true" classname="org.eupathdb.common.model.ontology.OwlClassGenerator">
+        <arg line="-path ${targetDir}/lib/wdk/ontology/ -inputFilename individuals.txt -outputFilename individuals.owl -ontoIRIstr 'http://purl.obolibrary.org/obo/eupath/category/individuals.owl'"/>
+        <classpath>
+          <pathelement location="${targetDir}/lib/java/ebrc-website-common-model-1.0.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/args4j-2.0.23.jar"/>
+          <pathelement location="${targetDir}/lib/java/owlapi-distribution-3.5.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/log4j-1.2.17.jar"/>
+          <pathelement location="${targetDir}/config/"/>
+        </classpath>
+      </java>
+
+
+      <java failonerror="true" classname="org.eupathdb.common.model.ontology.OwlClassGenerator">
+        <arg line="-path ${targetDir}/lib/wdk/ontology/ -inputFilename commonIndividuals.txt -outputFilename commonIndividuals.owl -ontoIRIstr 'http://purl.obolibrary.org/obo/eupath/category/commonIndividuals.owl'"/>
+        <classpath>
+          <pathelement location="${targetDir}/lib/java/ebrc-website-common-model-1.0.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/args4j-2.0.23.jar"/>
+          <pathelement location="${targetDir}/lib/java/owlapi-distribution-3.5.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/log4j-1.2.17.jar"/>
+          <pathelement location="${targetDir}/config/"/>
+        </classpath>
+      </java>
+
+
+      <java failonerror="true" classname="org.eupathdb.common.model.ontology.EuPathAnnotPropAdder">
+        <arg line="-path ${targetDir}/lib/wdk/ontology/ -inputFilename annotation.txt -outputFilename annotation.owl  -ontoIRIstr 'http://purl.obolibrary.org/obo/eupath/category/annotation.owl'"/>
+        <classpath>
+          <pathelement location="${targetDir}/lib/java/ebrc-website-common-model-1.0.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/args4j-2.0.23.jar"/>
+          <pathelement location="${targetDir}/lib/java/owlapi-distribution-3.5.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/log4j-1.2.17.jar"/>
+          <pathelement location="${targetDir}/config/"/>
+        </classpath>
+      </java>
+
+
+      <java failonerror="true" classname="org.eupathdb.common.model.ontology.OntologyMerger">
+        <arg line="-path ${targetDir}/lib/wdk/ontology/ -inputFilename categories_full.owl -outputFilename categories_merged.owl"/>
+        <classpath>
+          <pathelement location="${targetDir}/lib/java/ebrc-website-common-model-1.0.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/args4j-2.0.23.jar"/>
+          <pathelement location="${targetDir}/lib/java/owlapi-distribution-3.5.0.jar"/>
+          <pathelement location="${targetDir}/lib/java/log4j-1.2.17.jar"/>
+          <pathelement location="${targetDir}/config/"/>
+        </classpath>
+      </java>
+
+
+    <!--  Not needed -->
+    <ant target="defaultComponentInstall">
+      <property name="project" value="ApiCommonPresenters"/>
+      <property name="component" value="Model"/>
+    </ant>
+
+
+
+    <!-- call a command to resolve out-dated master files -->
+<!--
+    <exec executable="workflowResolveAll">
+    </exec>
+-->
+
+  </target>  
+
+  <target name="datasetToProp">
+    <exec failonerror="true" executable="${targetDir}/bin/propertyFromDataset">
+      <arg line="${datasetFile}"/>
+    </exec>
+  </target>
+ 
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooo  Web Installation  oooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <target name="ApiCommonPresenters-WebInstallation" depends="ApiCommonWebsite-WebInstallation,
+                                                           ApiCommonWebService-Installation,
+                                                           ApiCommonPresenters/Site-WebInstallation,
+                                                           ApiCommonPresenters-Installation">
+  </target>
+
+  <target name="ApiCommonPresenters/Site-WebInstallation">
+    <ant target="defaultWebComponentInstall">
+      <property name="project" value="ApiCommonPresenters"/>
+      <property name="component" value="Site"/>
+    </ant>
+  </target>
+
+
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  Distributable  ooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ApiCommonPresenters-Distributable" depends="ProjectTree">
+
+    <copy todir="${targetDir}">
+      <fileset dir="${projectsDir}" >
+        <exclude name="**/CVS/*" />
+      </fileset>
+    </copy>  
+  </target>  
+
+
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooo  ProjectTree  ooooooooooooooooooooooooooo -->
+  <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+  <target name="ProjectTree" if="${checkout}">
+    <ant target="projectCheckOut"/>
+  </target>  
+
+</project>
+
+

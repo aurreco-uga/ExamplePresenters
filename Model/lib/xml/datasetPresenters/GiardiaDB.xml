@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+
+<!--
+  <datasetPresenter name=""
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+    ]]></summary>
+    <description><![CDATA[
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId></primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className=""/>
+
+  </datasetPresenter>
+-->
+
+  <datasetPresenter name="gassBGS_massSpec_Secretome_IEC_infection_RSRC" 
+                    projectName="GiardiaDB">
+    <displayName><![CDATA[Giardia secretome IEC infection]]></displayName>
+    <shortDisplayName>Giardia secretome IEC infection</shortDisplayName>
+    <shortAttribution>Maayeh et al.</shortAttribution>
+    <summary><![CDATA[
+         Secretome of <i>Giardia intestinalis</i> isolates WB clone C6 (ATCC30957; assemblage A) and GS, clone H7 (ATCC50581; assemblage B) during interaction with intestinal epithelial cells (IECs)   
+          
+         ]]></summary>
+    <description><![CDATA[
+             Secretome of <i>Giardia intestinalis</i> isolates WB clone C6 (ATCC30957; assemblage A) and GS, clone H7 (ATCC50581; assemblage B) during interaction with intestinal epithelial cells (IECs). To identify putative virulence factors and elucidate mechanistic pathways leading to disease, proteomics was used to identify the major excretory-secretory products (ESPs) when Giardia trophozoites of WB and GS isolates (assemblages A and B, respectively) interact with intestinal epithelial cells (IECs) in vitro at two time points (2hr and 6hr).
+         ]]></description>
+    <history buildNumber="39"></history>
+    <primaryContactId>staffan.svard</primaryContactId>
+    <contactId>showgy.maayeh</contactId>
+    <link>
+      <text/>
+      <url/>
+    </link>
+    <pubmedId>29228011</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. intestinalis</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gassAWB_massSpec_Secretome_IEC_infection_RSRC" 
+                    projectName="GiardiaDB">
+    <displayName><![CDATA[Giardia secretome IEC infection]]></displayName>
+    <shortDisplayName>Giardia secretome IEC infection</shortDisplayName>
+    <shortAttribution>Maayeh et al.</shortAttribution>
+    <summary><![CDATA[
+         Secretome of <i>Giardia intestinalis</i> isolates WB clone C6 (ATCC30957; assemblage A) and GS, clone H7 (ATCC50581; assemblage B) during interaction with intestinal epithelial cells (IECs)   
+          
+         ]]></summary>
+    <description><![CDATA[
+             Secretome of <i>Giardia intestinalis</i> isolates WB clone C6 (ATCC30957; assemblage A) and GS, clone H7 (ATCC50581; assemblage B) during interaction with intestinal epithelial cells (IECs). To identify putative virulence factors and elucidate mechanistic pathways leading to disease, proteomics was used to identify the major excretory-secretory products (ESPs) when Giardia trophozoites of WB and GS isolates (assemblages A and B, respectively) interact with intestinal epithelial cells (IECs) in vitro at two time points (2hr and 6hr).
+         ]]></description>
+    <history buildNumber="39"></history>
+    <primaryContactId>staffan.svard</primaryContactId>
+    <contactId>showgy.maayeh</contactId>
+    <link>
+      <text/>
+      <url/>
+    </link>
+    <pubmedId>29228011</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gassAWB_massSpec_Trophozoite_Secretome_RSRC" 
+                    projectName="GiardiaDB">
+    <displayName><![CDATA[Trophozoite Secretome (pellet vs media) (GAWB)]]></displayName>
+    <shortDisplayName>GAWB Pellet/Media Prot</shortDisplayName>
+    <shortAttribution>Tyler unpublished</shortAttribution>
+    <summary><![CDATA[
+            
+          Proteomic analysis of pellet and media (secreted) protein fractions from mid-log phase cultures of 
+          <i>Giardia</i> Assemblage A isolate WB. 
+          
+         ]]></summary>
+    <description><![CDATA[
+            
+             <i>Giardia</i> trophozoites from the genome reference strain WB (assemblage A) were cultured 
+             in TYI-S-33 under standard conditions (Keister DB., 1983) and harvested during the midlog phase of their 
+             growth curves. Protein preparations from <i>Giardia</i> cells and culture supernatants were trypsin digested, 
+             mixed with peptide internal standards and analysed by LC-MS/MS. In the project, we’ve also used two mass spec 
+             instruments to analyse these samples namely Velos (Orbitrap Velos) and QEx (Q Exactive). Resulting spectra 
+             were searched (PEAKS Studio 7.0) against a combination of GiardiaDB protein sequence databases and common 
+             contamination and internal standards. 
+             <br>
+             <br>
+             Samples:<br>
+             WBP Qex = pellet from isolate WB analyzed by Q Exactive<br>
+             WBP Velos = pellet from isolate WB analyzed by Orbitrap Velos<br>
+             WBS Qex = supernatant from isolate WB analyzed by Q Exactive<br>
+             WBS Velos = supernatant from isolate WB analyzed by Orbitrap Velos<br>
+             <br>
+             
+         ]]></description>
+    <history buildNumber="35"></history>
+    <primaryContactId>kevin.tyler</primaryContactId>
+    <contactId>dong.xia</contactId>
+    <link>
+      <text/>
+      <url/>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gassBGS_massSpec_Trophozoite_Secretome_RSRC" 
+                    projectName="GiardiaDB">
+    <displayName><![CDATA[Trophozoite Secretome (pellet vs media) (GAGS)]]></displayName>
+    <shortDisplayName>GAGS Pellet/Media Prot</shortDisplayName>
+    <shortAttribution>Tyler unpublished</shortAttribution>
+    <summary><![CDATA[
+            
+          Proteomic analysis of pellet and media (secreted) protein fractions from mid-log phase cultures of 
+          <i>Giardia</i> Assemblage B isolate GS. 
+          
+         ]]></summary>
+    <description><![CDATA[
+            
+             <i>Giardia</i> trophozoites from the genome reference strain GS (assemblage B), were cultured 
+             in TYI-S-33 under standard conditions (Keister DB., 1983) and harvested during the midlog phase of their 
+             growth curves. Protein preparations from <i>Giardia</i> cells and culture supernatants were trypsin digested, 
+             mixed with peptide internal standards and analysed by LC-MS/MS. In the project, we’ve also used two mass spec 
+             instruments to analyse these samples namely Velos (Orbitrap Velos) and QEx (Q Exactive). Resulting spectra 
+             were searched (PEAKS Studio 7.0) against a combination of GiardiaDB protein sequence databases and common 
+             contamination and internal standards. 
+             <br>
+             <br>
+             Samples:<br>
+             GSP Qex = pellet from isolate WB analyzed by Q Exactive<br>
+             GSP Velos = pellet from isolate WB analyzed by Orbitrap Velos<br>
+             GSS Qex = supernatant from isolate WB analyzed by Q Exactive<br>
+             GSS Velos = supernatant from isolate WB analyzed by Orbitrap Velos<br>
+             <br>
+             
+         ]]></description>
+    <history buildNumber="35"></history>
+    <primaryContactId>kevin.tyler</primaryContactId>
+    <contactId>dong.xia</contactId>
+    <link>
+      <text/>
+      <url/>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. intestinalis</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+<!--
+  <datasetPresenter name="gassAWB_quantitativeMassSpec_Emery_virulenceVariation_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Virulent vs avirulent trophozoites (Quantitative)(B-2041, H-106)]]></displayName>
+    <shortDisplayName>GAWB Tropho Virulence QProt</shortDisplayName>
+    <shortAttribution>Emery et al.</shortAttribution>
+    <summary><![CDATA[ <i>G. lamblia</i> Assemblage A proteomics of virulent (B2041) and avirulent (H-106)
+                                trophozoites (Quantitative peptide abundance) ]]> </summary>
+    <description><![CDATA[  
+    
+    <u>Quantitative proteomic analysis of <i>Giardia lamblia</i> WB virulent (B-2041) and avirulent (H-106) strains.</u><br><br>
+
+This data set represents the quantitative analysis portion of the data set 'Virulent vs Avirulent Trophozoites 
+(B-2041, H-106)'. A combination of both gel-based and in-solution platforms and sample 
+preparations were used in this study, with quantitation of relative protein abundance 
+performed using spectral counting.<br><br>
+
+Parasite cultures and Proteomic analysis:<br>
+Trophozoites were 
+harvested from axenic cultures and protein extracts were either analyzed by SDS-PAGE 
+followed by nanoLC-MS/MS or by filter-aided separation of protein 
+(FASP) followed by with gas-phase fractionation (GPF) as an in-solution platform.
+The resulting peptide samples were analyzed by nanoLC-MS/MS on an LTQ-XL linear ion trap mass spectrometer.  
+The LTQ-XL raw output files were converted into mzXML files and searched against 
+the Giardiadb.org 2.5 release of G. duodenalis Assemblage A1 genome (WB Clone 6, ATCC 50803) 
+using the global proteome machine (GPM) software (version 2.1.1) and the X!Tandem algorithm. <br><br>
+
+The MS proteomics data are deposited in the ProteomeXchange Consortium via the PRIDE partner repository with the dataset 
+identifier PXD000452.<br><br>
+    
+Quantitation:<br>
+Protein abundance was calculated using normalized spectral abundance factors (NSAFs). To calculate NSAF 
+the SpC (the total number of MS/MS spectra) identifying a protein was divided by the protein length (L), 
+and normalized to the sum of SpC/L for all proteins in the experiment [53]. A spectral fraction of 
+0.5 was added to all SpCs, to compensate for null values and allow log transformation of the NSAF 
+data prior to statistical analysis.  Several t-tests were performed to identify differentially 
+expressed proteins between Giardia strains in the methods used. The t-tests were run on log-transformed 
+NSAF data to determine statistical significance of differential abundance, and proteins with a t-test 
+p-value less than 0.05 were considered to be differentially expressed.  <br> <br>
+
+Samples:<br>
+H-106 - gel LC-MS/MS : avirulent strain analyzed by SDS Page and LC-MS/MS<br>
+H-106 - GPF  : avirulent strain analyzed by GPF<br>
+B-2041 - gel LC-MS/MS  : virulent strain analyzed by SDS Page and LC-MS/MS<br>
+B-2041 - GPF  : virulent strain analyzed by GPF  <br>             
+
+                                     ]]> </description>
+    <history buildNumber="25"></history>
+    <primaryContactId>samantha.emery</primaryContactId>
+    <link>
+      <text>Data located at Proteome Central under identifier PXD000452  </text>
+      <url>http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000452</url>
+    </link>
+    <pubmedId>25266764</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.QuantitativeProteomicsNonRatio">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphColors">#FF9900;#99CC00;#9933FF;#0099FF;</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphXAxisSamplesDescription">strains and preparations</prop>
+      <prop name="profileSetNameMap"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin"></prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">1000</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="isLogged">1</prop>
+    </templateInjector>
+  </datasetPresenter>
+-->
+
+<!-- pull it out in bld 23, Task #18057, will load again in bld 25
+
+  <datasetPresenter name="gassAWB_HTS_SNP_Jex_NGS_SNP_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Aligned genomic sequence reads - Assemblage A Isolates]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[ Whole genome sequencing of 29 <i>Giardia</i> isolates aligned to Assemblage A. 
+              ]]></summary>
+    <description><![CDATA[ Whole genome sequencing of 29 <i>Giardia</i> isolates aligned to Assemblage A. 
+    The data were used to call single nucleotide polymorphisms.
+              ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+    <primaryContactId>aaron.jex</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gassBGS_HTS_SNP_Jex_NGS_SNP_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Aligned genomic sequence reads - Assemblage B Isolates]]></displayName>
+    <shortDisplayName></shortDisplayName>
+
+    <summary><![CDATA[ Whole genome sequencing of 11 <i>Giardia</i> isolates aligned to Assemblage B.
+              ]]></summary>
+    <description><![CDATA[ Whole genome sequencing of 11 <i>Giardia</i> isolates aligned to Assemblage B. 
+    The data were used to call single nucleotide polymorphisms.
+              ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+    <primaryContactId>aaron.jex</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gassEP15_HTS_SNP_Jex_NGS_SNP_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Aligned genomic sequence reads - Assemblage E Isolate]]></displayName>
+    <shortDisplayName></shortDisplayName>
+
+    <summary><![CDATA[ Whole genome sequencing of 1 <i>Giardia</i> isolate aligned to Assemblage E.
+              ]]></summary>
+    <description><![CDATA[ Whole genome sequencing of 1 <i>Giardia</i> isolate aligned to Assemblage E. 
+    The data were used to call single nucleotide polymorphisms.
+              ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+    <primaryContactId>aaron.jex</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+    </templateInjector>
+  </datasetPresenter>
+-->
+
+
+  <datasetPresenter name="gassAWB_Ansell_AxenicTrophozoites_rnaSeq_RSRC"
+                   projectName="GiardiaDB">
+    <displayName><![CDATA[Time-dependent transcriptional changes in axenic trophozoites]]></displayName>
+    <shortDisplayName>Ansell Axenic Troph.</shortDisplayName>
+    <shortAttribution>Ansell et al.</shortAttribution>
+    <summary><![CDATA[
+    Time-Dependent Transcriptional Changes in Axenic <i>Giardia duodenalis</i> Trophozoites
+    ]]></summary>
+    <description><![CDATA[
+    RNA sequencing was used to characterize the mRNA transcriptome of <i>Giardia duodenalis</i> trophozoites in axenic culture, at log (48 h of growth), stationary (60 h), and declining (96 h) growth phases.
+
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="30"></history>
+    <primaryContactId>aaron.jex</primaryContactId>
+    <contactId>brendan.ansell</contactId>
+	<link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>26636323</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">6</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Time (hours post-inoculation)]]></prop>
+      <prop name="graphPriorityOrderGrouping">1100</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+
+  </datasetPresenter>
+
+<!-- Sus could include more contacts from the paper  -->
+  <datasetPresenter name="ssalATCC50377_primary_genome_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ Genome Sequence and Annotation for <i>Spironucleus salmonicida</i> ATCC50377 
+                         ]]></summary>
+    <description><![CDATA[
+    		 The genome sequence and annotation for the Atlantic salmon pathogen <i>Spironucleus salmonicida</i> ATCC50377 
+    		 reveals a genome size of 12.6 Mbp distributed in nine chromosomes.<br><br> 
+    		 
+    		 <i>S. salmonicida</i> ATCC 50377, previously known as <i>S. barkhanus</i>, was isolated from a muscle abscess in 
+    		 Atlantic salmon grown in Vesteralen Sea in northern Norway. Cells were obtained from American Type Culture 
+    		 Collection (ATCC) and grown in axenic culture following the ATCC protocol.<br><br>
+    		 
+    		 <u>Sequencing</u>:<br> 
+             Total genomic DNA was isolated from <i>Spironucleus salmonicida</i> ATCC50377 trophozoites and  
+             sequenced using two methods:<br>
+             1. Genome Sequencer FLX with GS FLX Titanium series reagents, one run with single 
+             shotgun reads and one run from a sequencing library with 3 kbp inserts, yielded 454 reads of 55× 
+             genome coverage. <br>
+             2. Illumina Genome Analyzer IIx instrument, one run with paired-end reads with 100 bp in 
+             read length and pairs are 350 bp apart, which yielded Illumina reads of over 200× coverage.  <br><br>
+             
+             The genome was assembled using Celera Assembler v. 6.0, characterized by optical mapping, and annotated 
+             using an in-house annotation pipeline.
+    
+                          ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22" 
+            genomeSource="Genbank" genomeVersion="Nov 19, 2013" 
+            annotationSource="Genbank" annotationVersion="Nov 19, 2013"/>
+    <history buildNumber="29" 
+            genomeSource="GenBank" genomeVersion="Mar 23, 2015" 
+            annotationSource="GenBank" annotationVersion="Mar 23, 2015">re-annotated</history>
+
+    <primaryContactId>jan.andersson</primaryContactId>
+    <pubmedId>24516394</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gassA2DH_primary_genome_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ Genome Sequence and Annotation for <i>Giardia</i> Assemblage A2 isolate DH 
+                         ]]></summary>
+    <description><![CDATA[
+             Genomic DNA was isolated from <i>Giardia</i> Assemblage A2 isolate DH trophozoites grown in TYI-s33 
+             medium and harvested in late log or early stationary phase.  Rapid fragment, 3 kb, 6 kb, and
+             8 kb paired-end libraries were constructed and sequenced using 454 DNA FLX methods.  De novo genome 
+             assembly was performed using MIRA v3.0 and NEWBLER v2.5.  The genome was assembled using 
+             MIRA v. 3.0, NEWBLER v. 2.5 and Sequencher v.4.9 resulting in 124X coverage of the genome. 
+    
+                          ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="21" 
+            genomeSource="Genbank" genomeVersion="Nov 25, 2013" 
+            annotationSource="Genbank" annotationVersion="Nov 25, 2013"/>
+    <primaryContactId>steve.porcella</primaryContactId>
+    <contactId>rodney.d.adam</contactId>
+    <contactId>eric.dahlstrom</contactId>
+    <contactId>craig.martens</contactId>
+    <contactId>theodore.e.nash</contactId>
+    <pubmedId>24307482</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies">Assemblage A2</prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+
+  </datasetPresenter>
+
+  <datasetPresenter name="gassBGS_B_primary_genome_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and Annotation for <i>Giardia</i> Assemblage B isolate GS_B
+    ]]></summary>
+    <description><![CDATA[
+             <i>Giardia</i> Assemblage B isolate GS_B was originally obtained from a symptomatic human.   For the 
+             purposes of this genome sequencing project, genomic DNA was isolated from trophozoites grown in TYI-s33 
+             medium and harvested in late log or early stationary phase.  Rapid Fragment, 3 kb and 8 kb paired-end 
+             libraries were constructed and sequenced using 454 DNA FLX methods.  The genome was assembled using 
+             Phred/Phrap/consed; Arachne v.2 resulting in 53X coverage of the genome.  
+             
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="21"
+            genomeSource="Genbank" genomeVersion="Nov 25, 2013"
+            annotationSource="Genbank" annotationVersion="Nov 25, 2013"/>
+    <primaryContactId>steve.porcella</primaryContactId>
+    <contactId>rodney.d.adam</contactId>
+    <contactId>eric.dahlstrom</contactId>
+    <contactId>craig.martens</contactId>
+    <contactId>theodore.e.nash</contactId>
+    <pubmedId>24307482</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies">Assemblage B</prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+
+  </datasetPresenter>
+  
+<!-- Sus - says GenBank but i cant find it there would like to include Bioproject or Genome assembly link to GenBank -->
+  <datasetPresenter name="gassAWB_primary_genome_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ Genome Sequence and Annotation for <i>Giardia</i> Assemblage A isolate WB
+    ]]></summary>
+    <description><![CDATA[
+             <i>G. lamblia</i> Assemblage A isolate WB sequence, assembly and annotation <br><br>
+             DNA was extracted from trophozoites and purified. Sequencing was initially done using 
+             LI-COR automated sequencers and completed by capillary sequencing (BigDye terminator 
+             chemistry) on an Applied Biosystems 3700. Reads were assembled using the ARACHNE 2.0 
+             genome assembly software with basecalling by either LI-COR software (for LI-COR generated 
+             reads) or PHRED.
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Mar 10, 2010" 
+            annotationSource="Genbank" annotationVersion="Mar 10, 2010"/>
+    <primaryContactId>hilary.morrison</primaryContactId>
+    <pubmedId>17901334</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies">Assemblage A</prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+
+  </datasetPresenter>
+  
+  
+<!--  Sus - is this just an organellar sequence?  The paper says they sequenced the entire genome  -->
+  <datasetPresenter name="gassBGS_primary_genome_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+    ]]></summary>
+    <description><![CDATA[
+Draft Genome Sequence of <i>Giardia intestinalis</i> Assemblage B Isolate GS <br><br>
+Three rounds of sequencing of the GS genome using the 454 FLX sequencer generated 
+808,181 high-quality reads with an average length of 227 bp (182 Mbp; 16× coverage). 
+The final assembled sequence was distributed in 2,931 contigs with an average length 
+of 3,753 bp (Table S1). Automated ORF prediction identified 6,768 ORFs and manual 
+curation of the data resulted in a final set of 4,470 intact (mean length 1,836 bp) 
+and 221 interrupted protein coding genes. 
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0"
+            genomeSource="Genbank" genomeVersion="Jul 13, 2009" 
+            annotationSource="Genbank" annotationVersion="Jul 13, 2009"/>
+    <primaryContactId>staffan.svard</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>19696920</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies">Assemblage B</prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+
+  </datasetPresenter>
+
+<!--  Sus - is this just an organellar sequence?  The paper says they sequenced the entire genome
+      Can we add the GenBank link?  -->
+  <datasetPresenter name="gassEP15_primary_genome_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+    ]]></summary>
+    <description><![CDATA[
+Sequence and annotation of <i>Giardia</i> Assemblage E isolate P15<br><br>
+
+Genomic DNA was sequenced using a Genome Sequencer FLX/Titanium instrument. 
+Three runs with the Genome Sequencer (454 Life Science) generated 1,639,140 reads. 
+Genome assembly was performed <i>de novo</i> using the sequence assembly software MIRA V2.9.43. 
+Manual inspection and editing of the assembly was carried out using consed and custom Perl scripts.<br><br>
+
+
+Clustering of the shotgun reads and manual finishing of the assembly resulted in 820 contiguous 
+sequences (contigs) with an N50 of 71,261 bp and an average genome coverage of 47X. The G + C 
+content of the overall assembly is 47%. Gene prediction was performed using GLIMMER 3 and CRITICA. 
+The vast majority of the P15 annotations were assigned using information from the WB and GS genomes. 
+
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Aug 07, 2009" 
+            annotationSource="Genbank" annotationVersion="Aug 07, 2009"/>
+   <history buildNumber="16" 
+            genomeSource="Genbank" genomeVersion="Oct 05, 2010" 
+            annotationSource="Genbank" annotationVersion="Oct 05, 2010">re-annotated</history>
+    <primaryContactId>staffan.svard</primaryContactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>20929575</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies">Assemblage E</prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+
+  </datasetPresenter>
+  
+  
+  <!-- Sus - Do we need this as a dataset?  Does this belong in the Organellar section?-->
+  <datasetPresenter name="gassAWB_primary_virtual_genome_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Scaffold to Chromosome Optical Map
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[
+    ]]></summary>
+    <description><![CDATA[
+An MluI optical map of the WB genome was generated.  Scaffolds and contigs were mapped to the optical map and assembled into chromosomes.  <br><br>
+Optical map of the Genotype A1 WB C6 Giardia lamblia genome isolate. Alexander D Perry, Hilary G Morrison, Rodney D Adam.
+
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>rod.adam</primaryContactId>
+
+    <pubmedId>21835210</pubmedId>
+
+  </datasetPresenter>
+
+  <!-- Microarray DATASETPRESENTERS -->
+
+  <datasetPresenter name="gassAWB_microarrayExpression_Hehl_Stress-response_Temperature_Concentration_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Stress Response in Trophozoites - Temparature Redox
+    ]]></displayName>
+    <shortDisplayName>G.AWB Stress Marray</shortDisplayName>
+    <summary><![CDATA[Microarray expression profiles of <i>G. lamblia</i> Assemblage A trophozoite response to temparature or redox (DTT) stress
+    ]]></summary>
+    <description><![CDATA[
+    Gene expression profiling of <i>Giardia lamblia</i> strain WBC6 during temperature or redox stress<br>
+<i>Giardia lamblia</i> strain WBC6 (ATCC catalog No. 50803) trophozoites were grown in 11 ml TYI-S-33 medium supplemented 
+with 10% fetal bovine serum and bovine bile. Parasites were grown to confluency at 37 degrees C, and medium was 
+replaced prior to stress induction. Redox stress was induced by addition of Dithiothreitol (DTT, Fluka 43817) for 
+30 minutes to final concentrations of 7.1 mM, 14.2 mM or 21.3 mM.  In the control cultures an equivalent amount 
+of water was used. Temperature stress (40 degrees C) was induced by incubating parasites for 30 minutes at 40 
+degrees C (control 37 degrees C).
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>adrian.hehl</primaryContactId>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayTwoChannelDirectComparison">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">true</prop>
+      <prop name="graphColors">darkgreen</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Incubation Condition]]></prop>
+      <prop name="channelOnePctSampleMap">FILL=FILL</prop>
+      <prop name="channelTwoPctSampleMap">FILL=FILL</prop>
+      <!-- below are optional -->
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin">7</prop>  <!-- possibly need some custom handling -->
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">0</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="graphYAxisDescription"><![CDATA[log(2) ratio in upper graph or expression percentile value in lower graph.]]></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+<!-- Sus- This appears to be the same dataset as above.  -->
+<datasetPresenter name="gassAWB_microarrayExpression_Hehl_Stress-response_Incubation_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Stress Response in Trophozoites - Incubation Time 
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A Stress Response in  Trophozoites - Incubation Time 
+    ]]></summary>
+    <description><![CDATA[
+Giardia lamblia strain WBC6 (ATCC catalog No. 50803) trophozoites were grown in 11 ml TYI-S-33 medium supplemented 
+with 10% fetal bovine serum and bovine bile.Parasites were grown to confluency at 37 degrees C, and medium was 
+replaced prior to stress induction. Redox stress was induced by addition of Dithiothreitol (DTT, Fluka 43817) for 
+30 minutes to final concentrations of 7.1 mM, 14.2 mM or 21.3 mM.  In the control cultures an equivalent amount of 
+water was used. Temperature stress (40 degrees C) was induced by incubating parasites for 30 minutes at 40 degrees C 
+(control 37 degrees C).
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>adrian.hehl</primaryContactId>
+    <pubmedId></pubmedId>
+<!-- dataset=gassAWB_microarrayExpression_Hehl_Stress-response_Incubation_RSRC project=GiardiaDB --> 
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayTwoChannelDirectComparison">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">true</prop>
+      <prop name="graphColors">darkgreen</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Incubation Time]]></prop>
+      <prop name="channelOnePctSampleMap">FILL=FILL</prop>
+      <prop name="channelTwoPctSampleMap">FILL=FILL</prop>
+      <!-- below are optional -->
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin">7</prop>  <!-- possibly need some custom handling -->
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">0</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="graphYAxisDescription"><![CDATA[log(2) ratio in upper graph or expression percentile value in lower graph.]]></prop>
+    </templateInjector>
+
+  </datasetPresenter>
+
+
+<datasetPresenter name="gassAWB_microarrayExpression_Hehl_Encystation_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Encystation in trophozoites ]]></displayName>
+    <shortDisplayName>G.AWB Troph Encyst Marray</shortDisplayName>
+    <shortAttribution>Morf et al.</shortAttribution>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A isolate WB encystation microarray analysis
+    ]]></summary>
+    <description><![CDATA[
+    
+    Expression profiling of <i>Giardia lamblia</i> WB (ATCC catalog #50803) during encystation.<br><br>
+    
+    Encystation was induced in trophozoites using two different <i>in vitro</i> protocols: the standard 2-step, 
+    and lipid (cholesterol) starvation. RNA was isolated from encysting trophozoites at 45 min, 3 h, and 7 h 
+    post-induction using the standard 2-step protocol and at 7 h post-induction using the lipid starvation protocol.
+    Total RNA was amplified, labeled with dye and used in dual-color hybridizations to a full-genome microarray 
+    with uninduced trophozoite RNA as the reference sample. 
+ 
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>adrian.hehl</primaryContactId>
+    <link>
+      <text>Giardia lamblia microarray version 2</text>
+      <url>http://pfgrc.jcvi.org/index.php/microarray/array_description/giardia_lamblia/version2.html</url>
+    </link>
+
+    <pubmedId>20693303</pubmedId>
+<!-- dataset=gassAWB_microarrayExpression_Hehl_Encystation_RSRC project=GiardiaDB --> 
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayTwoChannelReferenceDesign">
+      <prop name="profileSetNameMap"></prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">true</prop>
+      <prop name="graphColors">darkgreen</prop> 
+      <prop name="graphType">bar</prop>
+      <prop name="percentileChannelPattern">red percentile - %</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Encystation Time]]></prop>
+      <!-- below are optional -->
+      <prop name="graphSampleLabels"></prop> 
+      <prop name="graphBottomMargin">5</prop>  
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">30</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="graphYAxisDescription"><![CDATA[log(2) ratio in upper graph or expression percentile value in lower graph.]]></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+<datasetPresenter name="gassAWB_microarrayExpression_Ringqvist_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Transcript Profiling of Host-parasite Interactions 
+    ]]></displayName>
+    <shortDisplayName>G.AWB Troph in Caco2 Marray</shortDisplayName>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A array profiles of host-parasite interactions 
+    ]]></summary>
+    <description><![CDATA[
+         Transcriptional changes in Giardia during host-parasite interactions.  <br><br>
+         
+         Trophozoites were incubated with or without host cells in the following manner.
+         Differentiated Caco-2 cells were infected with <i>Giardia</i> WB clone trophozoites 
+         at a 10:1 ratio in DMEM medium. Mock infections were performed in DMEM with the same amount of 
+         trophozoites but no IECs under equal conditions. As a control for growth-induced 
+         transcriptional changes, the same amount 
+         of trophozoites were inoculated in TYDK growth medium in maximally filled tightly capped tubes. 
+         Cultures were harvested at 1.5, 6 and 18 hours post-infection.<br><br>
+         
+         Total RNA from separate interactions, converted into cDNA, was hybridised against the same 
+         amount of starting population trophozoite cDNA in a two-dye manner, on PFGRC Giardia version 2 70-mer oligoarrays. 
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>staffan.svard</primaryContactId>
+
+    <pubmedId>21074536</pubmedId>
+
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayTwoChannelReferenceDesign">
+      <prop name="profileSetNameMap"></prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphColors">#B22222;#6A5ACD;#6A5ACD;#6A5ACD;#87CEEB;#87CEEB;#87CEEB</prop> 
+      <prop name="graphType">bar</prop>
+      <prop name="percentileChannelPattern">red percentile - %</prop>
+<prop name="graphXAxisSamplesDescription"><![CDATA[Time point in hours]]></prop>
+      <!-- below are optional -->
+      <prop name="graphSampleLabels"></prop> 
+      <prop name="graphBottomMargin">5</prop>  
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">90</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+      <prop name="graphYAxisDescription"><![CDATA[Fold Change in upper graph or expression percentile value in lower graph.]]></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+<!--
+ <datasetPresenter name="gassAWB_microarrayExpression_Troell_v1swapped_reps_RSRC"
+                   projectName="GiardiaDB"  >
+    <displayName><![CDATA[Trophozoite cell cycle transcriptome profiling
+    ]]></displayName>
+    <shortDisplayName>Cell Cycle</shortDisplayName>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A (WB) trophozoite cell cycle transcriptome by microarray 
+    ]]></summary>
+    <description><![CDATA[
+    <u>Time course transcriptome analysis of the trophozoite cell cycle in <i>G. lamblia</i> assemblage A isolate WB</u> <br>
+    Trophozoite samples were collected at 0, 1, 2, 3, 4, 5, 6.5, and 8 hours post-synchronization. 
+    Whole genome microarray analysis was performed on RNA from each sampled time point. 
+    <br><br>
+    In this project the full transcriptome of <i>Giardia lamblia</i> during the complete cell cycle was studied. The main aim was to 
+    identify cell cycle stage-specific genes that are important for the regulation of different processes during the cell cycle. Several 
+    genes with stage specific expression, both known and hypothetical proteins were identified. Several markers with high expression 
+    that has not been assigned status of a gene were also found.    
+         ]]></description>
+    <usage>EuPathDB offers a search returning genes that are differentially expressed between the time points of this dataset. 
+    Expression profiles for individual genes are displayed on gene record pages. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="18"></history>
+    <primaryContactId>karin.troell</primaryContactId>
+    <pubmedId></pubmedId>
+ <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayOneChannelQuantile">
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="hasPercentileData">true</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphType">line</prop>
+      <prop name="graphColors">green</prop>
+      <prop name="graphXAxisSamplesDescription">Time point in hours</prop>
+
+      <prop name="profileSetNameMap"></prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphBottomMargin">6.5</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="excludedProfileSets">Troell Cell Cycle Replicate 2;Troell Cell Cycle Replicate 3;percentile - Troell Cell Cycle Replicate 2;percentile - Troell Cell Cycle Replicate 3;</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">60</prop>
+      <prop name="linePlotXAxisLabel">Hours post synchronization</prop>
+    </templateInjector>
+  </datasetPresenter>
+-->
+
+ <datasetPresenter name="gassAWB_Svard_rnaSeq_RSRC"
+                   projectName="GiardiaDB">
+    <displayName><![CDATA[(WB) Trophozoite Transcriptome
+    ]]></displayName>
+    <shortDisplayName>WB Tropho RSeq</shortDisplayName>
+    <shortAttribution>Frazen et al.</shortAttribution>
+    <summary><![CDATA[
+    Transcriptome profiling of <i>Giardia intestinalis</i> Assemblage A (WB) using strand-specific RNA-Seq  
+    ]]></summary>
+    <description><![CDATA[<u>Transcriptome of <i>Giardia intestinalis</i> Assemblage A (WB)</u> <br>
+    	Trophozoite strand-specific RNA libraries were sequenced using the Illumina HiSeq2000 platform.
+    	]]></description>
+    <usage>EuPathDB maps the RNA-seq reads to the genome and allows users to search for genes based on this mapping. 
+    The transcript levels for individual genes are displayed as graphs on gene record pages. RNA-seq reads aligned to the genome can be displayed in GBrowse. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="18"></history>
+    <primaryContactId>staffan.svard</primaryContactId>
+	<contactId>oscar.frazen</contactId>
+	<link>
+      <text>Gene Expression Ominbus (GEO) entry  </text>
+      <url>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE36490</url>
+    </link>
+    <pubmedId>23555231</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">true</prop>
+<prop name="switchStrandsProfiles">true</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">4</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">400</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="gassBGS_Svard_rnaSeq_RSRC"
+                   projectName="GiardiaDB">
+    <displayName><![CDATA[(GS) Trophozoite Transcriptome
+    ]]></displayName>
+    <shortDisplayName>GS Tropho RSeq</shortDisplayName>
+    <shortAttribution>Frazen et al.</shortAttribution>
+    <summary><![CDATA[
+    Transcriptome profiling of <i>Giardia intestinalis</i> Assemblage B (GS) using strand-specific RNA-Seq  
+    ]]></summary>
+    <description><![CDATA[<u>Transcriptome of <i>Giardia intestinalis</i> Assemblage B (GS)</u> <br>
+    	Trophozoite strand-specific RNA libraries were sequenced using the Illumina HiSeq2000 platform.  
+    	]]></description>
+    <usage>EuPathDB maps the RNA-seq reads to the genome and allows users to search for genes based on this mapping. 
+    The transcript levels for individual genes are displayed as graphs on gene record pages. RNA-seq reads aligned to the genome can be displayed in GBrowse. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="18"></history>
+    <primaryContactId>staffan.svard</primaryContactId>
+	<contactId>oscar.frazen</contactId>
+	<link>
+      <text>Gene Expression Ominbus (GEO) entry  </text>
+      <url>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE36490</url>
+    </link>
+    <pubmedId>23555231</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">true</prop>
+<prop name="switchStrandsProfiles">true</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">4</prop>  
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">400</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="gassEP15_Svard_rnaSeq_RSRC"
+                   projectName="GiardiaDB">
+    <displayName><![CDATA[(P15) Trophozoite Transcriptome
+    ]]></displayName>
+    <shortDisplayName>P15 Tropho RSeq</shortDisplayName>
+    <shortAttribution>Frazen et al.</shortAttribution>
+    <summary><![CDATA[
+    Transcriptome profiling of <i>Giardia intestinalis</i> Assemblage E (P15) using strand-specific RNA-Seq  
+    ]]></summary>
+    <description><![CDATA[<u>Transcriptome of <i>Giardia intestinalis</i> Assemblage E (P15)</u> <br>
+    	Trophozoite strand-specific RNA libraries were sequenced using the Illumina HiSeq2000 platform.  
+    	]]></description>
+    <usage>EuPathDB maps the RNA-seq reads to the genome and allows users to search for genes based on this mapping. 
+    The transcript levels for individual genes are displayed as graphs on gene record pages. RNA-seq reads aligned to the genome can be displayed in GBrowse. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="18"></history>
+    <primaryContactId>staffan.svard</primaryContactId>
+	<contactId>oscar.frazen</contactId>
+	<link>
+      <text>Gene Expression Ominbus (GEO) entry  </text>
+      <url>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE36490</url>
+    </link>
+    <pubmedId>23555231</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">true</prop>
+<prop name="switchStrandsProfiles">true</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">4</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">400</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+
+  <!-- SageTag DATASETPRESENTERS -->
+
+
+ <datasetPresenter name="gassAWB_SAGE_McArthurSageTags_RSRC"
+                    projectName="GiardiaDB"                    >
+    <displayName><![CDATA[Life Cycle SAGE Tags 
+    ]]></displayName>
+    <shortDisplayName>G.AWB Life Cycle SAGE</shortDisplayName>
+    <displayCategory>SAGE</displayCategory>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A Life Cycle Sage Tags  
+    ]]></summary>
+    <description><![CDATA[
+Serial Analysis of Gene Expression in <i>G. lamblia</i> Assemblage A during the life cycle.<br><br>
+
+A confluent culture of trophozoites was used to inoculate fresh cultures at a density of 105 cells/ml and grown for 21 h. 
+Cells were induced to encyst in vitro as previously described and 
+RNA was extracted at 4, 12, 21, and 42 h of encystation and as cysts using TRIZOL (GIBCO). 
+Excystation was carried out by a two-step method as described by Boucher and Gillin and RNA isolated at four 
+time-points (Stage 1, Stage 2, 30 min, 60 min). Stage 1 is an acidic, reducing environment that models the stomach. 
+Stage 2 consists of proteases in a slightly alkaline solution that mimics the small intestine. 
+SAGE libraries were constructed following the I-SAGE protocol (Invitrogen, Carlsbad CA). Recombinant pZero was 
+sequenced on an ABI 3700 or 3730xl sequencer. Sequences collected were analyzed with software created 
+at the MBL specifically for Giardia SAGE analysis. 
+     ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>andrew.mcarthur</primaryContactId>
+    <pubmedId>15850703</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.custom.GiardiaDB.SAGETagsWithGraph">
+<!-- dataset=gassAWB_Profiles_McArthurSageTags_RSRC project=GiardiaDB --> 
+<prop name="graphModule">Sage::McArthur</prop>
+<prop name="graphXAxisSamplesDescription"><![CDATA[Time points post excystation or encystation are indicated in hours.<br />S1 (stage 1) = acidic condition to mimic the stomach.<br />S2 (Stage 2) = trypsin and slight alkaline conditions to mimic the small intestine.]]></prop>
+<prop name="graphYAxisDescription"><![CDATA[Percent of sense and antisense transcripts within individual SAGE libraries.]]></prop>
+<prop name="graphVisibleParts">sage_tags</prop>
+<prop name="graphPriorityOrderGrouping">900</prop>
+    </templateInjector>
+
+  </datasetPresenter>
+
+
+
+  <!-- MassSpec DATASETPRESENTERS -->
+  
+<!--  Sus - can't find publication  -->
+ <datasetPresenter name="gassAWB_massSpec_Ratner_DTASelect-filter_RSRC"
+                    projectName="GiardiaDB"                    >
+   <displayName><![CDATA[DTA-Select Filter 
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <shortAttribution></shortAttribution>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A Proteomics experimental bands for experient DTASelect-filter  
+    ]]></summary>
+    <description><![CDATA[
+<i>Giardia lamblia</i> WB (genome project strain) grown axenically in TYI-S-33 medium supplemented with bile salts.  
+Adherent trophozoites were harvested during log-phase growth (60-70% confluent) and proteins extracted in 8M Urea and SDS.  
+1 mg of extracted protein was digested with sequencing-grade modified trypsin and fractionated via strong cation exchange 
+chromatography into 90 fractions.  Each fraction was run via C-18 reverse phase chromatography and analyzed using an LTQ 
+ProteomeX ion trap mass spectrometer (Thermo Finnigan).  Peptide assignments were made using SEQUEST, and the individual 
+runs were compiled using DTASelect.
+<p>
+<i>Daniel M. Ratner, Michael Lubrano, Martin Steffen, John Samuelson. University of Washington, Department of Bioengineering.</i>
+<p>
+Protocol adapted from Jaffe, J.D., Berg, H.C, Church, G. M. Proteogenomic mapping as a complementary method to perform genome annotation. <i>Proteomics</i>, <b>2004</b>, 4, 59-7     ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>daniel.ratner</primaryContactId>
+
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+ <datasetPresenter name="gassAWB_massSpec_Emery_Virulence_Proteomics_RSRC"
+                    projectName="GiardiaDB"                    >
+   <displayName><![CDATA[Virulent vs Avirulent Trophozoites (B-2041, H-106)]]></displayName>
+    <shortDisplayName>GAWB Tropho Virulence Prot</shortDisplayName>
+    <shortAttribution>Emery et al.</shortAttribution>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A Proteomics of virulent and avirulent Strains (Mass Spec peptides) ]]></summary>
+    <description><![CDATA[
+<u>Proteomic analysis of <i>Giardia lamblia</i> WB virulent (B-2041) and avirulent (H-106) strains.</u><br><br>
+
+A combination of both gel-based and in-solution platforms and sample preparations were used in this study.<br><br>
+
+Parasite cultures and Proteomic analysis:<br>
+Trophozoites were 
+harvested from axenic cultures and protein extracts were either analyzed by SDS-PAGE 
+followed by nanoLC-MS/MS or by filter-aided separation of protein 
+(FASP) followed by with gas-phase fractionation (GPF) as an in-solution platform.
+The resulting peptide samples were analyzed by nanoLC-MS/MS on an LTQ-XL linear ion trap mass spectrometer.  
+The LTQ-XL raw output files were converted into mzXML files and searched against 
+the Giardiadb.org 2.5 release of G. duodenalis Assemblage A1 genome (WB Clone 6, ATCC 50803) 
+using the global proteome machine (GPM) software (version 2.1.1) and the X!Tandem algorithm. <br><br>
+
+The MS proteomics data are deposited in the ProteomeXchange Consortium 
+(http://proteomecentral.proteomexchange.org) via the PRIDE partner repository with the dataset 
+identifier PDX000452.<br><br>
+
+Samples:<br>
+H-106 - gel LC-MS/MS : avirulent strain analyzed by SDS Page and LC-MS/MS<br>
+H-106 - GPF  : avirulent strain analyzed by GPF<br>
+B-2041 - gel LC-MS/MS  : virulent strain analyzed by SDS Page and LC-MS/MS<br>
+B-2041 - GPF  : virulent strain analyzed by GPF  <br>
+
+
+]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="25"></history>
+    <primaryContactId>samantha.emery</primaryContactId>
+    <link>
+      <text>Data located at Proteome Central under identifier PXD000452  </text>
+      <url>http://proteomecentral.proteomexchange.org</url>
+    </link>
+    <pubmedId>25266764</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+<!-- Sus - The paper says iTRAC proteomics which is quantitative. Do we want that data too? -->
+ <datasetPresenter name="gassAWB_massSpec_Tachezy_Enriched_Fraction_RSRC"
+                    projectName="GiardiaDB"                    >
+    <displayName><![CDATA[Mitosome enriched proteome (WB)    ]]></displayName>
+    <shortDisplayName>G.AWB Mitosome Prot</shortDisplayName>
+    <shortAttribution>Jedelsk et al.</shortAttribution>
+    <summary><![CDATA[Proteome of <i>G. lamblia</i> Assemblage A isolate WB mitosome enriched fraction determined by LC-MS/MS.  
+    ]]></summary>
+    <description><![CDATA[
+<i>G. intestinalis</i> mitosome enriched fraction -- nanoLC/MALDI TOF/TOF
+
+Mitosome-enriched fractions were separated from a <i>Giardia</i> homogenate by 
+preparative centrifugation using a discontinuous Optiprep (iodixanol) gradient. 
+Samples  were precipitated, pelleted, trypsin digested, labeled with sample-specific 
+iTRAQ reagents and analyzed by LC-MS/MS. Resulting spectra were searched with locally installed 
+Mascot v. 2.1 (Matrix Science) against the GiardiaDB release 1.3 annotated protein database 
+(4892 sequences, 2663813 residues) and GiardiaDB release 1.2 Open Reading Frame translations 
+greater than 50 amino acids (85612 sequences, 9633221 residues). 
+  ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>jan.tachezy</primaryContactId>
+
+    <pubmedId>21390322</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="gassAWB_massSpec_Gillin_Proteomics_RSRC"
+                    projectName="GiardiaDB"                    >
+    <displayName><![CDATA[Basal body proteome (WB)
+    ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <shortAttribution>Lauwaet et al.</shortAttribution>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A conserved and unique basal body proteins  
+    ]]></summary>
+    <description><![CDATA[ <u>Trophozoite basal body proteome of <i>G. lamblia</i> 
+    Assemblage A (isolate WB-C6)</u><br>
+    Trophozoites were collected from un-synchronized parasite cultures 
+    and used to prepare a basal body enriched fraction.  Peptide samples were analyzed by MudPIT and 
+    the resulting MS spectra were evaluated with SEQUEST 3G and DTASelect.
+  		]]></description>
+    <usage>EuPathDB maps proteomics peptides to the genome and provides a search that returns genes 
+    based on these mappings.  Peptide mappings are tabulated on gene record pages and peptides can 
+    be displayed in context with the genome using GBrowse. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>frances.gillin</primaryContactId>
+	<contactId>tineke.lauwaet</contactId>
+    <pubmedId>21723868</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter> 
+
+<!--  Sus - This study is quantitative in the paper. Are we getting that data? -->
+  <datasetPresenter name="gassAWB_massSpec_Faso_time_course_encystation_RSRC"
+                    projectName="GiardiaDB"                    >
+    <displayName><![CDATA[ Encystation Proteome (WB) 
+    ]]></displayName>
+    <shortDisplayName>G.AWB Encyst Prot</shortDisplayName>
+    <shortAttribution>Faso et al.</shortAttribution>
+    <summary><![CDATA[<i>G. lamblia</i> Assemblage A (isolate WBC6) proteome during encystation 
+    ]]></summary>
+    <description><![CDATA[ <u> <i>G. lamblia</i> Assemblage A (isolate WBC6)
+    proteome during encystation using tandem mass spectrometry.</u> <br><br>
+    
+    Trophozoites of the <i>G. lamblia</i> strain WBC6 (ATCC catalog number 50803) were grown under 
+    microaerophilic conditions. Encystation was induced using the 2-step method. At 0, 4, 
+    8 and 12 hours post-induction of encystation, triplicate total protein extracts were prepared. 
+    The 0 hours post-induction of encystation timepoint represents cells grown in complete medium 
+    and not in PE medium.<br><br>  
+    
+    Following resolution by one-dimension SDS-PAGE, each gel lane was cut to 10 pieces which 
+    were then separately subjected to in-gel tryptic digestion. 
+    Resulting peptides were measured by tandem mass spectrometry. MS/MS spectra were searched 
+    with Mascot version 2.2.04 against a proteome database with a (Giardia Genome release-1.2 25-Jun-2009) and a 
+    concatenated decoy database supplemented with contaminants (67,079 entries). 
+    
+    
+    
+    
+    
+  		]]></description>
+    <usage>EuPathDB maps proteomics peptides to the genome and provides a search that returns genes 
+    based on these mappings.  Peptide mappings are tabulated on gene record pages and peptides can 
+    be displayed in context with the genome using GBrowse. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>adrian.hehl</primaryContactId>
+    <contactId>carmen.faso</contactId>
+<contactId>sylvain.bischof</contactId>
+    <pubmedId>24391747</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter> 
+
+ <datasetPresenter name="gassAWB_DBP_GeneImage_RSRC"
+                    projectName="GiardiaDB" >
+    <displayName><![CDATA[Cellular Localization of Trophozoite or Cytoskeletal GFP-fused proteins]]></displayName>
+    <shortDisplayName>G.AWB GFP-Tropho/Cytoskel Local</shortDisplayName>
+    <shortAttribution>Dawson et al.</shortAttribution>
+    <summary><![CDATA[Subcellular localization of selected trophozoite or 
+    cytoskeletal proteins from <i>Giardia</i> Assemblage A isolate WB determined 
+    by live imaging of GFP-fusion strains.
+    ]]></summary>
+    <description><![CDATA[ 
+    <u>Subcellular localization of <i>Giardia</i> trophozoite or cytoskeletal proteins in GFP-fusion strains</u><br>
+    Many <i>Giardia</i> proteins lack homology or have
+limited similarity to proteins in other organisms. As a first step in
+assessing the cellular function of novel <i>Giardia</i> proteins, C-terminal
+green fluorescent protein (GFP) or mNeon green (NG) fusions were used to
+determine the subcellular localization of selected <i>Giardia</i> ORFs that are
+either highly expressed in trophozoites or are components of the <i>Giardia</i>
+cytoskeleton as determined by proteomic analyses.<br><br>
+    <u>Gateway Clones and Electroporation into <i>Giardia</i></u><br>
+    ORFs plus 200 bp
+of upstream (5’UTR) sequence containing the native promoter were
+PCR-amplified from genomic DNA to create Gateway entry clones and
+subsequently cloned into Gateway expression vector pcGFP1F.pac (Hagen et
+al., 2011) to create C-terminal GFP fusion strains. Gateway expression
+GFP-fusion vectors were electroporated into <i>Giardia</i> cells and maintained
+by selection with puromycin (50 mg/ml). <br><br>
+    <u>Image collection and processing</u><br>
+    For live imaging, GFP-fusion strains
+were incubated in modified TYI-S-33 medium with bovine bile in a 96-well
+black glass bottom plates for up to two hours at 37°C in a
+nitrogen-enriched atmosphere. The medium was replaced with 1X
+HEPES-Buffered Saline (HBS) and the trophozoites were incubated under
+the same conditions for an additional 30 minutes prior to imaging.
+Additional warm HBS washes were performed as needed during imaging to
+remove detached cells. Live imaging of attached trophozoites was
+performed using differential interference contrast (DIC) and
+epifluorescence with a Leica DMI6000B wide-field inverted fluorescence
+microscope (PlanApo 100X, NA 1.40 oil immersion objective) Optical
+sections were acquired at 0.2-μm intervals using Metamorph (MDS
+Technologies). Images were processed using Fiji, and two-dimensional
+maximum intensity projections were created from the three-dimensional
+data sets if required.<br><br>
+    
+    <u>Imaging</u>: Kari D. Hagen, Kristopher F. Nguyen<br><br>
+
+    <u>Gateway cloning of C-terminal GFP fusions</u>: Kari D. Hagen, Matt P.
+Hirakawa, Jonathan K. Pham, Michael J. Cipriano, David J. Woessner,
+Brystal M. Forsythe, Tiffany Chase, Gregory T. Walker, Allen Tu, Lorita
+Boghospor, Sharon Jan, Gary Du, Albert C. Sek,  Kimberley Song,
+Jacqueline Booker, Joseph Serrano, and Scott C. Dawson <br><br>
+
+    <u>Proteomics</u>: Michael J. Cipriano, Christopher Nosala, Kari D. Hagen,
+Moises J. De La Torre
+    
+  		]]></description>
+    <usage>
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="21"></history>
+    <primaryContactId>scott.dawson</primaryContactId>
+    <link>
+      <text>Genes in this data set</text>
+      <url>http://giardiadb.org/giardiadb/im.do?s=368c343d596c0202</url>
+    </link>
+    <pubmedId>22206034</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.GeneImage"/>
+  </datasetPresenter> 
+
+<!--isAlignedToAnnotatedGenome made false so that questions don't show up, want this to be Gbrowse only-->
+ <datasetPresenter name="gassAWB_Tolba_TSSseq_rnaSeq_RSRC"
+                   projectName="GiardiaDB">
+    <displayName><![CDATA[Trophozoite transcription start sites]]></displayName>
+    <shortDisplayName>Tropho TSS-Seq</shortDisplayName>
+    <shortAttribution>Tolba et al.</shortAttribution>
+    <summary><![CDATA[
+    Trophozoite transcription start sites of <i>Giardia lamblia</i> Assemblage A isolate WB (ATCC 50803), 
+    determined by strand-specific TSS-sequencing.
+    ]]></summary>
+    <description><![CDATA[Transcriptional start site sequencing analysis of <i>Giardia lamblia</i> trophozoite WB strain (ATCC 50803).<br><br>
+     Transcription Start Site Sequencing:<br>
+     Total RNA was subjected to oligo-capping treatment that replaces the 5' cap structure of transcripts with a known oligo sequence.  
+     Poly(A)-RNA was selected, PCR amplified and subjected to RNA sequencing using strand-specific Illumina methods.<br><br>   
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22"></history>
+    <primaryContactId>mohammed.tolba</primaryContactId>
+    <contactId>yutaka.suzuki</contactId>
+    <contactId>sumio.sugano</contactId>
+	<link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>24116096</pubmedId>
+    <pubmedId>8125298</pubmedId>
+    <pubmedId>9373149</pubmedId> 
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">true</prop>
+<prop name="switchStrandsProfiles">true</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">6</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">false</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">910</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="gassAWB_Tolba_RNAseq_rnaSeq_RSRC"
+                   projectName="GiardiaDB">
+    <displayName><![CDATA[Trophozoite transcriptome]]></displayName>
+    <shortDisplayName>G.AWB Tropho RNA-Seq</shortDisplayName>
+    <shortAttribution>Tolba et al.</shortAttribution>
+    <summary><![CDATA[
+    Trophozoite transcriptome of <i>Giardia lamblia</i> Assemblage A isolate WB (ATCC 50803) 
+    determined by RNA-sequencing.
+    ]]></summary>
+    <description><![CDATA[RNA sequencing analysis of <i>Giardia lamblia</i> trophozoite WB strain (ATCC 50803).<br><br>
+     
+     Total RNA from trophozoites was analyzed by high throughput sequencing using TruSeq Illumina methods.
+     
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22"></history>
+    <primaryContactId>mohammed.tolba</primaryContactId>
+    <contactId>yutaka.suzuki</contactId>
+    <contactId>sumio.sugano</contactId>
+	<link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>24116096</pubmedId>
+    <pubmedId>8125298</pubmedId>
+    <pubmedId>9373149</pubmedId> 
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">brown</prop>
+      <prop name="graphBottomMarginSize">6</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">910</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+ <datasetPresenter name="ssalATCC50377_Feifei_trophozoites_rnaSeq_RSRC"
+                    projectName="GiardiaDB"
+                    >
+    <displayName><![CDATA[Transcriptome from pooled trophozoite exponential and stationary stages]]></displayName>
+    <shortDisplayName>S.sal Troph ExpoStat RNA-Seq</shortDisplayName>
+    <shortAttribution>Xu et al.</shortAttribution>
+    <summary><![CDATA[Transcriptome of <i>Spironucleus salmonicida</i> determined by Illumina RNA sequencing.]]></summary>
+    <description><![CDATA[
+    Transcriptome of <i>Spironucleus salmonicida</i> ATCC50377 from a mixed culture of exponential and stationary phase cells.<br><br>
+    Total RNA of <i>Spironucleus salmonicida</i> was harvested from two batches of trophozoites 
+    exponential and stationary stages of growth using standard methods. Equal amounts of total RNA from the two growth 
+    stages were pooled and mRNA was isolated using polyA-selection. Non strand-specific, paired-end libraries were 
+    sequenced using Illumina techniques. 
+    
+    ]]></description>
+    <protocol><![CDATA[]]></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22"></history>
+    <primaryContactId>jan.andersson</primaryContactId>
+    <contactId>feifei.xu</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>24516394</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">navyblue</prop>
+      <prop name="graphBottomMarginSize">4</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">920</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter> 
+
+ <datasetPresenter name="gassAWB_Pham_Intestine_Foci_rnaSeq_RSRC" projectName="GiardiaDB">
+    <displayName><![CDATA[Assemblage A intestine foci transcriptome]]></displayName>
+    <shortDisplayName>Transcriptome from Giardia foci in murine intestine</shortDisplayName>
+    <shortAttribution>Pham et al.</shortAttribution>
+    <summary><![CDATA[Transcriptome from Giardia foci in murine intestine]]></summary>
+    <description><![CDATA[
+          Total RNA was extracted by from <i>Giardia</i>-infected intestinal segmentsPoly(A) selection was performed for both the intestinal foci and in vitro culture samples with one microgram of total RNA. Illumina sequencing libraries were constructed and ribosomal RNA was depleted (UC Davis DNA Technologies Core Facility, Davis, CA) for downstream Illumina sequencing. 120–180 million 50 bp, single end reads were subsequently generated via Illumina sequencing (HiSeq 2500 system).
+    
+    ]]></description>
+    <protocol><![CDATA[]]></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="39"></history>
+    <primaryContactId>scott.dawson</primaryContactId>
+    <contactId>jonathan.pham</contactId>
+    <link>
+      <text>NCBI SRA Project</text>
+      <url>https://trace.ncbi.nlm.nih.gov/Traces/sra?study=SRP104997</url>
+    </link>
+    <pubmedId>28620589</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">navyblue</prop>
+      <prop name="graphBottomMarginSize">4</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">920</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gassAWB_smallNcRna_Wang_RSRC"
+                    projectName="GiardiaDB">
+    <displayName>Argonaute-Associated Small RNAs (WB)</displayName>
+    <shortDisplayName>G.AWB ArgoAssoc miRNAseq</shortDisplayName>
+    <shortAttribution>Saraiya et al.</shortAttribution>
+    <summary><![CDATA[Illumina RNA sequencing of small RNAs that co-precipitate with the Argonaute protein ]]></summary>
+    <description><![CDATA[<i>Giardia lamblia</i> WB trophozoites express only a single variant-specific surface protein (VSP) on the cell surface from 73 VSP genes.  To investigate whether microRNAs (miRNAs) could be associated with repression of the genes that are not expressed, RNA species that co-precipitate with Argonaute, a component of the RNAi pathway, were sequenced.<br><br>
+    Two independent libraries were constructed using a previously published protocol (TDIP1 and TDIP2). In addition, one library (TDSIP) was created using an additional sonification step to ensure complete trophozoite breakdown - this was not found to significantly affect the outcome. Libraries were sequenced using Illumina Hi-Seq 2500.<br><br>
+    Mapping of miRNAs using Bowtie2 revealed 99 new putative miRNAs with corresponding binding sites in VSP transcripts<br>]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22"></history>
+    <primaryContactId>ching.wang</primaryContactId>
+    <contactId>ashesh.saraiya</contactId>
+    <contactId>chuan.h.chang</contactId>
+    <contactId>wei.li</contactId>
+    <contactId>jesse.wu</contactId>
+    <pubmedId>24586143</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.SmallNcRna"/>
+  </datasetPresenter>
+
+
+ <datasetPresenter name="gassAWB_massSpec_Coelho_Soluble_Insoluble_Fraction_RSRC"
+                    projectName="GiardiaDB">
+    <displayName><![CDATA[Soluble and insoluble trophozoite protein fractions (BHFC1)]]></displayName>
+    <shortDisplayName>GassAWB Solu Insolu tropho Prot</shortDisplayName>
+    <shortAttribution>Coelho et al.</shortAttribution>
+    <summary><![CDATA[Soluble and insoluble protein fraction proteomics of <i>Giardia duodenalis</i> BHFC1 aligned to <i>Giardia assemblage</i> A isolate WB. ]]></summary>
+    <description><![CDATA[
+        <u>Soluble and Insoluble proteins from trophozoiztes</u>:
+        Trophozoites collected after 72 hours of culture were used to prepare soluble and insoluble protein
+        fractions.  Protein content was determined by 2-D Electrophoresis followed by MALDI-TOF mass spectrometry. Peak 
+        lists were searched against a parasite database created by the authors using Mascot version 2.1.
+                              ]]></description>
+    <usage>EuPathDB maps proteomics peptides to the genome and provides a search that returns genes 
+    based on these mappings.  Peptide mappings are tabulated on gene record pages and peptides can 
+    be displayed in context with the genome using GBrowse. 
+    	</usage>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="34"></history>
+    <primaryContactId>ana.paula.fernandes</primaryContactId>
+    <contactId>camila.henriques.coelho</contactId>
+    <pubmedId>27760188</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">G. lamblia</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter> 
+
+  <datasetPresenter name="_dbxref_duodenalis_structures_RSRC"
+                    projectName="GiardiaDB"
+                    datasetNamePattern="%_dbxref_duodenalis_structures_RSRC"
+                    >
+    <displayName><![CDATA[Predictein: structural homology prediction]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <displayCategory>Genomes and Annotation</displayCategory>
+
+    <summary><![CDATA[Giardia duodenalis structures prediction
+         ]]></summary>
+    <description>
+      <![CDATA[
+Three dimensional structures were predicted for proteins encoded in the <i>Giardia duodenalis</i> genome (strain WB, assemblage A, release 39) using the I-TASSER software suite (Yang et al Nature Methods 2015 10.1038/nmeth.3213).
+ The closest structural homologue in the protein databank was identified for each predicted structure. Predicted structures were assigned to high or low confidence categories depending on the presence of at least one matching 
+PFAM domain in the query and reference peptides. Further information is available in <a href="http://dx.doi.org/10.1093/gigascience/giy150">10.1093/gigascience/giy150</a> and at <a href="http://www.predictein.org/giardia_duodenalis/">Predictein</a>.
+      ]]>
+    </description>
+    <primaryContactId>aaron.jex</primaryContactId>
+<contactId>brendan.ansell</contactId>
+<contactId>samantha.emery</contactId>
+<contactId>bernie.pope</contactId>
+<contactId>peter.georgeson</contactId>
+    <link>
+      <text>Giardia duodenalis structures prediction</text>
+      <url><![CDATA[http://www.predictein.org/giardia_duodenalis]]></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.DBXRefs"/>
+  </datasetPresenter>
+
+<!--TODO for bld 22-->
+
+  <internalDataset name="gassAWB_sageTag_McArthurSageTags_frequencies_RSRC"/>
+                         
+
+
+  <!-- moved to global
+  <internalDataset name="gassAWB_microarrayPlatform_Troell_RSRC"/>
+  <internalDataset name="gassAWB_microarrayPlatform_Giardia_Lamblia_RSRC"/>
+  <internalDataset name="gassAWB_microarrayPlatform_Giardia_Lamblia_2_RSRC"/>
+  <internalDataset name="gassAWB_microarrayPlatform_Giardia_Lamblia_2_swapped_plate_RSRC"/>
+  <internalDataset name="gassAWB_microarrayPlatform_Giardia_Lamblia_1_RSRC"/>
+  <internalDataset name="gassAWB_microarrayPlatform_Giardia_Lamblia_1_swapped_plate_RSRC"/>
+
+  <internalDataset name="gassAWB_chromosome_primary_virtual_genome_RSRC"/>
+  <internalDataset name="gassAWB_ContigSequenceIDs_NASequence_aliases_RSRC"/>
+  <internalDataset name="gassAWB_dbxref_contig2Scaffold_RSRC"/>
+  <internalDataset name="gassAWB_dbxref_gene2Deprecated_RSRC"/>
+  <internalDataset name="gassAWB_supercontig_primary_virtual_genome_RSRC"/>
+  <internalDataset name="gassAWB_contig_primary_virtual_genome_RSRC"/>
+
+  <internalDataset name="gassBGS_previousProteinId_NAFeature_aliases_RSRC"/>
+  <internalDataset name="gassAWB_ScaffoldSequenceIDs_NASequence_aliases_RSRC"/>
+  <internalDataset name="gassAWB_secondary_virtual_genome_RSRC"/>
+  <internalDataset name="gassAWB_Wang_GlAgoIP_TD2_smallNcRnaSample_RSRC"/> 
+  <internalDataset name="gassAWB_Wang_GlAgoIP_TSD1_smallNcRnaSample_RSRC"/> 
+  <internalDataset name="gassAWB_Wang_GlAgoIP_TD1_smallNcRnaSample_RSRC"/>
+  <internalDataset name="gassAWB_Wang_GlAgoIP_TSD2_smallNcRnaSample_RSRC"/> 
+-->
+
+  <!-- No attribution needed below here -->
+  <internalDataset name="gassAWB_sageTag_McArthurSageTags_RSRC"/>
+  <internalDataset name="gassBGS_previousProteinId_NAFeature_aliases_RSRC"/>
+  <internalDataset name="gassAWB_ScaffoldSequenceIDs_NASequence_aliases_RSRC"/>
+  <internalDataset name="gassAWB_secondary_virtual_genome_RSRC"/>
+  <internalDataset name="gassAWB_genome_ExpertComments_RSRC"/>
+
+
+  <!-- HIDE TROELL EXPERIMENT -->
+  <internalDataset name="gassAWB_microarrayExpression_Troell_v1swapped_reps_RSRC"/>
+
+<!-- TODO in bld 23 -->
+  <internalDataset name="gassAWB_SNP_metaData_Jex_NGS_SNP_RSRC"/>
+  <internalDataset name="gassBGS_SNP_metaData_Jex_NGS_SNP_RSRC"/>
+  <internalDataset name="gassEP15_SNP_metaData_Jex_NGS_SNP_RSRC"/>
+
+</datasetPresenters>

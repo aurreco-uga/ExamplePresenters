@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasetPresenters.xslt"?>
+<!DOCTYPE datasetPresenters SYSTEM "datasetPresenters.dtd">
+<datasetPresenters>
+
+  <datasetPresenter name="cparIowaII_bld36_annotation_GFF_GFF_RSRC"
+                    projectName="CryptoDB">
+     <displayName><![CDATA[bld36_annotation_GFF]]></displayName>
+     <shortDisplayName>bld36_annotation</shortDisplayName>
+     <summary><![CDATA[The previous annotation for C. parvum IOWA II from release 36]]></summary>
+     <description><![CDATA[The previous annotation for C. parvum IOWA II from release 36]]></description>
+     <protocol></protocol>
+     <caveat></caveat>
+     <acknowledgement></acknowledgement>
+     <releasePolicy></releasePolicy>
+      <history buildNumber="37"></history>
+     <primaryContactId>john.adams</primaryContactId>
+     <link>
+       <text></text>
+       <url></url>
+     </link>
+  </datasetPresenter>
+
+  <datasetPresenter name="cspchipmunkLX2015_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and assembly for <i>Cryptosporidium sp.</i> chipmunk LX-2015]]></summary>
+    <description><![CDATA[
+	<i>Cryptosporidium</i> chipmunk genotype I is an emerging zoonotic pathogen. In order to develop subtyping tools to determine the role of zoonotic transmission in cryptosporidiosis epidemiology, a human isolate of chipmunk genotype I oocysts was sequenced on an Illumina Genome Analyzer IIx (Illumina). Single-end 100-base pair reads were assembled using the CLC Genomics Workbench (CLC Bio), and contigs were mapped to the published whole-genome sequences of <i>C. parvum </i> using Mauve. In total, 9,009,492 bp in 150 contigs were mapped, resulting in 98.98% coverage of the genome.
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41" 
+            genomeSource="GenBank" genomeVersion="Feb 3, 2015" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>cdcp</primaryContactId>
+    <contactId>yaoyu.feng</contactId>
+    <contactId>lihua.xiao</contactId>
+    <link>
+      <text>NCBI Bioproject home page</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/PRJNA272389</url>
+    </link>
+    <link>
+      <text>GenBank Assembly page</text>
+      <url>https://www.ncbi.nlm.nih.gov/assembly/GCA_000831705.1</url>
+    </link>
+    <pubmedId>25762767</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter> 
+
+  <datasetPresenter name="cparIowaII_bld36Transcripts_transcript_sequences_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[C. parvum transcripts from bld 36]]></displayName>
+    <shortDisplayName>bld36Transcript</shortDisplayName>
+    <shortAttribution></shortAttribution>
+    <summary><![CDATA[Transcripts for C. parvum IOWA II from CryptoDB Release 36.]]></summary>
+    <description><![CDATA[
+	Transcript sequences from the annotation of Cryptosporidium parvum IOWA II as presented in CryptoDB release 36.
+                
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>vivek.kapur</primaryContactId>
+    <link>
+     <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.Sequences"/>
+  </datasetPresenter>
+
+  <datasetPresenter name="ctyzUGA55_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Cryptosporidium tyzzeri</i> isolate UGA55 sequence and annotation]]></summary>
+    <description><![CDATA[
+	<i>Cryptosporidium tyzzeri</i> UGA55 (<i>C. parvum</i> mouse genotype I) is an intestinal 
+parasite isolated from naturally infected <i>Mus domesticus</i> by Adam Stariale, 
+Jan Slapeta and Boris Striepen. The highest burden of 
+<i>C. tyzzeri</i> infection is found in the distal ileum of the mouse small intestine, yet 
+there is also significant infection of the jejunum and duodenum, similar to what is 
+seen in human cryptosporidiosis. Paired-end Illumina sequence reads were assembled into 
+contigs using the velvet assembler software and contigs were scaffolded by using a 
+<i>C. parvum</i> Pacbio guided assembly using SSPACE-longreads.
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="36" 
+            genomeSource="KissingerLab" genomeVersion="Nov 16, 2017" 
+            annotationSource="KissingerLab" annotationVersion="Nov 16, 2017"/>
+    <primaryContactId>boris.striepen</primaryContactId>
+<contactId>jessica.kissinger</contactId>
+<contactId>jan.slapeta</contactId>
+    <contactId>rodrigo.baptista</contactId>
+<contactId>yiran.li</contactId>
+<contactId>adam.stariale</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="chom30976_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Cryptosporidium hominis</i> isolate 30976 sequence and annotation]]></summary>
+    <description><![CDATA[
+	
+	The isolate was firstly described at Guo et al. (2015) "Comparative genomic analysis reveals occurrence of genetic recombination in virulent Cryptosporidium hominis subtypes and telomeric gene duplications in Cryptosporidium parvum". Specimen 30976 was collected from a patient in a cryptosporidiosis outbreak in July 2010 in the St. Louis area in Illinois and Missouri associated with swimming pools and a water park. Whole genome amplification (WGA) of the 25–100 ng of extracted DNA was conducted by using the REPLI-g Midi Kit (Qiagen). The WGA products from specimens 30976 and 37999 were used to generate Illumina TruSeq (v3) libraries (average insert size: 350 bp) and sequenced 100×100 bp paired-end on an Illumina Genome Analyzer IIx (Illumina, San Diego, CA).
+
+	The annotation was performed by Kissinger's Research Group and the manuscript "Consistent, comparative and evidence-based genome annotation and re-annotation for the closely-related species, Cryptosporidium parvum, C. hominis and C. tyzzeri" with all specs will be available soon.
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="36" 
+            genomeSource="KissingerLab" genomeVersion="Nov 16, 2017" 
+            annotationSource="KissingerLab" annotationVersion="Nov 16, 2017"/>
+    <primaryContactId>lihua.xiao</primaryContactId>
+<contactId>jessica.kissinger</contactId>
+    <contactId>rodrigo.baptista</contactId>
+<contactId>yiran.li</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>25903370</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cand30847_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Cryptosporidium andersoni</i> solate 30847 sequence and annotation]]></summary>
+    <description><![CDATA[
+        Cryptosporidium andersoni 30847 was isolated from beef cattle in Alberta Canada in 2009. PCR-RFLP analysis and DNA sequencing of the small subunit RNA confirmed Cryptosporidium species. Genomic DNA from purified oocysts was sequenced on an Illumina Genome Analyzer IIX and the genome was assembled de novo using CLC Genomics Workbench 7.03. Protein-coding genes were predicted using a pipeline of three software packages, including AUGUSTUS 2.7, SNAP, and GeneMark-ES.
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="32" 
+            genomeSource="GenBank" genomeVersion="Nov 03, 2016" 
+            annotationSource="GenBank" annotationVersion="Nov 03, 2016"/>
+    <primaryContactId>lihua.xiao</primaryContactId>
+    <link>
+      <text>Genome home page at NCBI/GenBank</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/nuccore/LRBS00000000]]></url>
+    </link>
+    <pubmedId>27931183</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cubi39726_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Cryptosporidium ubiquitum</i> isolate 39726 sequence and annotation]]></summary>
+    <description><![CDATA[
+            
+Whole genome sequence and annotations from the <i>Cryptosporidium ubiquitum</i> isolate 39726 whole genome sequencing project.
+<br/>
+<br>
+Isolate: 39726<br>
+Collected by: Roellig Dawn<br>
+Collection date: 16-Sep-2013<br>
+Geographic location: USA<br>
+Host: Homo sapiens<br>
+Host disease: cryptosporidiosis<br>
+Isolation source: stool<br>
+Latitude and longitude: 44.5 N 89.5 W<br>
+Host age: 12<br>
+Host description: Diarrhea, Abdominal pain or cramping<br>
+Host sex: Female<br><br>
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="31" 
+            genomeSource="Genbank" genomeVersion="Nov 17, 2016" 
+            annotationSource="Genbank" annotationVersion="Nov 17, 2016"/>
+    <primaryContactId>lihua.xiao</primaryContactId>
+    <link>
+      <text>Genome home page at NCBI/GenBank</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/nuccore/LRBP00000000.1]]></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+
+
+  <datasetPresenter name="cvelCCMP2878_Otto_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome in normal culture conditions]]></displayName>
+    <shortDisplayName>CvelCCMP NormCulture RNAseq</shortDisplayName>
+    <shortAttribution>Woo et al.</shortAttribution>
+    <summary><![CDATA[
+      RNA-seq to generate transcriptome map of <i>Chromera velia</i> under a normal culturing condition.
+       ]]></summary>
+    <description><![CDATA[Illumina-based sequencing of RNA from a normal culturing condition of 
+    <i>Chromera velia</i> <br> <br>
+      
+    Total RNA was polyA selected using oligo(dT) beads and RNA-seq libraries were prepared using TruSeq RNA Sample 
+    Prep kit (catalog no. FC-122-1001). 
+        <br> <br>
+
+       ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+    <primaryContactId>arnab.pain</primaryContactId>
+    <contactId>miroslav.obornik</contactId>
+    <contactId>julius.lukes</contactId>
+    <pubmedId>26175406</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">true</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#8F006B</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Transcriptome]]></prop>
+      <prop name="graphPriorityOrderGrouping">610</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector> 
+  </datasetPresenter>
+
+  <datasetPresenter name="vbraCCMP3155_Otto_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome in normal culture conditions]]></displayName>
+    <shortDisplayName>VbraCCMP NormCulture RNAseq</shortDisplayName>
+    <shortAttribution>Woo et al.</shortAttribution>
+    <summary><![CDATA[
+      RNA-seq to generate transcriptome map of <i>Vitrella. brassicaformis</i> under a normal culturing condition.
+       ]]></summary>
+    <description><![CDATA[Illumina-based sequencing of RNA from a normal culturing condition of <i>Vitrella brassicaformis</i> <br> <br>
+      
+    Total RNA was polyA selected using oligo(dT) beads and RNA-seq libraries were prepared using TruSeq 
+    RNA Sample Prep kit (catalog no. FC-122-1001). 
+        <br> <br>
+
+       ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23"></history>
+    <primaryContactId>arnab.pain</primaryContactId>
+    <contactId>miroslav.obornik</contactId>
+    <contactId>julius.lukes</contactId>
+    <pubmedId>26175406</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#8F006B</prop>
+      <prop name="graphBottomMarginSize">0</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="graphXAxisSamplesDescription"><![CDATA[Transcriptome]]></prop>
+      <prop name="graphPriorityOrderGrouping">600</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector> 
+  </datasetPresenter>
+
+  <datasetPresenter name="cvelCCMP2878_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[Genome Sequence and Annotation for <i>Chromera velia</i> CCMP2878]]></summary>
+    <description><![CDATA[
+      The genome sequence and annotation of <i>Chromera velia</i> CCMP2878 was produced by a consortium led by 
+      KAUST (King Abdullah University of Science and Technology). The aim is to understand the evolution of 
+      parasitism in the apicomplexa. The sequence and annotation is currently not published. <br><br>
+
+For questions please contact Yong.Woo@kaust.edu.sa. <br><br>
+
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23" 
+            genomeSource="PainLab" genomeVersion="May 15, 2014" 
+            annotationSource="PainLab" annotationVersion="May 15, 2014"/>
+    <primaryContactId>arnab.pain</primaryContactId>
+<contactId>julius.lukes</contactId>
+    <contactId>miroslav.obornik</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>26175406</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="optionalSpecies"></prop>
+      <prop name="specialLinkDisplayText"></prop>
+      <prop name="updatedAnnotationText"></prop>
+      <prop name="isCurated">false</prop>
+      <prop name="specialLinkExternalDbName"></prop>
+      <prop name="showReferenceTranscriptomics">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="vbraCCMP3155_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    
+    <summary><![CDATA[Genome Sequence and Annotation for <i>Vitrella brassicaformis</i> CCMP3155]]></summary>
+    <description><![CDATA[
+      The genome and annotation of <i>Vitrella brassicaformis</i> CCMP3155 was produced by a consortium led by KAUST 
+      (King Abdullah University of Science and Technology). The aim is to understand the evolution of parasitism 
+      in the apicomplexa. The sequence and annotation is currently not published. <br><br>
+
+For questions please contact Yong.Woo@kaust.edu.sa. <br><br> 
+
+      ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="23" 
+            genomeSource="PainLab" genomeVersion="May 15, 2014" 
+            annotationSource="PainLab" annotationVersion="May 15, 2014"/>
+    <primaryContactId>arnab.pain</primaryContactId>
+    <contactId>julius.lukes</contactId>
+    <contactId>miroslav.obornik</contactId>
+    <link>
+      <text></text>
+      <url></url>
+    </link>
+    <pubmedId>26175406</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="optionalSpecies"></prop>
+      <prop name="specialLinkDisplayText"></prop>
+      <prop name="updatedAnnotationText"></prop>
+      <prop name="isCurated">false</prop>
+      <prop name="specialLinkExternalDbName"></prop>
+      <prop name="showReferenceTranscriptomics">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="gnipUnknown_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ Genome Sequence and Annotation for <i>Gregarina niphandrodes</i>
+            ]]></summary>
+    <description><![CDATA[ 
+            
+<i>Gregarina niphandrodes</i> genome sequence data were produced by JCVI.  The genome was sequenced using 
+454 GS FLX Titanium and Illumina technology to a coverage of 39.68X.  The genome was assembled with Newbler v. 2.6. EuPathDB 
+downloaded the data from GenBank.
+<br>
+<p>Data Usage Policy</p> The <i>G. niphandrodes</i> gDNA was extracted from gametocytes collected from the feces of infected beetles by Dr. Charlotte Omoto at Washington State University.<br>
+<p>NIAID is committed to rapid, pre-publication release of genomic data and recognizes that clinical data and other metadata associated with the genomic data are valuable research resources.  For these reasons, NIAID endorses rapid release of all genome data sets.  To comply with this policy, the whole genome sequences of T. gondii strains are being submitted to NCBI and included here in ToxoDB prior to complete annotation.  Once annotation is complete and submitted to GenBank, the entries for these new genomes will be updated in ToxoDB.  The users of any released data are expected to act responsibly to recognize the scientific contribution of the data producers by following normal standards of scientific etiquette and fair use of unpublished data.  In particular, we ask that users not perform genome wide comparisons/analyses of the sequence/open reading frames/genes of the data sets deposited here without first contacting the organizing committee.  We welcome your input in this process, but would also like to coordinate community efforts to with the goal of producing a collective report for publication.  If you have an idea for analyses that would be useful, please contact one of us to coordinate your contribution to the community effort.</p><br>
+<p>Brian Brunk, Hernan Lorenzi, David Roos & David Sibley, on behalf of the Toxoplasma genome consortium, representing the white paper committee, the JCVI genome sequencing center, and the ToxoDB team.</p>
+         ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Mar 29, 2012" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="22" 
+            genomeSource="Genbank" genomeVersion="Apr 9, 2014" 
+            annotationSource="Genbank" annotationVersion="Apr 9, 2014">newly-annotated</history>
+    <history buildNumber="23" 
+            genomeSource="Genbank" genomeVersion="Apr 9, 2014" 
+            annotationSource="Genbank" annotationVersion="Apr 9, 2014">move-from-ToxoDB</history>
+    <primaryContactId>david.sibley</primaryContactId>
+    <contactId>hernan.a.lorenzi</contactId>
+<contactId>charlotte.omoto</contactId>
+    <contactId>david.s.roos</contactId>
+    <link>
+      <text>Assembly record at NCBI</text>
+      <url>http://www.ncbi.nlm.nih.gov/assembly/GCA_000223845.4</url>
+    </link>
+    <link>
+      <text>Toxoplasma Genome Project</text>
+      <url>https://sites.google.com/site/toxoplasmagondiigscidproject/home</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="optionalSpecies"></prop>
+      <prop name="specialLinkDisplayText"></prop>
+      <prop name="updatedAnnotationText"></prop>
+      <prop name="isCurated">false</prop>
+      <prop name="specialLinkExternalDbName"></prop>
+      <prop name="showReferenceTranscriptomics">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="cparIowaII_dbxref_protein2EinsteinAntibodies_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Antibodies Links]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary></summary>
+    <description><![CDATA[
+            
+                <br>Antibodies against <i>C. parvum</i> epitopes generated by the 
+                <a href="http://toro.aecom.yu.edu/biodefense/"TARGET="_blank">Albert Einstein Biodefense Proteomics Research Center</a>.<br>
+                Antibodies may be obtained for free from the Biodefense and Emerging Infections Research Resources Repository.<br><br>
+          
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>albert.einstein.prc</primaryContactId>
+    <link>
+      <text></text>
+      <url><![CDATA[http://www.beiresources.org/]]></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.EinsteinAntibodies"/>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="cmurRN66_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Cryptosporidium muris</i> RN66 ]]></summary>
+    <description><![CDATA[
+            
+            <i>Cryptosporidium muris</i> RN66 sequence and annotation downloaded from GenBank.<br><br>
+            
+            Cryptosporidium muris predominantly infects rodents, although a gradually increasing number of human 
+            infections have been reported. This species has adapted to living in the stomach, 
+            while other Cryptosporidium species have adapted to living in the small and large intestine.<br><br>
+            
+             This project represents roughly 13x
+            hybrid coverage (about 4.5x Sanger and 10x 454) of the genome.
+            Annotation was added to the scaffolds in October 2008.
+            
+            
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Oct 16, 2008" 
+            annotationSource="Genbank" annotationVersion="Oct 16, 2008"/>
+    <history buildNumber="29" 
+            genomeSource="Genbank" genomeVersion="Mar 11, 2015" 
+            annotationSource="Genbank" annotationVersion="Mar 11, 2015">re-annotated</history>
+    <primaryContactId>lis.caler</primaryContactId>
+    <contactId>hernan.a.lorenzi</contactId>
+    <contactId>giovanni.widmer</contactId>
+    <contactId>joana.da.silva</contactId>
+    <contactId>jane.m.carlton</contactId>
+    <link>
+      <text>Assembly home page at NCBI/GenBank</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/assembly/GCF_000006515.1/]]></url>
+    </link>
+    <link>
+      <text>JCVI genome project page</text>
+      <url><![CDATA[ http://gsc.jcvi.org/projects/msc/cryptosporidium_muris/index.shtml]]></url>
+    </link>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+      <prop name="specialLinkDisplayText"></prop>
+      <prop name="updatedAnnotationText"></prop>
+      <prop name="isCurated">false</prop>
+      <prop name="specialLinkExternalDbName"></prop>
+      <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="cparIowaII_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and annotation for <i>Cryptosporidium parvum</i> IowaII]]></summary>
+    <description><![CDATA[
+            
+		<i>Cryptosporidium parvum</i> IowaII genome sequence and annotation downloaded from GenBank.<br><br>
+		
+		<I>Cryptosporidium parvum</i> Iowa II is an intestinal parasite.  Genomic DNA was purified from the parasite 
+		oocyst stage, randomly sheared and used to construct plasmid libraries of 2 – 5 kb fragments in length and 
+		sequenced to generate a 13-fold genome coverage. A 0.5-fold genome coverage was generated 
+		by end sequencing of large-insert (15 kb) lamba clones. Individual sequence reads were assembled into 
+		contigs using the PHRED/PHRAP/CONSED analysis software and contigs were assigned and orientated on 
+		chromosomes with the aid of HAPPY map markers (S2).
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Feb 23, 2007" 
+            annotationSource="Genbank" annotationVersion="Feb 23, 2007"/>
+    <history buildNumber="37" 
+            genomeSource="GenBank" genomeVersion="Feb 26, 2007" 
+            annotationSource="KissingerLab" annotationVersion="Feb 27, 2018">data source changed, re-annotated</history>
+    <primaryContactId>vivek.kapur</primaryContactId>
+    <contactId>jessica.kissinger</contactId>
+    <link>
+      <text>Whole Genome Shotgun Sequencing page at NCBI/GenBank</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/nuccore/46231244]]]></url>
+    </link>
+    <pubmedId>15044751</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cparIowaII_HTS_SNP_Widmer_HTS_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Aligned genomic sequence reads - TU114 Strain]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ SNPs determined by aligning high throughput sequencing reads of <i>C. parvum</i> TU114 to the 
+    	<i>C. parvum</i> reference genome ]]></summary>
+    <description><![CDATA[ 
+    High throughput sequencing of <i>Cryptosporidium parvum</i> TU114 analyzed for single nucleotide polymorphisms to 
+    <i>C. parvum</i>.<br><br>
+    
+        <u>Parasites</u><br />
+    <i>C. parvum</i> isolate TU114 was isolated from a Ugandan child in 2003 and has since been maintained by serial 
+    propagation in immunosuppressed mice.  This isolate was previously described in the context of a crossing experiment 
+    (Tanriverdi et al., 2007). TU114 was genotyped with several polymorphic micro- and minisatellite markers 
+    (Tanriverdi & Widmer, 2006, Widmer & Lee, 2010). Its genotype is characteristic of a group of <i>C. parvum</i> 
+    isolates which are predominantly or exclusively transmitted among humans and carry the GP60 (GP40/15) IIcA5G3b 
+    allele characterized by a short repeat of only 8 serine residues.  Isolate TU114 has never been cloned. 
+    To generate DNA for sequencing, immunosuppressed CD-1 mice were orally inoculated with oocysts. When oocysts 
+    were first detected in the feces by the microscopic analysis of stained fecal smears (Ma & Soave, 1983), 
+    mice were transferred to cages with a wire bottom and feces collected daily.  Oocysts were purified on step 
+    gradients of Histodenz (Widmer et al., 1998). To remove foreign DNA, oocysts were briefly suspended in a 10% 
+    solution of commercial bleach. Thereafter, oocysts were subjected to three cycles of freezing and thawing, and 
+    DNA extracted with the HighPure DNA isolation kit (Roche Diagnostics, Indianapolis, IN).
+<br/><br/>
+<u>Sequencing</u>
+    Genomic DNA from isolate TU114 was fragmented, ligated to Illumina adapters and the library loaded onto one 
+    lane of a flow cell. The library was sequenced in an Illumina Genome AnalyzerII with 50-bp paired-end reads. 
+    A total of 22,125,448 reads were obtained, 21,483,810 (97.15%) of which mapped to the <i>C. parvum</i> reference 
+    genome (accession # NZ AAEE00000000). 
+    
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>yongsun.lee</contactId>
+    <contactId>paul.hunt</contactId>
+    <contactId>axel.martinelli</contactId>
+    <contactId>james.tumwine</contactId>
+    <contactId>donna.akiyoshi</contactId>
+    <contactId>saul.tzipori</contactId>
+    <pubmedId>22522000</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="cparIowaII_HTS_SNP_Feng_Comparative_Single_End_HTS_SNPs_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Comparative genomics of Cryptosporidium spp. 34902 and 35090]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ 
+              Comparative genomic analysis of the IId subtype family of <i>Cryptosporidium parvum</i> isolates 34902 and 35090
+    ]]></summary>
+    <description><![CDATA[ 
+               This project is to compare different isolates of <i>Cryptosporidium</i> spp. at whole genome level to identify 
+               genetic determinants for phonotypic traits such as host specificity and virulence, and for high-resolution 
+               tracking of transmission in humans and animals.  
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="34"></history>
+    <primaryContactId>lihua.xiao</primaryContactId>
+    <contactId>yaoyu.feng</contactId>
+    <link>
+      <text>NCBI BioProject</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA320419]]></url>
+    </link>
+    <pubmedId>28192123</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">true</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cparIowaII_HTS_SNP_Feng_Comparative_Paired_End_HTS_SNPs_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Comparative genomics of Cryptosporidium isolate 31727]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ 
+                Comparative genomic analysis of the IId subtype family of <i>Cryptosporidium parvum</i> isolate 31727
+               ]]></summary>
+    <description><![CDATA[ 
+                This project is to compare different isolates of <i>Cryptosporidium</i> spp. at whole genome level to 
+                identify genetic determinants for phonotypic traits such as host specificity and virulence, and for 
+                high-resolution tracking of transmission in humans and animals.  
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="34"></history>
+    <primaryContactId>lihua.xiao</primaryContactId>
+    <contactId>yaoyu.feng</contactId>
+    <link>
+      <text>NCBI BioProject</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA320419]]></url>
+    </link>
+    <pubmedId>28192123</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">true</prop>
+    </templateInjector>
+  </datasetPresenter>  
+
+  <datasetPresenter name="chomTU502_HTS_SNP_Guo_Genetic_Recombination_Single_End_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Whole genome sequencing and comparative genomic analysis]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ 
+                Whole genome sequencing of <i>Cryptosporidium hominis</i> subtypes
+               ]]></summary>
+    <description><![CDATA[ 
+                Whole genome sequencing of <i>Cryptosporidium hominis</i> subtypes.  In this study four isolates were sequenced:<br>
+C. hominis_33537_CO Single end sequencing - 454 GS FLX Titanium<br>
+C. hominis_30974_SC Single end sequencing - 454 GS FLX Titanium<br>
+C. hominis_30976_MO Paired end sequencing Illumina Genome Analyzer IIx<br>
+C. hominis_37999_ID Paired end sequencing Illumina Genome Analyzer IIx<br>
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="35"></history>
+    <primaryContactId>lihua.xiao</primaryContactId>
+    <link>
+      <text>NCBI BioProject</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/252787]]></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+  </datasetPresenter>  
+
+  <datasetPresenter name="chomTU502_HTS_SNP_Guo_Genetic_Recombination_Paired_End_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Whole genome sequencing and comparative genomic analysis]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ 
+                Whole genome sequencing of <i>Cryptosporidium hominis</i> subtypes
+               ]]></summary>
+    <description><![CDATA[ 
+                Whole genome sequencing of <i>Cryptosporidium hominis</i> subtypes.  In this study four isolates were sequenced:<br>
+C. hominis_33537_CO Single end sequencing - 454 GS FLX Titanium<br>
+C. hominis_30974_SC Single end sequencing - 454 GS FLX Titanium<br>
+C. hominis_30976_MO Paired end sequencing Illumina Genome Analyzer IIx<br>
+C. hominis_37999_ID Paired end sequencing Illumina Genome Analyzer IIx<br>
+    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="35"></history>
+    <primaryContactId>lihua.xiao</primaryContactId>
+    <link>
+      <text>NCBI BioProject</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/252787]]></url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+  </datasetPresenter>  
+
+ 
+  <datasetPresenter name="cparIowaII_HTS_SNP_Hadfield_IMS_Stool_Samples_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Whole genome sequences of C. parvum isolates from stool samples ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ 
+    Whole genome sequence of seven <i>Cryptosporidium parvum</i> isolates directly from stool samples without 
+    the intermediate step of propagation of oocysts in animals or whole genome amplification]]></summary>         
+    <description><![CDATA[ 
+    Whole genome sequence of seven <i>Cryptosporidium parvum</i> isolates:<br>
+                               ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="36"></history>
+    <primaryContactId>rachel.chalmers</primaryContactId>
+    <contactId>j.alexander</contactId>
+    <contactId>sj.cameron</contactId>
+    <contactId>kristin.elwin</contactId>
+    <contactId>stephen.hadfield</contactId>
+    <contactId>matthew.hegarty</contactId>
+    <contactId>justin.pachebat</contactId>
+    <contactId>guy.robinson</contactId>
+    <contactId>martin.swain</contactId>
+    <link>
+      <text>NCBI BioProject PRJNA253836</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253836]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253840</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253840]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253843</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253843]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253845</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253845]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253846</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253846]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253847</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253847]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253848</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253848]]></url>
+    </link>
+    <pubmedId>26318339</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">true</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="chomTU502_HTS_SNP_Hadfield_IMS_Stool_Samples_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Whole genome sequences of C. hominis isolates from stool samples ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[ 
+    Whole genome sequence of three <i>Cryptosporidium hominis</i> isolates directly from stool samples without the 
+    intermediate step of propagation of oocysts in animals or whole genome amplification
+                          ]]></summary>
+    <description><![CDATA[ 
+    Whole genome sequence of three <i>Cryptosporidium hominis</i> isolates
+                          ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="36"></history>
+    <primaryContactId>rachel.chalmers</primaryContactId>
+    <contactId>j.alexander</contactId>
+    <contactId>sj.cameron</contactId>
+    <contactId>kristin.elwin</contactId>
+    <contactId>stephen.hadfield</contactId>
+    <contactId>matthew.hegarty</contactId>
+    <contactId>justin.pachebat</contactId>
+    <contactId>guy.robinson</contactId>
+    <contactId>martin.swain</contactId>
+    <link>
+      <text>NCBI BioProject PRJNA253834</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253834]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253838</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253838]]></url>
+    </link>
+    <link>
+      <text>NCBI BioProject PRJNA253839</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA253839]]></url>
+    </link>
+    <pubmedId>26318339</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+   
+  <datasetPresenter name="cparIowaII_HTS_SNP_Gilchrist_Genetic_Diversity_Bangladesh_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Cryptosporidium hominis genetic diversity in isolates from Bangladesh]]></displayName>
+    <shortDisplayName>C hominis SNPs Bangladesh</shortDisplayName>
+    <summary><![CDATA[ <i>Cryptosporidium hominis</i> genetic diversity in isolates from Bangladesh
+
+                          ]]></summary>
+    <description><![CDATA[ Genome sequencing of <i>Cryptosporidium hominis</i> from infants in slum dwelling from Dhaka Bangladesh. <i>Cryptosporidium</i> oocysts were purified directly from stool samples of 2 grams of semi-solid stool or approximately 2 mL of liquid stool material using the protocol of Hadfield et al. In 32 samples the sequences were both derived from C. hominis and had >80% genome coverage of 10X. Fifteen of these were diarrheal isolates and seventeen were isolated from subclinical infections as defined by Steiner et al.
+                          ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="38"></history>
+    <primaryContactId>carol.gilchrist</primaryContactId>
+    <contactId>a.s.g.faruque</contactId>
+    <contactId>james.cotton</contactId>
+    <contactId>cecelia.burkey</contactId>
+    <contactId>matthew.berriman</contactId>
+    <contactId>william.a.petri.jr</contactId>
+    <link>
+      <text>NCBI BioProject PRJEB24168</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJEB24168]]></url>
+    </link>
+    <pubmedId>29514308</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="chomTU502_HTS_SNP_Sikora_Clinical_Stool_Samples_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genomic variation in patient-derived Cryptosporidium hominis samples
+]]></displayName>
+    <shortDisplayName>C hominis Clinical Stool Samples</shortDisplayName>
+     <shortAttribution>Sikora et al. 2016</shortAttribution>
+    <summary><![CDATA[ Genomic variation in patient-derived <i>Cryptosporidium hominis</i> samples
+
+                          ]]></summary>
+    <description><![CDATA[ 
+     Genomic DNA from 14 clinical <i>C. hominis</i> stool samples collected from 2013-2015 was extracted using target-specific immunomagnetic separation (IMS) with anti-Cryptosporidium Dynabeads (Thermo Fisher) followed by a QIAamp DNA minikit. A library for each sample was created by fragmenting the DNA and adding adaptors to the ends, using an Ion Xpress Plus fragment library kit for an AB Library Builder system (Thermo Fisher) according to the manufacturers autoshearing program for a 400-bp library without size selection. The samples were amplified then size selected using Pippin Prep (Sage Science) and purified using AMPure beads (Beckman Coulter). The size selected libraries were clonally amplified using an Ion Chef system and an Ion One Touch 2 system (Thermo Fisher) and then used for whole-genome sequencing on an Ion Torrent Personal Genome Machine (PGM) using an Ion PGM IC 200/400 kit and an Hi-Q sequencing kit (Thermo Fisher).
+                          ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41"></history>
+    <primaryContactId>jessica.beser</primaryContactId>
+		<contactId>romanico.b.g.arrighi</contactId>
+		<contactId>per.sikora</contactId>
+		<contactId>olov.svartstrom</contactId>
+		<contactId>karin.troell</contactId>
+    <link>
+      <text>NCBI BioProject PRJNA307563</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJNA307563]]></url>
+    </link>
+    <pubmedId>28003424</pubmedId>
+		<pubmedId>28919550</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+  
+  <datasetPresenter name="chomTU502_HTS_SNP_Gilchrist_Genetic_Diversity_Bangladesh_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Cryptosporidium hominis genetic diversity in isolates from Bangladesh]]></displayName>
+    <shortDisplayName>C hominis SNPs Bangladesh</shortDisplayName>
+    <summary><![CDATA[ <i>Cryptosporidium hominis</i> genetic diversity in isolates from Bangladesh
+
+                          ]]></summary>
+    <description><![CDATA[ Genome sequencing of <i>Cryptosporidium hominis</i> from infants in slum dwelling from Dhaka Bangladesh. <i>Cryptosporidium</i> oocysts were purified directly from stool samples of 2 grams of semi-solid stool or approximately 2 mL of liquid stool material using the protocol of Hadfield et al. In 32 samples the sequences were both derived from C. hominis and had >80% genome coverage of 10X. Fifteen of these were diarrheal isolates and seventeen were isolated from subclinical infections as defined by Steiner et al.
+                          ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="41"></history>
+    <primaryContactId>carol.gilchrist</primaryContactId>
+    <contactId>a.s.g.faruque</contactId>
+    <contactId>james.cotton</contactId>
+    <contactId>cecelia.burkey</contactId>
+    <contactId>matthew.berriman</contactId>
+    <contactId>william.a.petri.jr</contactId>
+    <link>
+      <text>NCBI BioProject PRJEB24168</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJEB24168]]></url>
+    </link>
+    <pubmedId>29514308</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.IsolatesHTS">
+        <prop name="hasCNVData">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cparIowaII_massSpec_Ferrari_LTQ_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Oocyst Wall Proteome (IowaII)]]></displayName>
+    <shortDisplayName>C.pIowa Oocyst Wall Sporo Prot</shortDisplayName>
+    <shortAttribution>Truong and Ferrari</shortAttribution>
+    <summary><![CDATA[Proteome of intact oocyst, oocyst wall and sporozoite of <i>C. parvum</i> IowaII determined by 
+    		linear ion trap mass spec]]></summary>
+    <description><![CDATA[
+            
+        <i>Cryptosporidium parvum</i> IowaII oocyst, oocyst wall and sporozoite proteomes from linear ion trap (LTQ) mass spectrometer analysis of .           
+            
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>belinda.ferrari</primaryContactId>
+    <contactId>quach.truong</contactId>
+    <pubmedId>16696982</pubmedId>
+	<templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">C. parvum</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+    </templateInjector>
+  </datasetPresenter>
+
+ <!-- comment it out because it showed up at Genome Sequence and Annotation  
+  <datasetPresenter name="cparIowaII_cparvumChr6Transcripts_transcript_sequences_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[sequence and annotation for C. parvum IowaII chromosome 6.]]></summary>
+    <description><![CDATA[
+            
+<i>C. parvum</i> chromosome 6 sequenced at the MRC Laboratory of Molecular Biology, Cambridge, UK. 
+<br/>The tRNA genes from the original GenBank record have been assigned unofficial locus_tags for the 
+purposes of display in CryptoDB.
+<br/>
+		
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>paul.h.dear</primaryContactId>
+    <link>
+      <text>GenBank record for chromosome 6</text>
+      <url><![CDATA[ http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=Nucleotide&cmd=Search&term=BX526834[PACC]]]></url>
+    </link>
+    <pubmedId>12869580</pubmedId>
+  </datasetPresenter>
+ --> 
+  
+  <datasetPresenter name="cparIowaII_massSpec_Wastling_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Sporozoite Proteome (IowaII)]]></displayName>
+    <shortAttribution>Sanderson et al.</shortAttribution>
+    <summary></summary>
+    <description><![CDATA[
+            
+            <u><i>C. parvum</i> sporozoite peptides from 2D gel LC-MS/MS analysis.</u><br>
+            
+            Purified oocysts of <i>Cryptosporidium parvum</i> IowaII passaged in lambs were excysted. Freshly excysted 
+            sporozoites were solubolized and protein preparations were analyzed by 2 dimensional electrophoresis 
+            LC-MS/MS. Spectra were searched against a Cryptosporidium database using SEQUEST. SEQUEST results were 
+            assembled and filtered using the DTASelect (version 2.0) program.  
+            
+            
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>jonathan.m.wastling</primaryContactId>
+    <pubmedId>18306179</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">C. parvum</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+	</templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cparIowaII_SNP_Widmer_gff_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[
+    	Aligned genomic sequence reads - TU114, MD, IOWA Strains
+        ]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[High throughput sequencing data from <i>C. parvum</i> isolates TU114, MD and Iowa were analyzed for single 
+    nucleotide polymorphisms using <i>C. parvum</i> IowaII as a reference genome.]]></summary>
+    <description><![CDATA[
+    
+    Isolates MD and TU114, were maintained and crossed in adult
+immunosuppressed C57BL/6 mice (1 mg dexamethasone phosphate administered
+every second day (Yang et al., 2000)). Six days after the first
+injection, mice were infected orally with ~1000 oocysts. Oocysts were
+purified from mouse feces as previously described (Widmer et al., 1998).
+Briefly, samples were homogenized and the oocysts floated on a 15%/30%
+(w/v) Histodenz
+(N,N'-bis(2,3-dihydroxypropyl)acetamido-2,4,6-tri-iodo-isophthalamide)
+(Sigma, St. Louis, Miss.) step gradient. Oocysts were sometimes further
+purified with immunomagnetic separation using the Aureon Crypto Kit
+(Aureon Biosystems, Vienna, Austria). DNA was extracted from purified
+oocysts with the High Pure Template Preparation Kit (Roche Diagnostics,
+Indianapolis, Ind.) (Tanriverdi et al., 2002). DNA was eluted in 20-50
+ul TE buffer, a concentration equivalent to 10^4 oocysts/ul.
+SNPs differentiating the isolates MD and TU114 were identified by
+sequencing randomly chosen fragments of 2-2.5 kb retrieved from the C.
+parvum genome sequence. Fragments were spaced at approximately 80 kb.
+PCR primers 20-30 bp long were designed with vector NTI software. PCR
+included approximately 10 ng DNA of parental isolates MD or TU114, 0.4
+&#181;M primers and PCR mix (Takara) to a final volume of 50&#181;l.
+Amplifications were performed with the following temperature condition:
+denaturation at 94&#176;C for 2 min was followed by 35 cycles of 94&#176;C for 30
+s, 50-55&#176;C for 30 sec, 68&#176;C for 1.5 2 min, and a final 5 min extension
+at 68&#176;C. A portion of 5&#181;l of each PCR product was run on 1% agarose. For
+PCR reactions giving a single band, 5&#181;l PCR product was treated with 2
+&#181;l of ExoSAP-IT (USB) at 37&#176;C for 30 min and 80&#176;C for 15 min. If
+multiple PCR bands were present, the entire PCR reaction was run on a 1%
+agarose gel and the desired band extracted with a QIAquick gel
+extraction. PCR products were sequenced using two pairs of primers of
+opposite polarity located at 700-800 bp intervals. Primers were designed
+such that adjacent complementary sequences overlapped by 50-100 bp.
+Portions of approximately 50 ng PCR product (~50 ng) were used in 15 &#181;l
+sequencing reactions (CEQ DTCS-Quick Start Kit). Sequencing reactions
+were run on a CEQ8000 Genetic Analysis System (Beckman Coulter).
+Sequences were analyzed the Contig Express program in Vector NTI. MD and
+TU114 sequences were aligned to find SNPs. Any SNP was confirmed in a
+minimum of two sequences. Some SNPs were also confirmed by independent
+PCR amplification of the genomic DNA .]]></description>
+    <protocol><![CDATA[TU114, MD, IOWA strain SNPs]]></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <pubmedId>17302818</pubmedId>
+    <pubmedId>12001050</pubmedId>
+    <pubmedId>16503512</pubmedId>
+    <pubmedId>12887032</pubmedId>
+  </datasetPresenter>
+
+
+
+                                                 
+  <datasetPresenter name="cparIowaII_rtpcr_Kissinger_RtPcr_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Expression profiling of life cycle stages post-infection]]></displayName>
+    <shortDisplayName>CpIowa Life Cycle RT-PCR</shortDisplayName>
+    <summary><![CDATA[Expression profiling of <i>Cryptosporidium parvum</i> during <i>in vitro</i> development 
+    determined by high throughput RT-PCR. ]]></summary>
+    <description><![CDATA[
+        <i>Cryptosporidium parvum</i> IowaII strain oocysts were stored at 4&deg;C. HCT8 cell
+infection was carried out according to previously reported conditions.
+Oocysts were counted using a hemocytometer and 2-2.5 x 10<sup>7</sup> oocysts were
+added to each culture dish at time (t) = 0 hr and incubated at 37&deg;C and 5%
+CO<sub>2</sub> After visual confirmation of excystation and attachment in culture (t=
+2 hr), all samples were rinsed with warmed 1x Hanks buffered saline
+solution (HBSS). Infected cell cultures were lysed in TRIzol (Invitrogen)
+at 2, 6, 12, 24, 36, 48, and 72 hours post infection and stored at -80&deg;C
+until RNA isolation. RNA was isolated from the samples and DNA
+contamination was degraded utilizing the Turbo DNA-free kit.
+cDNA synthesis was accomplished using Superscript III cDNA synthesis kit. 
+Real Time PCR utilizing <i>C. parvum</i> 18S ribosomal RNA primers was completed 
+to verify lack of DNA contamination as well as confirmation of successful cDNA 
+synthesis for all 7 time points over 4 independent infection time courses (biological replicates).<br><br>
+
+For RT-PCR, Twenty microliter reactions were constructed using a 4 ul of
+template from a 1:100 dilution of synthesized cDNA (2 ug RNA starting
+concentration), 0.1 uM primer pairs and 2x AccuQuant SYBR Green SuperMix,
+with Low Rox (Quanta BioSciences, Inc.). RT-PCR was run on Stratagene
+Mx3000P or Mx3005P thermacyclers , with cycle conditions of: 1 cycle of
+initial denaturation (95&deg;C for 1 minute), 45 PCR cycles (95&deg;C for 1 minute,
+58&deg;C for 30 seconds and ramping to 60&deg;C for 30s). Amplification was
+followed by melt curve generation via 1 minute at 95&deg;C ramping down to
+57&deg;C in 2 degree intervals followed by ramping back up to 95&deg;C for 30
+seconds.<br><br> 
+
+Primers for individual genes were tested on <i>C. parvum</i> genomic DNA for 
+amplicon formation and efficiency. RT-PCR  of the infection time course cDNA was 
+performed in a 96 well format, with each of the 3281 gene primers (12 per plate) 
+normalized to the corresponding time point's 18s rRNA amplification on each plate. 
+Because of the high-throughput nature, each gene of interests' initial RNA concentration 
+was estimated by fitting a 4 point logistic curve to the raw fluorescence amplification 
+plot for each gene and 18s rRNA reactions. Post-normalization the median of the  
+replicates (2-7 with an average of 4) was calculated for each time point. Standardization 
+was performed relative to the maximum expression of a gene across time points    ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>jessica.kissinger</primaryContactId>
+    <pubmedId>22438867</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.custom.CryptoDB.RTPcrKissinger">
+<!-- dataset=cparIowaII_microarrayExpression_Kissinger_RtPcr_RSRC project=CryptoDB --> 
+<prop name="graphModule">Kissinger::KissingerRtPcrProfiles</prop>
+<prop name="graphXAxisSamplesDescription"><![CDATA[Time point]]></prop>
+<prop name="graphYAxisDescription"><![CDATA[Median Expr. (standardized)]]></prop>
+<prop name="graphVisibleParts">exprn_val</prop>
+<prop name="graphPriorityOrderGrouping">400</prop>
+    </templateInjector>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="chomTU502_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Cryptosporidium hominis</i> TU502 sequence and annotation]]></summary>
+    <description><![CDATA[
+            
+Whole genome sequence and annotations from the <i>C. hominis</i> whole genome sequencing project.
+<br/>
+
+A modified whole-genome shotgun strategy was used to sequence the ~9.2-Mb genome of <i>C. hominis</i> isolate TU502, 
+which was derived from an infected child from Uganda. DNA was purified from surface-sterilized oocysts, 
+shotgun and BAC clones were constructed, and end sequences were generated. About 220,000 sequence reads 
+from small insert clones, and end sequences from ~2,000 BAC clones averaging ~35 kbp in size, were generated. 
+The data represents a ~12-fold shotgun clone coverage of the genome with a quality score of Phred 20, and 
+a 7–8-fold coverage with BAC clones. The sequences were assembled with Phrap, yielding a ~9.16-Mb assembly, 
+which was structurally and functionally analysed with a variety of available software programs and in-house scripts
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="0" 
+            genomeSource="Genbank" genomeVersion="Oct 17, 2004" 
+            annotationSource="Genbank" annotationVersion="Oct 17, 2004"/>
+    <primaryContactId>gregory.a.buck</primaryContactId>
+    <contactId>giovanni.widmer</contactId>
+    <contactId>saul.tzipori</contactId>
+    <link>
+      <text>Genome home page at NCBI/GenBank</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/genome/?term=cryptosporidium%20hominis]]></url>
+    </link>
+    <pubmedId>15510150</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter>
+ 
+
+  <datasetPresenter name="chomTU502_2012_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+<shortAttribution>Ifeonu et al.</shortAttribution>
+    <summary><![CDATA[<i>Cryptosporidium hominis</i> isolate TU502_2012 sequence and annotation]]> </summary>
+    <description><![CDATA[
+<i>Cryptosporidium hominis</i> isolate TU502_2012, isolated in 2012 at Tufts University 
+(USA) was a result of multiple (approximately 20) passages of the original TU502 isolate 
+(2004) in gnotobiotic pigs. The <i>Cryptosporidium hominis</i> TU502_2012 genome sequence 
+was generated as part of the <i>Cryptosporidium</i> sequencing white paper and should be 
+distinguished from the genome of <i>Cryptosporidium hominis</i> TU502.<br>
+Comparison between the original <i>Cryptosporidium hominis</i> TU502 and 
+<i>Cryptosporidium hominis</i> TU502_2012 shows higher than expected variation 
+suggesting that these two isolates have either diverged significantly or that they are 
+in fact two different strains.  While the current isolate designation is TU502_2012, 
+this may change in the future to better reflect its history. <br>
+The <i>Cryptosporidium hominis</i> TU502_2012 genome sequence was generated by 
+the Institute for Genome Sciences (University of Maryland)as part of the 
+<i>Cryptosporidium</i> sequencing white paper.  The original assembly of this sequence 
+was named TU502_New but renamed to TU502_2012 after comparison with the parental TU502 
+isolate.
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22" 
+            genomeSource="IGS" genomeVersion="May 29, 2014" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="32" 
+            genomeSource="GenBank" genomeVersion="Jan 06, 2017" 
+            annotationSource="GenBank" annotationVersion="Jan 06, 2017">data source changed, change-strain-name, sequence-changed, newly-annotated</history>
+    <primaryContactId>joana.da.silva</primaryContactId>
+    <contactId>giovanni.widmer</contactId>
+<contactId>olukemi.ifeonu</contactId>
+<contactId>jessica.kissinger</contactId>
+<contactId>saul.tzipori</contactId>
+
+    <link>
+      <text>BioProject</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/222836</url>
+    </link>
+<link>
+      <text>RNAseq data used to guide the annotation of this genome</text>
+      <url>https://www.ncbi.nlm.nih.gov/sra/SRX481527</url>
+    </link>
+    <link>
+      <text>Cryptosporidium Sequencing White Paper</text>
+      <url><![CDATA[http://cryptodb.org/cryptodb/communityDownload.do?fname=WhitePaper_Crypto.pdf]]></url>
+    </link>
+    <pubmedId>27519257</pubmedId>
+<pubmedId>28095366</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter> 
+
+  <datasetPresenter name="chomUdeA01_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[<i>Cryptosporidium hominis</i> UdeA01 sequence and annotation]]></summary>
+    <description><![CDATA[
+            
+         Whole genome sequence and annotation for <i>C. hominis</i> UdeA01, that was directly 
+         isolated from an infected human.
+        <br><br>
+        Isolate and Genotype:<br>
+        This strain was isolated in 2013 from the stool of an HIV positive woman from Columbia, South America. 
+        The isolate was typed using two highly polymorphic genes (HSP70 and GP60) and was found to belong to the 
+        subtype family Ie and the assigned subtype was IeA11G3T3. This isolate represents the first 
+        reference genome for the American continent and the first of the subtype family Ie available.<br><br>
+        
+        DNA Purification:<br>
+        Oocysts were purified from a fecal sample collected from an HIV positive female Colombian patient by flotation 
+        in a saturated NaCl solution. There was no animal model for parasite propagation and oocyst production 
+        prior to DNA preparation.<br><br>
+        
+        Sequencing and Assembly:<br>
+        The genome sequence is the result of a hybrid sequencing strategy that involved whole genome shotgun 
+        in the 454 FLX(+) and Miseq 2 × 250 platforms to a coverage of 68X for the BLASTN selected contigs. 
+        Low quality reads were removed using PRINSEQ. For 
+        <i>de novo</i> genome assembly, NEWBLER version 2.9 was used with default parameters. Because of 
+        sample contamination with human reads, <i>Cryptosporidium</i> assembled contigs were selected using 
+        BLASTN. These contigs were assigned with ABACAS to pseudo-chromosomes using as reference <i>C. parvum</i> 
+        Iowa chromosomes. Furthermore, some gaps were closed by 12 iterations of IMAGE. RATT was used to 
+        automatically transfer <i>C. parvum</i> Iowa genome annotation to the <i>C. hominis</i> UdeA01 
+        pseudo-chromosomes, followed by manual inspection of the coding regions in ARTEMIS.<br><br>
+
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="30" 
+            genomeSource="Genbank" genomeVersion="Dec 3, 2015" 
+            annotationSource="Genbank" annotationVersion="Dec 3, 2015"/>
+    <primaryContactId>juan.f.alzate</primaryContactId>
+    <contactId>gregory.a.buck</contactId>
+    <link>
+      <text>Genome home page at NCBI/GenBank</text>
+      <url><![CDATA[http://www.ncbi.nlm.nih.gov/genome/?term=cryptosporidium%20hominis]]></url>
+    </link>
+    <link>
+      <text>Bioproject home page at NCBI/GenBank</text>
+      <url><![CDATA[https://www.ncbi.nlm.nih.gov/bioproject/PRJEB10000]]></url>
+    </link>
+    <pubmedId>26549794</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+     </templateInjector>
+  </datasetPresenter> 
+  
+  <datasetPresenter name="chomUKH1_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and assembly for <i>Cryptosporidium hominis</i> UKH1]]> </summary>
+    <description><![CDATA[
+            
+    <i>Cryptosporidium hominis</i> UKH1 genome sequence and assembly were generated by the 
+    Institute for Genome Sciences (University of Maryland). This data was generated as part 
+    of the <i>Cryptosporidium</i> sequencing white paper. Strain UKH1 was obtained from a human clinical sample.
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22" 
+             genomeSource="IGS" genomeVersion="May 29, 2014" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>rachel.chalmers</contactId>
+    <contactId>kristin.elwin</contactId>
+    <contactId>jessica.kissinger</contactId>
+    <contactId>joana.da.silva</contactId>
+
+    <link>
+      <text>BioProject</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/222837</url>
+    </link>
+<link>
+      <text>Cryptosporidium Sequencing White Paper</text>
+      <url>http://cryptodb.org/cryptodb/communityDownload.do?fname=WhitePaper_Crypto.pdf</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter> 
+
+  <datasetPresenter name="cbaiTAMU-09Q1_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence and assembly for <i>Cryptosporidium baileyi</i> TAMU-09Q1]]> </summary>
+    <description><![CDATA[
+            
+    <i>Cryptosporidium baileyi</i> TAMU-09Q1 genome sequence and assembly were generated 
+    by the Institute for Genome Sciences (University of Maryland). This data was 
+    generated as part of the <i>Cryptosporidium</i> sequencing white paper.
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22" 
+            genomeSource="IGS" genomeVersion="May 29, 2014" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>guan.zhu</primaryContactId>
+    <contactId>jessica.kissinger</contactId>
+    <contactId>joana.da.silva</contactId>
+    <contactId>giovanni.widmer</contactId>
+
+    <link>
+      <text>BioProject</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/222835</url>
+    </link>
+    <link>
+      <text>Cryptosporidium Sequencing White Paper</text>
+      <url>http://cryptodb.org/cryptodb/communityDownload.do?fname=WhitePaper_Crypto.pdf</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter> 
+
+  <datasetPresenter name="cmelUKMEL1_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence and Annotation]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary> <![CDATA[Genome sequence and annotation for <i>Cryptosporidium meleagridis</i> strain UKMEL1]]> </summary>
+    <description><![CDATA[
+            
+    <i>Cryptosporidium meleagridis</i> UKMEL1 genome sequence and assembly were 
+    generated by the Institute for Genome Sciences (University of Maryland). This 
+    data was generated as part of the <i>Cryptosporidium</i> sequencing white paper. 
+    Strain UKMEL1 was obtained from a human clinical sample.
+
+	]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="22" 
+            genomeSource="IGS" genomeVersion="May 29, 2014" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <history buildNumber="37" 
+            genomeSource="GenBank" genomeVersion="Feb 02, 2018" 
+            annotationSource="GenBank" annotationVersion="Feb 02, 2018">newly-annotated</history>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>rachel.chalmers</contactId>
+    <contactId>kristin.elwin</contactId>
+    <contactId>jessica.kissinger</contactId>
+    <contactId>joana.da.silva</contactId>
+    <link>
+      <text>BioProject home page at NCBI/GenBank</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/222838</url>
+    </link>
+    <link>
+      <text>GenBank Assembly page</text>
+      <url>https://www.ncbi.nlm.nih.gov/assembly/GCA_001593445.1</url>
+    </link>
+    <link>
+      <text>Cryptosporidium Sequencing White Paper</text>
+      <url>http://cryptodb.org/cryptodb/communityDownload.do?fname=WhitePaper_Crypto.pdf</url>
+    </link>
+    <pubmedId>27519257</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.AnnotatedGenome">
+       <prop name="isEuPathDBSite">true</prop>
+       <prop name="optionalSpecies"></prop>
+       <prop name="specialLinkDisplayText"></prop>
+       <prop name="updatedAnnotationText"></prop>
+       <prop name="isCurated">false</prop>
+       <prop name="specialLinkExternalDbName"></prop>
+       <prop name="showReferenceTranscriptomics">false</prop>
+    </templateInjector>
+  </datasetPresenter> 
+
+ <datasetPresenter name="chom37999_primary_genome_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Genome Sequence]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[Genome sequence for <i>Cryptosporidium hominis</i> 37999]]></summary>
+    <description><![CDATA[
+            
+    <i>Cryptosporidium hominis</i> 37999 genome sequence and assembly were generated by the Division of 
+    Foodborne, Waterborne and Envrionmental Diseases, Centers for Disease control and Prevention, Atlanta, 
+    GA. <br><br>
+    WGS Project: JRXJ01 <br>
+    Assembly method: CLC NGS Cell v. 4.1.0 <br>
+    Genome coverage: 180.0x <br>
+    Sequencing technology: Illumina GAIIx<br><br>
+    
+
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="25" 
+            genomeSource="GenBank" genomeVersion="December 18, 2014" 
+            annotationSource="n/a" annotationVersion="n/a"/>
+    <primaryContactId>lihua.xiao</primaryContactId>
+    <link>
+      <text>BioProject</text>
+      <url>http://www.ncbi.nlm.nih.gov/bioproject/252787</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.UnannotatedGenome"/>
+  </datasetPresenter> 
+
+  <datasetPresenter name="cparIowaII_EST_Watanabe_EstLibrary_sequences_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[HNJ-1 EST Library]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary><![CDATA[The EST Library for <i>Cryptosporidium parvum</i> HNJ-1 ]]></summary>
+    <description><![CDATA[
+            
+   Junichi Watanabe<sup>1</sup>, Hiroyuki Wakaguri<sup>2</sup>, Kazumi Abe<sup>2</sup>, Yutaka Suzuki<sup>2</sup>, Sumio Sugano<sup>2</sup>, Xuenan Xuan<sup>3</sup> and Isao Kimata<sup>4</sup><br>
+<sup>1</sup>Department of Parasitology, Institute of Medical Science. <sup>2</sup>Department of Medical Genomics, Graduate School of Frontier Sciences, The University of Tokyo. <sup>3</sup>National Research Center for Protozoan Diseases, Obihoro University of Agriculture and Veterinary Medicine. <sup>4</sup>Department of Protozoal Diseases, Graduate School of Medicine, Osaka City University.
+          
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>junichi.watanabe</primaryContactId>
+    <link>
+      <text>Cryptosporidium Full Length cDNA Database</text>
+      <url><![CDATA[http://fullmal.hgc.jp/index_cp_ajax.html]]></url>
+    </link>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="cparIowaII_massSpec_Lowery_LC_MSMS_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Proteome during Sporozoite Excystation (ISSC162)]]></displayName>
+    <shortDisplayName>C.pISSC162 Excyst Prot</shortDisplayName>
+    <shortAttribution>Snelling et al.</shortAttribution>
+    <summary> <![CDATA[Proteome during <i>C. parvum</i> strain ISSC162 excystation.  Soluble 
+    and insoluble fractions of both non-excysted and excysted sporozoites were analyzed.]]></summary>
+    <description><![CDATA[
+            
+            Peptides from LC-MS/MS analysis of fraction of <i>C. parvum</i> ISSC162 sporozoites<br><br>
+            
+            C. parvum oocysts (strain code ISSC162) were recovered from experimentally infected calves and 
+            half of the oocysts were excysted. Excysted and non-excysted oocysts were fractionated into soluble 
+            and non-soluble fractions and LC-MS iTRAQ analysis was performed on three samples:<br>
+            1. insoluble excysted Fraction<br>
+            2. insoluble non-excysted fraction<br>
+            3. soluble excysted and non-excysted fraction.<br>
+            
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>colm.lowery</primaryContactId>
+    <pubmedId>17124246</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">C. parvum</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+	</templateInjector>
+  </datasetPresenter>
+  
+  
+  <datasetPresenter name="cparIowaII_EST_Watanabe_PredictedTrancripts_sequences_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[HNJ-1 predicted full length Transcripts (ESTs)]]></displayName>
+    <shortDisplayName></shortDisplayName>
+    <summary></summary>
+    <description><![CDATA[
+            
+   J.Watanabe,H.Wakaguri1,M.Sasaki1,Y.Suzuki1,S.Sugano1 <i>C. parvum</i> HNJ-1 predicted full length transcript sequences.
+          
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>junichi.watanabe</primaryContactId>
+  </datasetPresenter>
+  
+  <!-- Sus - I can't improve this one but it needs it -->
+  <datasetPresenter name="cparIowaII_massSpec_Fiser_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Enriched cytoskeletal and membrane fractions]]></displayName>
+
+	<shortDisplayName>C.pIowa Cytoskel_Membr Prot</shortDisplayName>
+    <shortAttribution>Madrid-Aliste et al.</shortAttribution>
+    <summary><![CDATA[Proteomes of enriched cytoskeletal and membrane fractions of <i>C. parvum</i> ]]></summary>
+    <description><![CDATA[
+            
+         Peptides from LC-MS/MS analysis <i>C. parvum</i> by the 
+         <a href="http://toro.aecom.yu.edu/biodefense/">Albert Einstein Biodefense Proteomics Research Center</a>  
+            
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>andras.fiser</primaryContactId>
+    <pubmedId>19159464</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">C. parvum</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+	</templateInjector>
+  </datasetPresenter>
+  
+  <!--Sus-  This could also be improved but I dont think it's published -->
+  <datasetPresenter name="cparIowaII_massSpec_Putignani_RSRC"
+                    projectName="CryptoDB"
+                    >
+    <displayName><![CDATA[Mitochondrial Fraction Proteomics]]></displayName>
+    <shortDisplayName>C.pIowa Mitochon Prot</shortDisplayName>
+    <summary><![CDATA[proteome of the <i>C. parvum</i> mitochondrial fraction]]></summary>
+    <description><![CDATA[
+            
+Data provided by Lorenza Putignani, Microbiology Unit, Children Hospital and Research Institute Bambino Gesu, Rome, Italy, in collaboration with the Mass Spectrometry Laboratory of Jan Tachezy, Faculty of Science, Charles University, Prague, Czech Republic.
+            
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>lorenza.putignani</primaryContactId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.ProteinExpressionMassSpec">
+      <prop name="species">C. parvum</prop>
+      <prop name="optionalOrganismAbbrev"></prop>
+      <prop name="hasPTMs">false</prop>
+	</templateInjector>
+  </datasetPresenter>
+  
+<!--  
+  <datasetPresenter name="cmurRN66_jcvi_GOAssociations_RSRC"
+                    projectName="CryptoDB"
+                    override="_GOAssociations_RSRC"
+                    >
+    <displayName><![CDATA[Protein GO Associations]]></displayName>
+    <shortDisplayName></shortDisplayName>
+
+    <summary></summary>
+    <description><![CDATA[
+          
+          <i>C. muris</i> Gene Ontology  associations from JCVI</tt>.
+          
+        ]]></description>
+    <protocol></protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <primaryContactId>jcvi</primaryContactId>
+  </datasetPresenter>
+-->
+
+<!-- Sus - this needs to be confirmed and reviewed. I removed reference to infected calves because i think the only samples here are sporo 48h4 and 96 hr. 
+I can't find the data  in the QA site. The RNA Seq document in the Redmine says three
+samples (sporozoites, 48 and 96 hours post-infected HTC-8 cells) but they mention calf samples too at the end of the doc
+           -->
+  <datasetPresenter name="cparIowaII_Lippuner_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome of sporozoites and HTC-8 infection time course]]></displayName>
+    <shortDisplayName>C.pIowa Sporo_HTC8 RNASeq</shortDisplayName>
+    <shortAttribution>Lippuner et al.</shortAttribution>
+    <summary><![CDATA[Transcriptomes of freshly excysted <i>C. parvum</i> sporozoites as well as parasites collected  
+    48- and 96- hours post-infection in HTC8 cells were determined by SOLiD, paired end, strand-specific RNA sequencing.]]> </summary>
+    <description><![CDATA[
+          Transcriptomes of sprozoites and an infection time course.<br><br> 
+          <i>C. parvum</i> RNASeq experiment on samples isolated from sporozoites, intestine of calves and <i>in vitro</i> 
+          samples infected with parasites.</tt>.<br><br>
+          
+          <u>Sporozoites:</u><br>
+          <i>C. parvum</i> oocysts (isolate IPZ:CH-Crypto_K6769) were excysted in 10 mM HCl for 10 min at 37&degC, 
+          followed by 2 mM sodium taurochlate in PBS for 16 min at 37&degC.<br><br>
+
+          <u>Infection time course samples:</u><br>
+          HCT-8 cells were infected with <i>C. parvum</i> sporozoites (isolate IPZ:CH-Crypto_K6769) and incubated for 48 and 96 h.<br><br>
+          
+          <u>Sequencing</u><br>
+          Total RNA was isolated and purified. Two rounds of polyA-RNA selection were done to eliminate ribosomal RNA contamination 
+          Material was sequenced using SOLiD5500xl, paired end (75bp fwd+35bp rev), strand specific methods.<br> 
+          
+        ]]></description>
+	<history buildNumber="22"></history>
+    <primaryContactId>adrian.hehl</primaryContactId>
+<contactId>peter.deplazes</contactId>
+<contactId>christoph.lippuner</contactId>
+<contactId>aluri.sirisha</contactId>
+<contactId>michal.okoniewski</contactId>
+ <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+<prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#600000</prop>
+      <prop name="graphBottomMarginSize">7</prop>
+      <prop name="graphSampleLabels">oo 47HR;HCT-8 48HR;oo 93HR;HCT-8 96HR;spor</prop>
+      <prop name="graphXAxisSamplesDescription">Time points of Calf Small Intestine, HCT-8 infected cells and sporozoites</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cparIowaII_Widmer_IntraExtra_Cellular_Stages_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome of oocyst and intracellular stages]]></displayName>
+    <shortDisplayName>intra-extra cellular RNAseq</shortDisplayName>
+    <shortAttribution>Widmer et al.</shortAttribution>
+    <summary><![CDATA[
+           <i>Cryptosporidium parvum</i> transcriptome from intracellular (24 h post-infection) and oocysts Stages.
+        ]]> </summary>
+    <description><![CDATA[
+<i>Cryptosporidium parvum</i> transcriptome in intracellular stages at 24 h post-infection and in oocysts. The transcriptome of four replicate infected cultures and four uninfected cultures was sequenced together with RNA from a single oocyst sample.
+        ]]></description>
+	  <history buildNumber="32"></history>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>marzieh.mirhashemi</contactId>
+    <contactId>saul.tzipori</contactId>
+<link>
+      <text>BioProject PRJEB17685</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJEB17685/</url>
+    </link>
+    <pubmedId>29530089</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">true</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels">intracellular;oocysts</prop>
+      <prop name="graphXAxisSamplesDescription">Intracellular culture 24hrs; Oocysts</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cparIowaII_Isaza_Infection_Time_Series_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome of 48 hours in vitro infection]]></displayName>
+    <shortDisplayName>in vitro infection RNAseq</shortDisplayName>
+    <shortAttribution>Isaza et al.</shortAttribution>
+    <summary><![CDATA[
+         
+        Transcriptome (RNA sequence) from <i>Cryptosporidium parvum</i> Iowa isolated from an in vitro infection of cultured HCT-8 cells.
+        ]]> </summary>
+    <description><![CDATA[
+RNA sequence from <i>Cryptosporidium parvum</i> Iowa obtained from a 48 hours in vitro infection time-course of cultured HCT-8 cells. This data was generated for the purpose of reannotation hence all 8 samples were pooled.  
+
+        ]]></description>
+	  <history buildNumber="32"></history>
+    <primaryContactId>juan.alzate</primaryContactId>
+    <contactId>juan.isaza</contactId>
+    <pubmedId>26549794</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#4682B4</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels">pooled 8 samples</prop>
+      <prop name="graphXAxisSamplesDescription">pooled 8 samples - 48 hours time-course in vitro infection of cultured HCT-8 cells</prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+  <datasetPresenter name="cparIowaII_Widmer_ExtraCellular_Stages_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome of C. parvum sporozoites treated with GalNAc]]></displayName>
+    <shortDisplayName>extracellular RNAseq</shortDisplayName>
+    <shortAttribution>Widmer 2018</shortAttribution>
+    <summary><![CDATA[
+          Transcriptome of <i>C. parvum</i> sporozoites treated with GalNAc to induce differentiation
+        ]]> </summary>
+    <description><![CDATA[
+      Human cryptosporidiosis is caused primarily by two <i>Cryptosporidium</i> species, <i>C. parvum</i> and <i>C. hominis</i>. The enteric infection is frequent in infants living in developing regions. <i>Cryptosporidium</i> parasites are cultured in monolayers of epithelial cells. Gal-GalNAc has been shown to induce differentiation of sporozoites. To better understand parasite-host interactions in the presence of GalNAc, the <i>C. hominis</i> and <i>C. parvum</i> transcriptomes from oocysts and sporozites at 0h and 2h post-infection were analyzed. <i>C. parvum</i> sporozoites were incubated in either PBS or 10 uM GalNac for 0h (2 replicates each) or 2h (5 replicates each). RNA from 2 <i>C. hominis</i> oocyst samples (see dataset: Transcriptome of <i>C. hominis</i> oocysts) and a single <i>C. parvum</i> oocyst sample were also sequenced on an Illumina HiSeq 2500.    
+        ]]></description>
+	  <history buildNumber="41"></history>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>lucas.matos</contactId>
+  	<contactId>katia.bresciani</contactId>
+		<contactId>john.mcevoy</contactId>
+<link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJEB25665/</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="chomTU502_Widmer_oocysts_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome of C. hominis oocysts]]></displayName>
+    <shortDisplayName>oocysts</shortDisplayName>
+    <shortAttribution>Widmer 2018</shortAttribution>
+    <summary><![CDATA[
+         Transcriptome of <i>C. hominis</i> oocysts
+        ]]> </summary>
+    <description><![CDATA[
+         Human cryptosporidiosis is caused primarily by two <i>Cryptosporidium</i> species, <i>C. parvum</i> and <i>C. hominis</i>. The enteric infection is frequent in infants living in developing regions. <i>Cryptosporidium</i> parasites are cultured in monolayers of epithelial cells. Gal-GalNAc has been shown to induce differentiation of sporozoites. To better understand parasite-host interactions in the presence of GalNAc, the <i>C. hominis</i> and <i>C. parvum</i> transcriptomes from oocysts and sporozites at 0h and 2h post-infection were analyzed. <i>C. parvum</i> sporozoites were incubated in either PBS or 10 uM GalNac for 0h (2 replicates each) or 2h (5 replicates each). RNA from 2 <i>C. hominis</i> oocyst samples and a single <i>C. parvum</i> oocyst sample were also sequenced on an Illumina HiSeq 2500. This dataset only contains the <i>C. hominis</i> transcriptomes. The remaining data can be found in the dataset named “Transcriptome of <i>C. parvum</i> sporozoites treated with GalNAc”.
+        ]]></description>
+	  <history buildNumber="41"></history>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>lucas.matos</contactId>
+  	<contactId>katia.bresciani</contactId>
+		<contactId>john.mcevoy</contactId>
+    <link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJEB25665/</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">false</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels">oocysts</prop>
+      <prop name="graphXAxisSamplesDescription">Oocysts</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">false</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <!-- for bld-41. NOTE: comment out its internal presenter after uncommenting this one 
+  NOTE: This dataset is single cell data where the uninfected and infected reads are mixed in each file. It will require development by DL. Move the dataset to the "To Be Scheduled" folder.
+
+  <datasetPresenter name="cparIowaII_Heo_Intestine_Lung_Organoids_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome of C. parvum in human small intestine and lung organoids]]></displayName>
+    <shortDisplayName>intestine and lung organoids </shortDisplayName>
+    <shortAttribution>Heo et al.</shortAttribution>
+    <summary><![CDATA[
+Transcriptome of <i>C. parvum</i> in human small intestine and lung organoids
+        ]]> </summary>
+    <description><![CDATA[
+Small intestinal organoids and lung organoids were derived from different 3 independent donors and were microinjected with <i>Cryptosporidium parvum</i> oocysts (Iowa strain, University of Arizona). RNA was collected at 24 and 72 hours post-injection and sequenced on an Illumina NextSeq500 using 75-bp paired-end sequencing. Reads were aligned to the human genome and the <i>C. parvum </i> genome (Iowa strain) by Burrows-Wheeler Aligner.  
+        ]]></description>
+	  <history buildNumber="41"></history>
+    <primaryContactId>hans.cleavers</primaryContactId>
+    <contactId>roberta.oconnor</contactId>
+    <link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJNA449692/</url>
+    </link>
+    <pubmedId>29946163</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels">TODO</prop>
+      <prop name="graphXAxisSamplesDescription">TODO</prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+  --> 
+
+
+  <datasetPresenter name="cparIowaII_Widmer_intracellularStages_rnaSeq_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Transcriptome of C. parvum intracellular stages]]></displayName>
+    <shortDisplayName>intracellular stages</shortDisplayName>
+    <shortAttribution>Widmer et al.</shortAttribution>
+    <summary><![CDATA[
+Transcriptome of <i>C. parvum</i> intracellular stages
+        ]]> </summary>
+    <description><![CDATA[
+To better understand parasite-host interactions, the transcriptome of cultured MDBK cells infected with 
+<i>Cryptosporidium parvum</i> was analyzed. Four to five replicate samples of MDBK cells were sequenced 
+2h, 24h, and 48h post-infection. The 2-h and 24-h samples were infected with <i>C. parvum</i> isolate MD, 
+whereas the 48-h samples were infected with <i>C. parvum</i> isolate TU114. Host cell transcriptome data 
+can be accessed through the corresponding
+<a target="_blank" href="http://hostdb.org/hostdb/app/record/dataset/DS_c8182bae60">HostDB dataset page</a>.
+        ]]></description>
+	  <history buildNumber="41"></history>
+    <primaryContactId>giovanni.widmer</primaryContactId>
+    <contactId>lucas.matos</contactId>
+  	<contactId>katia.bresciani</contactId>
+		<contactId>john.mcevoy</contactId>
+    <link>
+      <text>BioProject</text>
+      <url>https://www.ncbi.nlm.nih.gov/bioproject/PRJEB28876/</url>
+    </link>
+    <pubmedId></pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.RNASeq">
+      <prop name="switchStrandsGBrowse">false</prop>
+      <prop name="switchStrandsProfiles">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="isAlignedToAnnotatedGenome">true</prop>
+      <prop name="hasFishersExactTestData">false</prop>
+      <prop name="hasMultipleSamples">true</prop>
+      <prop name="showIntronJunctions">true</prop>
+      <prop name="includeInUnifiedJunctions">true</prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphType">bar</prop>
+      <prop name="graphColor">#ADD8E6</prop>
+      <prop name="graphBottomMarginSize">2</prop>
+      <prop name="graphSampleLabels"></prop>
+      <prop name="graphXAxisSamplesDescription"></prop>
+      <prop name="graphForceXLabelsHorizontal"></prop>
+      <prop name="graphPriorityOrderGrouping">900</prop>
+      <prop name="isDESeq">true</prop>
+      <prop name="isDEGseq">false</prop>
+      <prop name="includeProfileSimilarity">false</prop>
+      <prop name="profileTimeShift"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+  <datasetPresenter name="cparIowaII_microarrayExpression_Zhu_GSE34307_RSRC"
+                    projectName="CryptoDB">
+    <displayName><![CDATA[Oocyst Transcriptome: Control vs. UV treatment]]></displayName>
+    <shortDisplayName>Cpar Oocyst UV Marray</shortDisplayName>
+    <shortAttribution>Zhang et al.</shortAttribution>
+    <summary><![CDATA[Global gene expression in <i>C. parvum</i> oocysts (environmental stage) and oocysts treated with UV
+    were determined by whole genome microarray.]]></summary>
+    <description><![CDATA[The effects of UV treatment on the <i>Cryptosporidium parvum</i> environmental stage (oocysts) were determined 
+    by whole genome microarray. <i>C. parvum</i> IOWA-1 oocysts were separated into two groups: untreated controls (4 samples) 
+    and UV-treated (4 samples; ID20 UV dose at 254 nm (2.8 mJ/cm2)). Oocyst samples were assayed via microarray following 
+    0.5 hours recovery (2 untreated controls, 2 UV treated) or 5 hours recovery (2 untreated controls, 2 UV treated). 
+    The purified RNA was firstly reverse-transcribed into cDNA and then converted into cRNA probes labelled with Cy3 or Cy5 and hybridized to the CpArray15K (Agilent Technologies) microarray.<br>
+Note: There may be some minor differences between the results obtained here and those published by Zhang <i>et al.</i> This is due to the differences in data analysis methods. In the paper published by Zhang <i>et al.</i>, 
+only individual spots (values after LOWESS normalization) with p-values <0.05 across biological replicates were used to calculate fold changes.
+        ]]></description>
+    <protocol>two-condition experiment, control vs. UV treatment; two time points, 0.5h and 5h. Each time point, 
+    two biological replicates(1, 2) with two technique replicates(1-1,1-2; 2-1,2-2).</protocol>
+    <caveat></caveat>
+    <acknowledgement></acknowledgement>
+    <releasePolicy></releasePolicy>
+    <history buildNumber="20"></history>
+    <primaryContactId>guan.zhu</primaryContactId>
+    <contactId>haili.zhang</contactId>
+    <link>
+      <text>GEO entry (Series GSE34307)</text>
+      <url>https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE34307</url>
+    </link>
+    <pubmedId>23171372</pubmedId>
+    <templateInjector className="org.apidb.apicommon.model.datasetInjector.MicroarrayTwoChannelDirectComparison">
+      <prop name="profileSetNameMap"></prop>
+      <prop name="hasPercentileData">false</prop>
+      <prop name="isEuPathDBSite">true</prop>
+      <prop name="hasPageData">false</prop>
+      <prop name="graphColors">MediumSeaGreen</prop>
+      <prop name="graphType">bar</prop>
+      <prop name="channelOnePctSampleMap">UV-treated vs untreated control- 5 hr recovery=5 HR UV Treated;UV-treated vs untreated control- 0.5 hr recovery=0.5 HR UV Treated</prop>
+      <prop name="channelTwoPctSampleMap">UV-treated vs untreated control- 5 hr recovery=5 HR Control;UV-treated vs untreated control- 0.5 hr recovery=0.5 HRControl</prop>
+      <prop name="graphXAxisSamplesDescription">C. parvum oocysts treated with UV compared to untreated.  0.5 and 5 Hour timepoints for each comparison</prop>
+      <!-- below are optional --> 
+      <prop name="graphSampleLabels">0.5 HR (UV/C);5 HR (UV/C)</prop>
+      <prop name="graphBottomMargin"></prop>
+      <prop name="graphForceXLabelsHorizontal">true</prop>
+      <prop name="excludedProfileSets"></prop>
+      <prop name="optionalQuestionDescription"></prop>
+      <prop name="graphPriorityOrderGrouping">800</prop>
+      <prop name="linePlotXAxisLabel"></prop>
+    </templateInjector>
+  </datasetPresenter>
+
+
+
+
+
+  <internalDataset name="cparIowaII_rtpcrPlatform_Kissinger_RtPcr_RSRC"/>
+
+
+  <!--     <internalDataset name="cparIowaII_microarrayPlatform_Zhu_GPL14756_RSRC"/> -->
+
+<!-- TODO:  Need to review these -->
+
+
+
+     <internalDataset name="cparIowaII_isolateIsReference_RSRC"/>
+     <internalDataset name="cparIowaII_updateIsolateFeaturesByProductAlias_RSRC"/>
+     <internalDataset name="cparIowaII_cparvumChr6Transcripts_transcript_sequences_RSRC"/>
+<!--    No Matching Datasource
+  <internalDataset name="cparIowaII_microarrayPlatform_Kissinger_RtPcr_RSRC"/>
+-->
+
+<!-- moved to global
+    <internalDataset name="cmurRN66_PreviousSequenceIDs_NASequence_aliases_RSRC"/>
+     <internalDataset name="cparIowaII_primary_virtual_genome_RSRC"/>
+     <internalDataset name="cparIowaII_chromosome_primary_virtual_genome_RSRC"/>
+     <internalDataset name="chomTU502_genome_gb_RSRC"/>
+-->
+
+  <!-- NEW -->
+
+<!-- TODO in bld 22 -->
+<internalDataset name="cparIowaII_SNP_metaData_Widmer_HTS_RSRC"/>
+
+  <!-- TODO in bld 23 -->
+  <internalDataset name="gnipUnknown_PreviousScaffoldIDs_NASequence_aliases_RSRC"/>
+
+  <!-- TODO in bld 36 -->
+<internalDataset name="chom30976_genome_KissingerLab_RSRC"/>
+<internalDataset name="ctyzUGA55_contig_KissingerLab_RSRC"/>
+
+<!-- TODO in bld 37 -->
+<internalDataset name="cparIowaII_dbxref_previousGeneIds_RSRC"/>
+
+<!-- for bld 41 -->
+<internalDataset name="cparIowaII_Heo_Intestine_Lung_Organoids_rnaSeq_RSRC"/>
+
+</datasetPresenters>
